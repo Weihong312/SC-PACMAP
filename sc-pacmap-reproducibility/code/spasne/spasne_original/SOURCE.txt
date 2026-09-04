@@ -1,0 +1,46 @@
+SpaSNE source and adaptation boundary
+=====================================
+
+Official repository
+-------------------
+https://github.com/Lin-Xu-lab/SpaSNE
+
+Primary checkout commit
+-----------------------
+adef46ef7b4bc0a223b0cb6ccd39b9f3d02fc487
+
+Restored upstream file
+----------------------
+spasne.cpp is copied byte-for-byte from upstream commit 1bb43e2. The primary
+checkout commit deletes this file even though its unchanged Makefile still
+requires it to compile SpaSNE.
+
+License
+-------
+BSD 3-Clause. See the adjacent LICENSE file, which also preserves the upstream
+bhtsne attribution.
+
+Unmodified upstream files included here
+---------------------------------------
+spasne.py
+spasne.cpp (from commit 1bb43e2 as explained above)
+spasne.h
+spasne_main.cpp
+sptree.cpp
+sptree.h
+vptree.h
+Makefile
+README.md
+LICENSE
+
+Our code
+--------
+No project-authored integration code is stored in this directory. The adjacent
+../spasne_adapter.py and ../spasne_wsl_bridge.py are the SC-PaCMAP project
+integration. They provide validation, path handling, and Windows-to-WSL
+execution without modifying the upstream SpaSNE implementation.
+
+Build artifact
+--------------
+Run `make` in this directory on Linux or WSL. The resulting `spasne` executable
+is generated locally and is not source code.

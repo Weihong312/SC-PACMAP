@@ -1,0 +1,63 @@
+H0002	Version	4										
+H0003	Date_generated	28-Nov-18										
+H0004	Reporting_period_end_date	29-Sep-18										
+H0005	State	NT										
+H0100	Tenement_no/Combind_report_no											
+H0101	Tenement_holder	MMG Exploration	Sandfire Resources									
+H0102	Project_name	NBA Annual										
+H0106	Tenement_operator	MMG Exploration										
+H0150	250K_map_sheet_number	SE5303										
+H0151	100K_map_sheet_number	6065	5965	6165	6164	6064	5964					
+H0152	50K_map_sheet_number											
+H0153	25K_map_sheet_number											
+H0200	Start_date_of_data_acquisition	30-Sep-17										
+H0201	End_date_of_data_acquisition	29-Sep-18										
+H0202	Data_format	SL4										
+H0203	Number_of_data_records	11										
+H0204	Date_of_metadata_update	28-Nov-18										
+H0300	Related_data_file											
+H0301	Location_data_file	NBA_NTSL4_COLL2018A.txt										
+H0302	Lithology_data_file	NBA_NTDL4_GEO2018A.txt										
+H0303	Assay_data_file	NBA_NTDG4_ASS2018A_1.txt										
+H0304	Survey_data_file	NBA_NTDS4_SURV2018A.txt										
+H0305	SurfGeochem_Data_File	NBA_NTSG4_SURF2018A.txt										
+H0307	Lithology_code_file											
+H0308	File verification List	NBA_Verification_List_2018.txt										
+H0310	Water_data_file											
+H0311	Water data incl in lithology file	No										
+H0313	Alteration_data_file											
+H0314	Magsusc_data_file											
+H0315	Vein_data_file											
+H0316	Recovery_data_file											
+H0317	Weathering_data_file											
+H0318	DHQAQC_data_file	NBA_NTQG4_DQAQC2018A_1.txt										
+H0319	SURFQAQC_data_file	NBA_NTQG4_SQAQC2018A.txt										
+H0320	Other event_data_file	NBA_NTDL4_GEOT2018A.txt										
+H0400	Drill_code	DD										
+H0401	Drill_contractor	Titeline										
+H0402	Description	Diamond Drilling										
+H0500	Feature_located	Drillhole_collar										
+H0501	Geodetic_datum	GDA94										
+H0502	Vertical_datum	AHD										
+H0503	Projection	Map Grid of Australia (MGA)										
+H0508	Local Grid Name											
+H0530	Coordinate_system	Projected										
+H0531	Projection_zone	53										
+H0532	Surface_Location_Survey_Instrument	GPS										
+H0533	Surface_Location_Survey_Company											
+H0900	Remarks											
+H1000	Hole_id	Easting_MGA	Northing_MGA	Elevation	Total Hole Depth	Drill Code	Zone	Pre_Collar_Depth	Dip	Azimuth_MAG	Drill Date	Comments
+H1001	NA	metres	metres	metres	metres	NA	NA	NA	NA	NA		NA
+H1004	0	0	0	0	0	0	0	0	0	0		0
+D	NB17DD044	608020	8289434		444.6	MUD/DD	MGA53 (GDA94)	53.8	-80	114.3	12/09/2017	Thickened part of Falcon high corridor interpreted to be shale accumulation at Rosie Horst eastern edge
+D	NB17DD045	603107	8291532		384.1	DD	MGA53 (GDA94)		-80	114.3	17/09/2017	Thickened part of Falcon high corridor interpreted to be shale accumulation at Rosie Horst western edge
+D	NB17DD046	608038	8271098		520.09	MUD/DD	MGA53 (GDA94)	59.8	-80	64.3	29/09/2017	
+D	NB17DD047	606019	8270178		485.6	MUD/DD	MGA53 (GDA94)	47.7	-80	284.3	8/10/2017	
+D	NB17DD048	604944	8225645		600.6	MUD/DD	MGA53 (GDA94)	29.4	-75	74.3	19/10/2017	Ground gravity anomaly in Emu Fault Zone; structral readings suggest it possibly corresponts to Pmq shale underlying Pmn/Upper Pmq seds in NBDD005 (some trace replacive sphal)
+D	NB17DD049	608512	8226502		566	DD	MGA53 (GDA94)		-80	254.3	21/10/2017	truncated antiform in magnetics east-adjacent to Emu Fault zone
+D	NB18DD050	600552	8209909	0	695	DD	MGA53 (GDA94)		-80	140	22/08/2018	
+D	NB18DD051	596294	8185134	0	263.8	DD	MGA53 (GDA94)		-81.7	56.4	5/09/2018	
+D	NB18DD052	604458.1	8272318.9	0	202.3	DD	MGA53 (GDA94)		-80	270	13/09/2018	
+D	NB18DD053	604953	8287964	0	437.9	DD	MGA53 (GDA94)		-80	270	16/09/2018	
+D	NB18DD055	606244.5	8283358.2	0	273.8	DD	MGA53 (GDA94)		-80	270	23/09/2018	
+EOF												

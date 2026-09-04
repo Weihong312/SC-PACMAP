@@ -1,0 +1,81 @@
+PaCMAP 0.9.1 source and adaptation boundary
+================================================
+
+Pinned version
+--------------
+PaCMAP 0.9.1
+
+Official repository
+-------------------
+https://github.com/YingfanWang/PaCMAP
+
+Exact tagged source
+-------------------
+https://github.com/YingfanWang/PaCMAP/blob/v0.9.1/source/pacmap/pacmap.py
+
+Raw tagged source
+-----------------
+https://raw.githubusercontent.com/YingfanWang/PaCMAP/v0.9.1/source/pacmap/pacmap.py
+
+PyPI release
+------------
+https://pypi.org/project/pacmap/0.9.1/
+
+Paper
+-----
+https://jmlr.org/papers/v22/20-1061.html
+
+License
+-------
+Apache-2.0. The adjacent LICENSE file is the upstream license.
+
+What is copied unchanged
+------------------------
+pacmap_core_reference.py is a focused verbatim extract. The signatures and
+function bodies below are copied from the tagged source without rewriting:
+
+  l2_norm                       upstream lines 34-42
+  euclid_dist                   upstream lines 44-52
+  manhattan_dist                upstream lines 55-63
+  angular_dist                  upstream lines 65-75
+  hamming_dist                  upstream lines 77-86
+  calculate_dist                upstream lines 88-97
+  sample_FP                     upstream lines 99-119
+  sample_neighbors_pair         upstream lines 121-130
+  sample_MN_pair                upstream lines 144-167
+  sample_MN_pair_deterministic  upstream lines 169-194
+  sample_FP_pair                upstream lines 196-211
+  sample_FP_pair_deterministic  upstream lines 213-229
+  scale_dist                    upstream lines 231-240
+  update_embedding_adam        upstream lines 242-251
+  pacmap_grad                   upstream lines 253-300
+  find_weight                   upstream lines 328-343
+  preprocess_X                  upstream lines 345-369
+  distance_to_option            upstream lines 387-402
+  print_verbose                 upstream lines 404-406
+  compute_nearest_neighbors     upstream lines 538-631
+  generate_pair                 upstream lines 633-695
+  generate_pair_no_neighbors    upstream lines 697-717
+  pacmap                        upstream lines 719-795
+
+Only the short file-level provenance note and the reduced import list were added
+so the focused extract can stand alone. No copied function body was edited.
+
+What is new and not claimed as original PaCMAP
+----------------------------------------------
+All new work is isolated in ../sc_pacmap.py:
+
+1. Three-mode if/elif selector.
+2. Input validation.
+3. Mode 2 concatenation of features and separately standardized XYZ.
+4. PCA-Geary spatial-continuity calculations.
+5. Automatic k_spatial / k_attribute allocation.
+6. Construction of the replacement nearest-neighbour pair matrix.
+7. Verification functions comparing:
+   - copied PaCMAP against installed pacmap==0.9.1;
+   - SC disabled against copied ordinary PaCMAP.
+
+SC-PaCMAP changes only pair_neighbors. After that matrix is constructed,
+original generate_pair_no_neighbors() creates the mid-near and further pairs,
+and original pacmap() performs initialization, all three loss phases, gradients,
+and Adam optimization.

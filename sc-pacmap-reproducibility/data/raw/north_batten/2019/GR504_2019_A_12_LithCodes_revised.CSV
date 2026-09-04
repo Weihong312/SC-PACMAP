@@ -1,0 +1,184 @@
+FieldName,Code,Description
+COLOUR1,BLK,black
+COLOUR1,BLU,blue
+COLOUR1,BRN,brown
+COLOUR1,BUF,buff
+COLOUR1,CRM,cream
+COLOUR1,GRN,green
+COLOUR1,GRY,grey
+COLOUR1,KHA,khaki
+COLOUR1,ORA,orange
+COLOUR1,PNK,pink
+COLOUR1,RED,red
+COLOUR1,TAN,tan
+COLOUR1,WHT,white
+COLOUR1,YEL,yellow
+COLOUR2,BLK,black
+COLOUR2,BLU,blue
+COLOUR2,BRN,brown
+COLOUR2,BUF,buff
+COLOUR2,CRM,cream
+COLOUR2,GRN,green
+COLOUR2,GRY,grey
+COLOUR2,KHA,khaki
+COLOUR2,ORA,orange
+COLOUR2,PPL,purple
+COLOUR2,RED,red
+COLOUR2,WHT,white
+COLOUR2,YEL,yellow
+COLOUR1,MUV,mauve
+COLOUR1,OLI,olive
+COLOUR2,MUV,mauve
+COLOURSHADE,DK,dark
+COLOURSHADE,LT,light
+COLOURSHADE,MD,medium
+COLOURSHADE,MK,milky
+COLOURSHADE,MO,mottled
+INFILL_MIN1,cb,Carbonate
+INFILL_MIN1,cy,Clay
+INFILL_MIN1,hm,Hematite
+INFILL_MIN1,py,Pyrite
+INFILL_MIN1,qt,Quartz
+INFILL_MIN2,cb,Carbonate
+INFILL_MIN2,ch,Chlorite
+INFILL_MIN2,cy,Clay
+INFILL_MIN2,qt,Quartz
+INFILL_MIN3,se,Sericite
+LITH_QUALIFIER,alg,Algal
+LITH_QUALIFIER,arn,Arenaceous
+LITH_QUALIFIER,bed,Bedded
+LITH_QUALIFIER,bl,Bleached
+LITH_QUALIFIER,bnd,Banded
+LITH_QUALIFIER,bxd,Brecciated
+LITH_QUALIFIER,cbn,Carbonaceous
+LITH_QUALIFIER,cly,Clayey
+LITH_QUALIFIER,crk,Crackle
+LITH_QUALIFIER,dol,Dolomitic
+LITH_QUALIFIER,fau,Faulted
+LITH_QUALIFIER,fer,Ferruginous
+LITH_QUALIFIER,fis,Fissile
+LITH_QUALIFIER,flg,Flaggy
+LITH_QUALIFIER,fri,Friable
+LITH_QUALIFIER,grv,Gravelly
+LITH_QUALIFIER,lam,Laminated
+LITH_QUALIFIER,lim,Limonitic
+LITH_QUALIFIER,mas,Massive
+LITH_QUALIFIER,mcy,Crypt Microbial
+LITH_QUALIFIER,nod,Nodular
+LITH_QUALIFIER,pyr,Pyritic
+LITH_QUALIFIER,qtz,Quartzose
+LITH_QUALIFIER,san,Sandy
+LITH_QUALIFIER,sil,Silicified
+LITH_QUALIFIER,sty,Stylolitic
+LITH_QUALIFIER,tbd,Thinly bedded
+LITH_QUALIFIER,tuf,Tuffaceous
+LITH_QUALIFIER,tur,Turbiditic
+LITH_QUALIFIER2,alg,Algal
+LITH_QUALIFIER2,bl,Bleached
+LITH_QUALIFIER2,bxd,Brecciated
+LITH_QUALIFIER2,cbn,Carbonaceous
+LITH_QUALIFIER2,cem,Cemented
+LITH_QUALIFIER2,chl,Chloritic
+LITH_QUALIFIER2,cht,Cherty
+LITH_QUALIFIER2,cly,Clayey
+LITH_QUALIFIER2,dol,Dolomitic
+LITH_QUALIFIER2,evp,Evaporite pseudomorph
+LITH_QUALIFIER2,fau,Faulted
+LITH_QUALIFIER2,fer,Ferruginous
+LITH_QUALIFIER2,fri,Friable
+LITH_QUALIFIER2,gou,Gouge
+LITH_QUALIFIER2,grv,Gravelly
+LITH_QUALIFIER2,lam,Laminated
+LITH_QUALIFIER2,pyr,Pyritic
+LITH_QUALIFIER2,san,Sandy
+LITH_QUALIFIER2,sil,Silicified
+LITH_QUALIFIER2,sty,Stylolitic
+LITH_QUALIFIER2,whi,Weathered-Highly
+LITHOLOGY,BFL,Fault Breccia
+LITHOLOGY,BRD,Dolomitic Breccia
+LITHOLOGY,BRE,Breccia - Undifferentiated
+LITHOLOGY,CLA,Clay
+LITHOLOGY,CLS,Core loss
+LITHOLOGY,LFE,Ferricrete
+LITHOLOGY,LOS,Soil
+LITHOLOGY,LSD,Sand
+LITHOLOGY,NR,Not recorded
+LITHOLOGY,SBX,Sedimentary Breccia
+LITHOLOGY,SDE,Dolarenite; coarse grained dolostone
+LITHOLOGY,SDH,Dolomitic Shale
+LITHOLOGY,SDM,Stromatolitic Dolomite
+LITHOLOGY,SDO,Dolomite
+LITHOLOGY,SIH,Interbedded siltstone/shale
+LITHOLOGY,SIL,Silicified sedimentary rocks (after non-calcareous unit)
+LITHOLOGY,SIS,Interbedded sandstone/siltstone
+LITHOLOGY,SMD,Mudstone
+LITHOLOGY,SPH,Pyritic Black Shale
+LITHOLOGY,SSH,Shale
+LITHOLOGY,SSL,Siltstone
+LITHOLOGY,SST,Sandstone
+LITHOLOGY,STB,Siltstone Breccia
+LITHOLOGY,STD,Dolomitic Siltstone
+LITHOLOGY,BVN,Vein Breccia
+LITHOLOGY,BXZN,Breccia Zone
+LITHOLOGY,FTZ,Fault Zone
+LITHOLOGY,LGV,Gravel
+LITHOLOGY,LPS,Laterite Pisolitic
+LITHOLOGY,LSP,Saprolite
+LITHOLOGY,LSR,Saprock
+LITHOLOGY,SAN,Arenite
+LITHOLOGY,SCG,Conglomerate
+LITHOLOGY,SCH,Carbonaceous Shale
+LITHOLOGY,SCL,Claystone
+LITHOLOGY,SCT,Chert
+LITHOLOGY,SDL,Laminated Dolomite
+LITHOLOGY,SDV,Dolomite Vein
+LITHOLOGY,SDX,Crystalline Dolostone
+LITHOLOGY,STA,Carbonaceous Siltstone
+LITHOLOGY,VVL,Volcanic Protolith
+LoggedBy,AN,Alan Neill
+LoggedBy,LPC,Louis Cohalan
+RELOGGED,LG,Geological description of a Lithogeochemical Sample. Usually 10-20cm length sample. All associated assays should have a priority 13
+RELOGGED,P,New or Primary logging
+RELOGGED,R1,Relogged
+STRATIGRAPHY,Kl,Cretaceous; sedimentary rocks
+STRATIGRAPHY,Pmc,Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Coxco Dolostone Member
+STRATIGRAPHY,Pmnc,Paleoproterzoic; McArthur Group; Batten Subgroup; Lynott Formation; Caranbirini Member
+STRATIGRAPHY,Pmq,Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Barney Creek Formation
+STRATIGRAPHY,Pmx,Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Reward Dolostone
+STRATIGRAPHY,Cov,Cover
+STRATIGRAPHY,Pm,Paleoproterzoic; McArthur Group
+STRATIGRAPHY,PmqW,Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Barney Creek Formation; W-Fold Member
+STRATIGRAPHY,Pt,Paleoproterzoic; Tawallah Group
+TYPE,F,Fault
+TYPE,F1,Fold axis - 1
+TYPE,Fra,Fracture
+TYPE,Jnt,Joint
+TYPE,S0,Bedding
+TYPE,S1,Schistosity - 1; Foliation - first generation
+TYPE,Vn,Vein
+WEATHERING,0,No sign of decomposition or staining
+WEATHERING,1,Rock slightly discolored; little or no change in strength relative to fresh rock
+WEATHERING,2,Rock strength changed by weathering; rock discolored; may be leaching
+WEATHERING,3,Rock strength greatly changed by weathering; rock discolored; significant leaching
+WEATHERING,4,Almost soil like; can be remolded in water
+WEATHERING,5,Residual soil; no rock texture; large change in volume
+INFILL_MIN1,ca,Calcite
+INFILL_MIN1,cb,Carbonate
+INFILL_MIN1,py,Pyrite
+INFILL_MIN2,ca,Calcite
+INFILL_MIN2,py,Pyrite
+INFILL_MIN2,qt,Quartz
+INFILL_MIN2,sp,Sphalerite
+INFILL_MIN3,ch,Chlorite
+INFILL_MIN3,ga,Galena
+INFILL_MIN3,py,Pyrite
+INFILL_MIN3,sp,Sphalerite
+LoggedBy,MBA,Myles Baiden-Assan
+RELOGGED,P,New or Primary logging
+TYPE,F,Fault
+TYPE,Jnt,Joint
+TYPE,S0,Bedding
+TYPE,S1,Schistosity - 1; Foliation - first generation
+TYPE,Sb,Banding
+TYPE,Sz,Shear Zone
+TYPE,Vn,Vein

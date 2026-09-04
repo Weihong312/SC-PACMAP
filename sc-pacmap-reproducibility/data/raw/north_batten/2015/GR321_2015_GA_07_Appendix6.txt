@@ -1,0 +1,293 @@
+FieldName	Code	Description
+COLOUR1	BLK	black
+COLOUR1	BLU	blue
+COLOUR1	BRN	brown
+COLOUR1	BUF	buff
+COLOUR1	CRM	cream
+COLOUR1	GRN	green
+COLOUR1	GRY	grey
+COLOUR1	KHA	khaki
+COLOUR1	MUV	mauve
+COLOUR1	ORA	orange
+COLOUR1	PNK	pink
+COLOUR1	RED	red
+COLOUR1	TAN	tan
+COLOUR1	WHT	white
+COLOUR1	YEL	yellow
+COLOUR2	BLK	black
+COLOUR2	BLU	blue
+COLOUR2	BRN	brown
+COLOUR2	BUF	buff
+COLOUR2	CRM	cream
+COLOUR2	GRN	green
+COLOUR2	GRY	grey
+COLOUR2	KHA	khaki
+COLOUR2	ORA	orange
+COLOUR2	PNK	pink
+COLOUR2	PPL	purple
+COLOUR2	RED	red
+COLOUR2	TAN	tan
+COLOUR2	WHT	white
+COLOUR2	YEL	yellow
+COLOURSHADE	DK	dark
+COLOURSHADE	LT	light
+COLOURSHADE	MD	medium
+COLOURSHADE	MO	mottled
+GRAINSIZE_CRYSTAL	cg	Coarse grained
+GRAINSIZE_CRYSTAL	fg	Fine grained
+GRAINSIZE_CRYSTAL	mg	Medium grained
+GRAINSIZE_CRYSTAL	vcg	very coarse grained
+GRAINSIZE_CRYSTAL	vfg	Very fine grained
+HARDNESS	R1	very weak rock - may be broken in the hand with difficulty.
+HARDNESS	R2	weak rock - crumbles under firm blows of geologic pick.
+HARDNESS	R3	medium strong rock - cannot be scraped or peeled with pocket knife; can be fractured with a single blow with point of geological hammer.
+HARDNESS	R4	strong rock - requires more than one blow from hammer to break.
+HARDNESS	R5	very strong rock - requires many blows from hammer.
+INFILL_MIN1	ca	Calcite
+INFILL_MIN1	cb	Carbonate
+INFILL_MIN1	ch	Chlorite
+INFILL_MIN1	cy	Clay
+INFILL_MIN1	do	Dolomite
+INFILL_MIN1	fe	Iron oxide
+INFILL_MIN1	ka	Kaolinite
+INFILL_MIN1	mn	Manganese
+INFILL_MIN1	py	Pyrite
+INFILL_MIN1	qt	Quartz
+INFILL_MIN2	cb	Carbonate
+INFILL_MIN2	ch	Chlorite
+INFILL_MIN2	cy	Clay
+INFILL_MIN2	hm	Hematite
+INFILL_MIN2	py	Pyrite
+INFILL_MIN2	sp	Sphalerite
+INFILL_MIN3	hm	Hematite
+INFILL_MIN3	py	Pyrite
+INFILL_MIN3	se	Sericite
+LITH_QUALIFIER	<V	Micro veined
+LITH_QUALIFIER	alg	Algal
+LITH_QUALIFIER	amy	Amygdaloidal
+LITH_QUALIFIER	ang	Angular
+LITH_QUALIFIER	arn	Arenaceous
+LITH_QUALIFIER	bc	Broken Core
+LITH_QUALIFIER	bed	Bedded
+LITH_QUALIFIER	bl	Bleached
+LITH_QUALIFIER	bnd	Banded
+LITH_QUALIFIER	bxd	Brecciated
+LITH_QUALIFIER	cal	Calcareous
+LITH_QUALIFIER	cbn	Carbonaceous
+LITH_QUALIFIER	chl	Chloritic
+LITH_QUALIFIER	cht	Cherty
+LITH_QUALIFIER	clv	Cleaved
+LITH_QUALIFIER	cly	Clayey
+LITH_QUALIFIER	crk	Crackle
+LITH_QUALIFIER	csp	Clast supported
+LITH_QUALIFIER	dol	Dolomitic
+LITH_QUALIFIER	evp	Evaporite pseudomorph
+LITH_QUALIFIER	fau	Faulted
+LITH_QUALIFIER	fer	Ferruginous
+LITH_QUALIFIER	fra	Fractured
+LITH_QUALIFIER	frl	Fragmental
+LITH_QUALIFIER	grd	Graded bedding
+LITH_QUALIFIER	grv	Gravelly
+LITH_QUALIFIER	itb	Interbedded
+LITH_QUALIFIER	kst	Karst
+LITH_QUALIFIER	lam	Laminated
+LITH_QUALIFIER	mas	Massive
+LITH_QUALIFIER	ool	Oolitic
+LITH_QUALIFIER	pi	Pisolitic
+LITH_QUALIFIER	pol	Polymict
+LITH_QUALIFIER	pyr	Pyritic
+LITH_QUALIFIER	qtz	Quartzose
+LITH_QUALIFIER	rnd	Rounded
+LITH_QUALIFIER	rxt	Re-crystalline
+LITH_QUALIFIER	san	Sandy
+LITH_QUALIFIER	sil	Silicified
+LITH_QUALIFIER	slt	Silty
+LITH_QUALIFIER	sty	Stylolitic
+LITH_QUALIFIER	tbd	Thinly bedded
+LITH_QUALIFIER	tuf	Tuffaceous
+LITH_QUALIFIER	tur	Turbiditic
+LITH_QUALIFIER	vug	Vuggy
+LITH_QUALIFIER	wmd	Weathered-Moderately
+LITH_QUALIFIER	xbd	Crossbedding
+LITH_QUALIFIER2	<F	Micro faulted
+LITH_QUALIFIER2	<V	Micro veined
+LITH_QUALIFIER2	>V	Macro veined
+LITH_QUALIFIER2	alg	Algal
+LITH_QUALIFIER2	ang	Angular
+LITH_QUALIFIER2	bc	Broken Core
+LITH_QUALIFIER2	bed	Bedded
+LITH_QUALIFIER2	bl	Bleached
+LITH_QUALIFIER2	bnd	Banded
+LITH_QUALIFIER2	bxd	Brecciated
+LITH_QUALIFIER2	cal	Calcareous
+LITH_QUALIFIER2	cbn	Carbonaceous
+LITH_QUALIFIER2	chl	Chloritic
+LITH_QUALIFIER2	cly	Clayey
+LITH_QUALIFIER2	crk	Crackle
+LITH_QUALIFIER2	csp	Clast supported
+LITH_QUALIFIER2	dol	Dolomitic
+LITH_QUALIFIER2	evp	Evaporite pseudomorph
+LITH_QUALIFIER2	fau	Faulted
+LITH_QUALIFIER2	fer	Ferruginous
+LITH_QUALIFIER2	flb	Flow banded
+LITH_QUALIFIER2	fol	Foliated
+LITH_QUALIFIER2	fra	Fractured
+LITH_QUALIFIER2	fri	Friable
+LITH_QUALIFIER2	frl	Fragmental
+LITH_QUALIFIER2	grd	Graded bedding
+LITH_QUALIFIER2	grn	Granular
+LITH_QUALIFIER2	hmt	Hematitic
+LITH_QUALIFIER2	itb	Interbedded
+LITH_QUALIFIER2	lam	Laminated
+LITH_QUALIFIER2	lb	Leisegang Banding
+LITH_QUALIFIER2	lth	Lithic
+LITH_QUALIFIER2	mas	Massive
+LITH_QUALIFIER2	msp	Matrix supported
+LITH_QUALIFIER2	nod	Nodular
+LITH_QUALIFIER2	ool	Oolitic
+LITH_QUALIFIER2	peb	Pebble
+LITH_QUALIFIER2	pi	Pisolitic
+LITH_QUALIFIER2	pol	Polymict
+LITH_QUALIFIER2	pso	Poorly sorted
+LITH_QUALIFIER2	pyr	Pyritic
+LITH_QUALIFIER2	san	Sandy
+LITH_QUALIFIER2	shl	Shaley
+LITH_QUALIFIER2	shr	Sheared
+LITH_QUALIFIER2	sil	Silicified
+LITH_QUALIFIER2	slt	Silty
+LITH_QUALIFIER2	stk	Stockworked
+LITH_QUALIFIER2	sty	Stylolitic
+LITH_QUALIFIER2	tbd	Thinly bedded
+LITH_QUALIFIER2	tuf	Tuffaceous
+LITH_QUALIFIER2	tur	Turbiditic
+LITH_QUALIFIER2	vug	Vuggy
+LITH_QUALIFIER2	xbd	Crossbedding
+LITH_QUALIFIER3	<F	Micro faulted
+LITH_QUALIFIER3	alg	Algal
+LITH_QUALIFIER3	bc	Broken Core
+LITH_QUALIFIER3	bed	Bedded
+LITH_QUALIFIER3	bnd	Banded
+LITH_QUALIFIER3	bxd	Brecciated
+LITH_QUALIFIER3	cbn	Carbonaceous
+LITH_QUALIFIER3	cly	Clayey
+LITH_QUALIFIER3	csp	Clast supported
+LITH_QUALIFIER3	dol	Dolomitic
+LITH_QUALIFIER3	fau	Faulted
+LITH_QUALIFIER3	fer	Ferruginous
+LITH_QUALIFIER3	fra	Fractured
+LITH_QUALIFIER3	frl	Fragmental
+LITH_QUALIFIER3	grd	Graded bedding
+LITH_QUALIFIER3	itb	Interbedded
+LITH_QUALIFIER3	kst	Karst
+LITH_QUALIFIER3	lam	Laminated
+LITH_QUALIFIER3	lb	Leisegang Banding
+LITH_QUALIFIER3	nod	Nodular
+LITH_QUALIFIER3	pyr	Pyritic
+LITH_QUALIFIER3	san	Sandy
+LITH_QUALIFIER3	shr	Sheared
+LITH_QUALIFIER3	sil	Silicified
+LITH_QUALIFIER3	stk	Stockworked
+LITH_QUALIFIER3	sty	Stylolitic
+LITH_QUALIFIER3	tbd	Thinly bedded
+LITH_QUALIFIER3	tuf	Tuffaceous
+LITH_QUALIFIER3	tur	Turbiditic
+LITH_QUALIFIER3	xbd	Crossbedding
+LITH_QUALIFIER3	xbh	Crossbeds-hummocky
+LITHOLOGY	BFL	Fault Breccia
+LITHOLOGY	BHC	Hydrothermal Breccia
+LITHOLOGY	BRE	Breccia - Undifferentiated
+LITHOLOGY	CLA	Clay
+LITHOLOGY	CLS	Core loss
+LITHOLOGY	CVT	Cavity
+LITHOLOGY	FTZ	Fault Zone
+LITHOLOGY	IDO	Dolerite/Diabase
+LITHOLOGY	LAL	Alluvium
+LITHOLOGY	LCV	Undifferentiated Cover Sequence
+LITHOLOGY	LMT	Mottled Zone
+LITHOLOGY	LSD	Sand
+LITHOLOGY	LSI	Silcrete
+LITHOLOGY	LSL	Silt
+LITHOLOGY	LSP	Saprolite
+LITHOLOGY	LSR	Saprock
+LITHOLOGY	NCP	No Core Present
+LITHOLOGY	NL	Not logged
+LITHOLOGY	NR	Not recorded
+LITHOLOGY	SBX	Sedimentary Breccia
+LITHOLOGY	SCG	Conglomerate
+LITHOLOGY	SCT	Chert
+LITHOLOGY	SDE	Dolarenite; coarse grained dolostone
+LITHOLOGY	SDH	Dolomitic Shale
+LITHOLOGY	SDM	Stromatolitic Dolomite
+LITHOLOGY	SDO	Dolomite
+LITHOLOGY	SIH	Interbedded siltstone/shale
+LITHOLOGY	SIS	Interbedded sandstone/siltstone
+LITHOLOGY	SMD	Mudstone
+LITHOLOGY	SPH	Pyritic Black Shale
+LITHOLOGY	SSD	Dolomitic Sandstone
+LITHOLOGY	SSH	Shale
+LITHOLOGY	SSL	Siltstone
+LITHOLOGY	SST	Sandstone
+LITHOLOGY	STD	Dolomitic Siltstone
+LITHOLOGY	VTF	Undifferentiated Tuff
+LITHOLOGY	ZZZ	See comments for full description
+LoggedBy	AN	Alan Neill
+LoggedBy	CGI	Charles Gianfriddo
+LoggedBy	DDC	David Cornish
+LoggedBy	IOS	Ian O'Sullivan
+LoggedBy	LGS	Laura Spelbrink
+LoggedBy	LPC	Louis Cohalan
+LoggedBy	MDS	Michael Sloan
+RELOGGED	P	New or Primary logging
+RELOGGED	R1	Relogged
+STRATIGRAPHY	K	Mesozoic; Cretaceous - undifferentiated
+STRATIGRAPHY	Pm	Paleoproterzoic; McArthur Group
+STRATIGRAPHY	Pma	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Amelia Dolostone
+STRATIGRAPHY	Pmc	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Coxco Dolostone Member
+STRATIGRAPHY	Pmd	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Tatoola Sandstone
+STRATIGRAPHY	Pme	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Emmerugga Dolostone
+STRATIGRAPHY	Pmea	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Emmerugga Dolostone; Mara Dolostone Member
+STRATIGRAPHY	Pmei	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Emmerugga Dolostone; Mitchell Yard Member
+STRATIGRAPHY	Pmf	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Myrtle Shale
+STRATIGRAPHY	Pmi	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Leila Sandstone
+STRATIGRAPHY	Pml	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Mallapunyah Formation
+STRATIGRAPHY	Pmnc	Paleoproterzoic; McArthur Group; Batten Subgroup; Lynott Formation; Caranbirini Member
+STRATIGRAPHY	Pmnh	Paleoproterzoic; McArthur Group; Batten Subgroup; Lynott Formation; Hot Spring Member
+STRATIGRAPHY	Pmp	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Teena Dolostone
+STRATIGRAPHY	Pmq	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Barney Creek Formation
+STRATIGRAPHY	PmqW	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Barney Creek Formation; W-Fold Member
+STRATIGRAPHY	Pms	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Masterton Sandstone
+STRATIGRAPHY	Pmt	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Tooganinie Formation
+STRATIGRAPHY	Pmx	Paleoproterzoic; McArthur Group; Umbolooga Subgroup; Reward Dolostone
+STRATIGRAPHY	Ptg	Paleoproterzoic; Tawallah Group; Gold Creek Volcanics
+STRATIGRAPHY	Ptm	Paleoproterzoic; Tawallah Group; Warramana Sandstone
+STRATIGRAPHY	Ptn	Paleoproterzoic; Tawallah Group; Wununmantyala Sandstone
+STRATIGRAPHY	Pto1	Paleoproterzoic; Tawallah Group; Lower Wollogorang Formation
+STRATIGRAPHY	Pto2	Paleoproterzoic; Tawallah Group; Upper Wollogorang Formation
+STRATIGRAPHY	Q	Quaternary; Undifferentiated
+STRATIGRAPHY	T	Cenozoic; Tertiary Undifferentiated
+TYPE	<F	Microfault
+TYPE	>V	Macro vein
+TYPE	Bed	Bedding-paleohorizontal; top unknown
+TYPE	Cnt	Intrusive contact
+TYPE	Cv	Cleavage
+TYPE	F	Fault
+TYPE	FltMin	Fault - Minor
+TYPE	Fra	Fracture
+TYPE	Jnt	Joint
+TYPE	Lam	Laminated
+TYPE	S0	Bedding
+TYPE	S1	Schistosity - 1; Foliation - first generation
+TYPE	Sb	Banding
+TYPE	Sf	Foliation (undiff)
+TYPE	SLn	Slickenline-lines on a (norm smooth) fault surface; which are either slickensides (grooves) or mineral fibres (actual mineral grains) but are too fine to distinguish
+TYPE	Sr	Fracture
+TYPE	Sty	Stylolite
+TYPE	V	Vein (mineral as subscript) same as code in Struc_unit
+TYPE	Vn	Vein
+TYPE	Vx	Breccia vein
+WEATHERING	0	No sign of decomposition or staining
+WEATHERING	1	Rock slightly discolored; little or no change in strength relative to fresh rock
+WEATHERING	2	Rock strength changed by weathering; rock discolored; may be leaching
+WEATHERING	3	Rock strength greatly changed by weathering; rock discolored; significant leaching
+WEATHERING	4	Almost soil like; can be remolded in water
+WEATHERING	5	Residual soil; no rock texture; large change in volume

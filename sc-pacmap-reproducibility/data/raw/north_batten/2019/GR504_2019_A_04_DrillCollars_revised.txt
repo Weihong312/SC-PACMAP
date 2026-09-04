@@ -1,0 +1,57 @@
+H0002	Version	4									
+H0003	Date_generated	13-Feb-19									
+H0004	Reporting_period_end_date	29-Sep-19									
+H0005	State	NT									
+H0100	Tenement_no/Combind_report_no	GR504									
+H0101	Tenement_holder	MMG Exploration	Sandfire Resources								
+H0102	Project_name	NBA Annual									
+H0106	Tenement_operator	MMG Exploration									
+H0150	250K_map_sheet_number	SE5303	SD5315								
+H0151	100K_map_sheet_number	6065	6066	6166							
+H0152	50K_map_sheet_number										
+H0153	25K_map_sheet_number										
+H0200	Start_date_of_data_acquisition	30-Sep-18									
+H0201	End_date_of_data_acquisition	29-Sep-19									
+H0202	Data_format	SL4									
+H0203	Number_of_data_records	6									
+H0204	Date_of_metadata_update	13-Feb-19									
+H0300	Related_data_file										
+H0301	Location_data_file	NBA_NTSL4_COLL2019A.txt									
+H0302	Lithology_data_file	NBA_NTDL4_GEO2019A.txt									
+H0303	Assay_data_file	NBA_NTDG4_ASS2019A.txt									
+H0304	Survey_data_file	NBA_NTDS4_SURV2019A.txt									
+H0305	SurfGeochem_Data_File										
+H0307	Lithology_code_file										
+H0308	File verification List	NBA_Verification_List_2019.txt									
+H0310	Water_data_file										
+H0311	Water data incl in lithology file	No									
+H0313	Alteration_data_file										
+H0314	Magsusc_data_file										
+H0315	Vein_data_file										
+H0316	Recovery_data_file										
+H0317	Weathering_data_file										
+H0318	DHQAQC_data_file	NBA_NTQG4_DQAQC2019A.txt									
+H0319	SURFQAQC_data_file										
+H0320	Other event_data_file	NBA_NTDL4_GEOT2019A.txt									
+H0400	Drill_code	DD									
+H0401	Drill_contractor	Titeline									
+H0402	Description	Diamond Drilling									
+H0500	Feature_located	Drillhole_collar									
+H0501	Geodetic_datum	GDA94									
+H0502	Vertical_datum	AHD									
+H0503	Projection	Map Grid of Australia (MGA)									
+H0508	Local Grid Name										
+H0530	Coordinate_system	Projected									
+H0531	Projection_zone	53									
+H0532	Surface_Location_Survey_Instrument	GPS									
+H0533	Surface_Location_Survey_Company										
+H0900	Remarks										
+H1000	Hole_id	Easting_MGA	Northing_MGA	Elevation	Total Hole Depth	Drill Code	Zone	Pre_Collar_Depth	Dip	Azimuth_MAG	Comments
+H1001	NA	metres	metres	metres	metres	NA	NA	NA	NA	NA	NA
+H1004	0	0	0	0	0	0	0	0	0	0	0
+D	NB18DD054	605653	8280407	0	414.8	DD	MGA53 (GDA94)	36.3	-80	90	
+D	NB18DD056	607664	8279770	0	417.9	DD	MGA53 (GDA94)	23.7	-80	300	
+D	NB18DD057	604189	8272302	0	296.9	DD	MGA53 (GDA94)	14	-71	88	
+D	NB18DD058	603704	8275625	0	522.9	DD	MGA53 (GDA94)	47.5	-80	90	
+D	NB18DD059	594350	8186110	0	569.4	DD	MGA53 (GDA94)	0	-79.3	94.3	Intersect the highest chargeability zone
+D	NB18DD060	611760	8276398	0	451	DD	MGA53 (GDA94)	53.6	-80	195	Requires reopening 2016 drill tracks plus 1.2 km of new track.

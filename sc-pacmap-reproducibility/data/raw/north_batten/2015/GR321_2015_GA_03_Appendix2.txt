@@ -1,0 +1,63 @@
+H0002	Version	4											
+H0003	Date_generated	26/11/2015											
+H0004	Reporting_period_end_date	29/09/2015											
+H0005	State	NT											
+H0100	Tenement_no	EL26831	EL26833	EL26835	EL28656	EL29022	EL30048	EL30152	EL30156	EL30158			
+H0101	Tenement_holder	MMG											
+H0102	Project_name	North Batten JV											
+H0106	Tenement_Operator	MMG											
+H0200	Start_date_of_data_acquisition	1/01/1981											
+H0201	End_date_of_data_acquisition	29/09/2015											
+H0202	Template_format	SL_4											
+H0203	Number_of_data_records	28											
+H0204	Date_of_metadata_update	29/09/2015											
+H0300	Related_data_files												
+H0302	Downhole_lithology_data_file	GR321_2015_GA_05_Appendix4											
+H0303	Downhole_geochem_data_file	GR321_2015_GA_06_Appendix5											
+H0304	Downhole_survey_data_file	GR321_2015_GA_04_Appendix3											
+H0307	Lithology_code_file	GR321_2015_GA_06_Appendix5											
+H0308	File verification list												
+H0318	QAQC_data_file	GR321_2015_GA_08_Appendix7											
+H0400	Drill_code	DD	DD	DD	DD	DD	MUD	RC	RC/DD	RC/DD	WB		
+H0401	Drill_contractor	DDH1 Drill Company	Leanda Drilling	Rockdril Contractors Pty Ltd	Titeline Drilling	Unknown	Titeline Drilling	Rockdril Contractors Pty Ltd	DDH1 Drill Company	MCKAY	Unknown		
+H0402	Description	DD	DD	DD	DD	DD	MUD	RC	RC/DD	RC/DD	WB		
+H0500	Feature_located	Hole Collar											
+H0501	Geodetic_datum	GDA94											
+H0502	Vertical_datum	AHD											
+H0503	Projection	UTM											
+H0530	Coordinate_system	Projected											
+H0531	Projection_Zone	53											
+H0532	Surveying_instrument	CalcCoord	Handheld GPS	UNK									
+H0533	Surveying_company	MMG											
+H1000	Hole_id	MGA_E	MGA_N	Elevation	Tenement	Total_Depth	DrillCode	Dip	Azimuth_true	Azimuth_grid	Azimith_mag	Date Completed	Comments
+H1001	Units	metres	metres	metres	NA	metres	NA	degrees	degrees	degrees	degrees		
+H1004	Accuracy	1	1	1	NA	1	NA	1	1	1	1		Comments
+D	NBDD001	594335.996	8300426.003	21	EL30158	157.2	DD	-80		159	154.5	17/10/2014	
+D	NBDD002	597218.001	8300577.003	17	EL30158	429.1	DD	-85		279	274.5	17/10/2014	
+D	NBDD003	599868.999	8279238.996	42	EL26835	528.1	DDMUD	-80		99	94.5	8/10/2014	
+D	NBDD004	604440	8278061.996	26	EL26835	578.8	MUD	-80		99	94.5	30/09/2014	
+D	NBDD005	604962.003	8221676.003	101	EL30156	506.8	DD	-70		54	49.5	9/09/2014	
+D	NBDD006	585098.004	8209582.004	104	EL26831	133.1	DD	-60		279	274.5	14/09/2014	
+D	NBDD007	576777.996	8169368	82	EL28656	379.8	DD	-75		299	294.5	29/08/2014	
+D	NBDD008	600582.001	8295929.999	17	EL30158	427.2	DDMUD	-85		14	9.5	12/10/2014	
+D	NBDD009	596920	8277392		EL26835	423.1	DDMUD					9/09/2015	PVC casing only down to 380m
+D	NBDD010	609057	8276642		EL30048	537.1	DDMUD					23/09/2015	all cased with PVC
+D	NBDD011	605863	8284657		EL30152	103.7	DDMUD					14/09/2015	canned early because too low in strat; all cased with PVC
+D	NBDD012	603424	8282157		EL30152	165	DD					18/09/2015	canned early because too low in strat; all cased with PVC
+D	NBDD013	601026	8269530		EL26835	317.8	DDMUD					28/09/2015	Hole making water 1L/sec; all cased with PVC
+D	NBDD014	583947	8211591		EL30156	168.2	DD						rods stuck in clay; barrel and x1 3m rod left in hole; hole not cased with PVC
+D	NBWB001	584809	8211336		EL26831	36	WB						Used for Sawtooth drilling
+D	NBWB002	584854	8211803		EL26831	102	WB						Failed bore
+D	WM4	596558.004	8263751.998	59.15	EL26833	240	DD	-90		0	0		CR1981-0230; Collared near Line 16N where leached lead bearing shale had been located. Abandoned due to drilling problems. Stratigraphy in doubt.
+D	11BLDD0008	596702.999	8285436.005	27.75	EL30152	660.7	DD	-85		270	265.4		Barney Creek Formation
+D	11BLDD0009	596300	8282000.004	32.37	EL30152	448.1	DD	-85		270	265.4		
+D	11BLDD0013	602270.997	8266009.999	38.39	EL26835	621.9	DD	-85		270	265.4		Mud rotary precollar and diamond tail
+D	11BLDD0015	602566.998	8279627.997	27.03	EL26835	651.9	DD	-80		270	265.4		New EM target
+D	12BLDD0016	605096.996	8276605.002	28	EL26835	709	DD	-80		358	353.4		
+D	12BLDD0018	605080.001	8278639.998	25	EL26835	326.5	DD	-75		345.44			
+D	12BLDD0019	604293.999	8279723.997	26	EL26835	397	DD	-80		260			
+D	BJ6	593625.996	8186873.997	102.04	EL26831	204	DDRC	-90		0	0		 CR19820019; Prospect : Berjaya West
+D	BLDD003	596347.999	8275840.998	26	EL26835	415.3	RC/DD	-90		0	0		10/10/2010: HQ DRILLING EQUIPMENT LEFT IN HOLE. 14/9/10: RC PRECOLLAR ONLY DRILLED; Prospect : Emu Creek
+D	BLDD004	601093.004	8276591.005	23	EL26835	779.7	RC/DD	-90		0	0		2/11/2010 - 5/11/2010: FISHING FOR RIG EQUIPMENT - M. POLLOCK ON SITE 14/9/10: RC PRECOLLAR ONLY DRILLED
+D	McA18	607031.999	8268866.997	34.37	EL29022	451	DD	-90		0	0		CR1986-0248; Drilled to test EM 37 Sounding 8119
+EOF													

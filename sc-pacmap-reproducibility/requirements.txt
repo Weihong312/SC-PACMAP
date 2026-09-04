@@ -1,0 +1,12 @@
+numpy==2.0.2
+pandas==2.3.1
+scipy==1.15.2
+scikit-learn==1.8.0
+matplotlib==3.10.1
+seaborn==0.13.2
+numba==0.60.0
+pacmap==0.9.1
+umap-learn==0.5.12
+faiss-cpu==1.14.2
+jupyterlab==4.2.5
+ipykernel==6.30.1
