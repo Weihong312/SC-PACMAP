@@ -68,7 +68,8 @@ class SCPaCMAPConfig:
     c_sc: float = 10.0
     phase3_ramp_iterations: int = 25
     overlap_sc_factor: float = 0.5
-    max_target_share: float = 0.95
+    # Legacy clipping option; sensitivity tests found the 0.95 cap unnecessary.
+    max_target_share: float = 1.0
 
 
 @dataclass
