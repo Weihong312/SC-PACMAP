@@ -1,0 +1,72 @@
+1) Moran’s I
+
+What supervisor says:
+Use an additional spatial autocorrelation analysis to show that the spatial pattern is not only an artefact of the H/N evaluation.
+
+Issue:
+Standard Moran’s I is designed for continuous variables, whereas your final output is discrete cluster labels. So directly applying Moran’s I to cluster IDs (0, 1, 2, …) is not appropriate.
+
+Solution:
+Use join-count analysis instead. It is designed for categorical labels and measures the proportion of spatially close pairs having the same cluster label, evaluated at several distance scales.
+
+In one sentence:
+
+Replace Moran’s I with categorical join counts to independently assess spatial autocorrelation of the discrete clusters at multiple spatial scales.
+
+2) Leave-One-Out (LOO)
+
+What supervisor says:
+For North Batten, perform leave-one-drillhole-out evaluation to determine whether the spatial continuity is genuinely transferable between drillholes.
+
+Issue:
+North Batten contains multiple drillholes, so nearby samples can easily come from the same drillhole. The method may therefore appear spatially successful simply because it learns downhole continuity.
+
+Solution:
+Repeatedly hold out one drillhole, then evaluate the spatial/cluster agreement using the remaining drillholes (or specifically assess cross-drillhole neighbours). Check whether the spatial continuity remains when the same-drillhole structure is removed.
+
+In one sentence:
+
+Use leave-one-drillhole-out evaluation to test whether SC-PaCMAP captures spatial structure beyond simple within-drillhole/downhole smoothness.
+
+3) 30 Seeds / Repeated Runs
+
+What supervisor says:
+The paper reports results from only one random seed / one realization, yet interprets small differences in ARI and WCSS/TSS as meaningful. Eben specifically asks for at least 30 seeds per method per dataset, with medians and IQRs.
+
+Issue:
+A single run cannot show whether SC-PaCMAP’s improvement is stable or just due to randomness in PaCMAP optimization and k-means initialization.
+
+Solution:
+Run every method 30 times with different seeds and report:
+
+median performance
+IQR / variability
+distributions rather than single-run winners
+
+One-line justification:
+
+“Use 30 repeated seeds to verify that SC-PaCMAP’s improvements are reproducible and not caused by stochastic variation in the embedding or clustering.”
+
+4) Automatic \(\lambda\) / adaptivity claim
+
+What supervisor says:
+The paper shows that \(\lambda\) changes across datasets, but that only proves the method is responsive, not that the automatically chosen \(\lambda\) is a good choice. Eben asks for a manual \(\rho^*\) or \(\lambda\) sweep to show where the automatic value lies on the entropy vs WCSS/TSS trade-off frontier.
+
+Issue:
+Right now, the paper implies that automatic \(\lambda\) removes a tuning burden, but there is no evidence that the selected value is near a good trade-off point. A manually chosen \(\lambda\) might perform better.
+
+Solution:
+Manually sweep a range of \(\lambda\) or \(\rho^*\) values and compare:
+
+spatial continuity / entropy
+multivariate preservation / WCSS-TSS
+
+Then mark the automatically estimated \(\lambda\) on the trade-off curve.
+
+If it lies near the good frontier, the adaptivity claim is supported. If not, soften the wording to:
+
+“SC-PaCMAP provides a defensible data-driven default for spatial weighting.”
+
+One-line justification:
+
+“Sweep \(\lambda\) manually to verify whether the automatically estimated value lies near a favourable spatial-continuity versus multivariate-quality trade-off.”
