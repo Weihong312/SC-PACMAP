@@ -68,8 +68,6 @@ class SCPaCMAPConfig:
     c_sc: float = 10.0
     phase3_ramp_iterations: int = 25
     overlap_sc_factor: float = 0.5
-    # Legacy clipping option; sensitivity tests found the 0.95 cap unnecessary.
-    max_target_share: float = 1.0
 
 
 @dataclass
@@ -456,16 +454,12 @@ def _construct_legacy_sc_pairs(
     geary_c = _geary_c_by_component(
         standardized_scores, geographic_neighbors
     )
-    signed_continuity = np.clip(1.0 - geary_c, -1.0, 1.0)
-    continuity_weight = np.clip(signed_continuity, 0.0, 1.0)
+    # Geary C is non-negative, so positive continuity is naturally in [0, 1].
+    continuity_weight = np.maximum(0.0, 1.0 - geary_c)
     spatial_strength = float(
-        np.clip(
-            np.sum(
-                pca.explained_variance_ratio_.astype(np.float64)
-                * signed_continuity
-            ),
-            0.0,
-            1.0,
+        np.sum(
+            pca.explained_variance_ratio_.astype(np.float64)
+            * continuity_weight
         )
     )
     k_spatial = int(np.round(n_neighbors * spatial_strength))
@@ -547,16 +541,12 @@ def _construct_separate_sc_graph(
         standardized_scores, geographic_neighbors
     )
 
-    signed_continuity = np.clip(1.0 - geary_c, -1.0, 1.0)
-    continuity_weight = np.clip(signed_continuity, 0.0, 1.0)
+    # Geary C is non-negative, so positive continuity is naturally in [0, 1].
+    continuity_weight = np.maximum(0.0, 1.0 - geary_c)
     spatial_strength = float(
-        np.clip(
-            np.sum(
-                pca.explained_variance_ratio_.astype(np.float64)
-                * signed_continuity
-            ),
-            0.0,
-            1.0,
+        np.sum(
+            pca.explained_variance_ratio_.astype(np.float64)
+            * continuity_weight
         )
     )
     k_spatial = int(np.round(n_neighbors * spatial_strength))
@@ -692,10 +682,9 @@ def _automatic_target_share(
     unit_sc_total: float,
     n_nn_edges: int,
     effective_sc_edge_count: float,
-    maximum: float,
 ) -> float:
     """Convert lambda and the unresolved attraction gap to an SC share."""
-    lam = float(np.clip(spatial_strength_lambda, 0.0, maximum))
+    lam = float(spatial_strength_lambda)
     if unit_sc_total <= 1e-20 or effective_sc_edge_count <= 1e-20:
         return 0.0
     if unit_nn_total <= 1e-20:
@@ -707,7 +696,7 @@ def _automatic_target_share(
     denominator = numerator + (1.0 - lam) * mean_nn
     if denominator <= 1e-20:
         return lam
-    return float(np.clip(numerator / denominator, 0.0, maximum))
+    return float(numerator / denominator)
 
 
 def _phase3_ramp(
@@ -721,9 +710,10 @@ def _phase3_ramp(
         return 0.0
     if ramp_iterations <= 0:
         return 1.0
-    return float(
-        np.clip((iteration - phase3_start) / ramp_iterations, 0.0, 1.0)
-    )
+    elapsed = iteration - phase3_start
+    if elapsed >= ramp_iterations:
+        return 1.0
+    return float(elapsed / ramp_iterations)
 
 
 # ---------------------------------------------------------------------------
@@ -831,7 +821,6 @@ def _optimize_with_sc_injection(
                     unit_sc,
                     len(pair_feature),
                     effective_sc_edge_count,
-                    config.max_target_share,
                 )
 
             ramp = _phase3_ramp(
@@ -839,9 +828,7 @@ def _optimize_with_sc_injection(
                 settings.num_iters,
                 config.phase3_ramp_iterations,
             )
-            scheduled_share = float(
-                np.clip(target_share * ramp, 0.0, config.max_target_share)
-            )
+            scheduled_share = float(target_share * ramp)
 
             # Transfer the scheduled share out of NN attraction into G_S.
             w_feature = float(w_nn_original * (1.0 - scheduled_share))

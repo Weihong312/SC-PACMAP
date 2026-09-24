@@ -44,6 +44,27 @@ Open JupyterLab or VS Code at the repository root and run these notebooks from t
 - `notebooks/02_north_batten_sc_pacmap_benchmark.ipynb`
 - `notebooks/03_synthetic_sc_pacmap_benchmark.ipynb`
 
+The additional notebook groups are:
+
+- `notebooks/New_Notebooks/`: results, neighbourhood robustness, and cross-group checks.
+- `notebooks/sensitivity test/`: overlap factor and ramp duration, each using 30 paired seeds.
+- `notebooks/Geary Test/`: PCA-Geary permutation diagnostics using positive continuity.
+- `notebooks/lambda test/lambda_sweep_study.ipynb`: ten fixed lambda values from 0 to 1 across 30 paired algorithm seeds (0-29) per dataset (900 fits total), with fixed data and K-means seed 42. Curves show seed means with pointwise 95% Student-t confidence bands; dashed lines mark mean inferred automatic lambda. A notebook-local override supplies each fixed lambda to the normal target-share calculation and is restored after each fit; no additional cap is applied.
+
+SC-PaCMAP uses positive continuity `s_q = max(0, 1 - C_q)` and
+`lambda = sum(pi_q * s_q)` in both graph variants. The Phase-3 target share is
+the analytical ratio `lambda * A_S / (lambda * A_S + (1 - lambda) * A_F)`,
+with the existing degenerate-attraction guards. These quantities are naturally
+bounded; use `SCPaCMAPConfig()` without `max_target_share`. The linear ramp
+ends explicitly at one. Restart the notebook kernel after updating the module.
+Saved notebook outputs were cleared because they described the previous method.
+
+Run the focused regression checks from this repository root with:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
 The real-data notebooks use the committed files in `data/processed`. To regenerate them, place the source files described in `data/raw/README.md`, then run `data_preparation/prepare_datasets.ipynb`.
 
 ## Source boundaries
