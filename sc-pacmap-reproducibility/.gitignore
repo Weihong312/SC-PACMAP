@@ -2,4 +2,6 @@
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+results/embedding_cache/
+.r-env/
 code/spasne/spasne_original/spasne
