@@ -15,8 +15,9 @@ Modes
    The PaCMAP code is identical to mode 1; only the input matrix changes.
 
 3. ``sc_pacmap``
-    Keep the complete original feature-neighbour graph ``G_F`` and construct a
-    separate PCA-Geary spatial graph ``G_S`` from geographic candidates. Add one
+    Allocate ``k - round(k * lambda)`` feature neighbours and
+    ``round(k * lambda)`` spatial neighbours within a total budget of k.
+    Retain separate feature and PCA-Geary spatial graphs. Add one
     weighted SC attraction only in Phase 3. Its target attraction share is
     calculated once from Geary lambda and the unresolved NN/SC attraction gap,
     then ramped in while the same share is transferred out of NN attraction.
@@ -964,7 +965,7 @@ def run_sc_pacmap(
     sc_enabled: bool = True,
     config: SCPaCMAPConfig = SCPaCMAPConfig(),
 ) -> tuple[PaCMAPResult, SCDiagnostics | None]:
-    """Run SC-PaCMAP (full graph) with a separate spatial loss."""
+    """Run current SC-PaCMAP with a shared neighbour budget and separate loss."""
     features = _as_features(features_standardized)
     coordinates = _as_coordinates(coordinates_m, len(features))
 
@@ -982,7 +983,7 @@ def run_sc_pacmap(
         features, settings
     )
 
-    # ORIGINAL: construct and retain the complete feature NN/MN/FP graphs.
+    # ORIGINAL: construct feature NN/MN/FP graphs before allocating the budget.
     pair_neighbors, pair_mn, pair_fp, _ = original.generate_pair(
         x_pre,
         n_neighbors,
@@ -999,6 +1000,18 @@ def run_sc_pacmap(
         pair_neighbors,
         n_neighbors,
         settings,
+    )
+    # Change only the graph budget; retain current SC selection and optimizer.
+    k_spatial = sc_graph.selected_spatial_neighbors.shape[1]
+    k_attribute = n_neighbors - k_spatial
+    feature_neighbors = sc_graph.ordinary_neighbors[:, :k_attribute].copy()
+    pair_neighbors = _neighbors_to_pairs(feature_neighbors)
+    # Existing overlap weighting must reflect the feature edges actually used.
+    retained_feature_pairs = {(int(i), int(j)) for i, j in pair_neighbors}
+    sc_graph.overlap_mask = np.fromiter(
+        ((int(i), int(j)) in retained_feature_pairs for i, j in sc_graph.pair_sc),
+        dtype=np.bool_,
+        count=len(sc_graph.pair_sc),
     )
     sc_edge_weight, distance_scale, mean_before, mean_after = (
         _make_sc_edge_weights(
@@ -1047,11 +1060,13 @@ def run_sc_pacmap(
         continuity_weight=sc_graph.continuity_weight,
         spatial_strength_lambda=sc_graph.spatial_strength_lambda,
         k_spatial=sc_graph.selected_spatial_neighbors.shape[1],
-        k_attribute=n_neighbors,
+        k_attribute=k_attribute,
         ordinary_neighbors=sc_graph.ordinary_neighbors,
         selected_spatial_neighbors=sc_graph.selected_spatial_neighbors,
-        # Kept for compatibility. G_F is no longer replaced or merged.
-        final_neighbors=sc_graph.ordinary_neighbors.copy(),
+        # Budgeted slots; cross-graph overlap retains the existing weighting.
+        final_neighbors=np.column_stack(
+            [feature_neighbors, sc_graph.selected_spatial_neighbors]
+        ),
         pair_sc=sc_graph.pair_sc,
         sc_distance=sc_graph.sc_distance,
         sc_edge_weight=sc_edge_weight,
@@ -1082,6 +1097,7 @@ def run_sc_pacmap(
             "n_mn": n_mn,
             "n_fp": n_fp,
             "n_sc": sc_graph.selected_spatial_neighbors.shape[1],
+            "n_feature": k_attribute,
             "automatic_target_share": target_share,
         },
     ), sc_diagnostics
@@ -1130,7 +1146,7 @@ def run_mode(
         return run_copied_original_pacmap(combined_input, settings), None
 
     elif mode == MODE_SC_PACMAP:
-        # Mode 3: retain G_F and add a separate Phase-3 G_S attraction.
+        # Mode 3: separate Phase-3 G_S attraction with a shared graph budget.
         return run_sc_pacmap(features, coordinates, settings, sc_enabled=True)
 
     raise ValueError(

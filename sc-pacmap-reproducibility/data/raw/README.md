@@ -17,7 +17,7 @@ cmio/CriticalMineralDepositsGeochemistry.csv
 The preparation uses Northern Territory Geological Survey exploration-report files from the 2015, 2018, and 2019 campaigns. The supplied 2019 GR504 source is https://geoscience.nt.gov.au/gemis/ntgsjspui/handle/1/94531.
 
 Place the files as follows:
-
+https://geoscience.nt.gov.au/gemis/ntgsjspui/handle/1/91634
 ```text
 north_batten/2015/GR367_2015_GA_02_COLL2015A.txt
 north_batten/2015/GR367_2015_GA_03_SURV2015A.txt
