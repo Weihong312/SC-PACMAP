@@ -19,6 +19,7 @@ The preparation uses Northern Territory Geological Survey exploration-report fil
 Place the files as follows:
 
 ```text
+https://geoscience.nt.gov.au/gemis/ntgsjspui/handle/1/91634?utm_source=chatgpt.com
 north_batten/2015/GR367_2015_GA_02_COLL2015A.txt
 north_batten/2015/GR367_2015_GA_03_SURV2015A.txt
 north_batten/2015/GR367_2015_GA_04_GEOL2015A.txt
