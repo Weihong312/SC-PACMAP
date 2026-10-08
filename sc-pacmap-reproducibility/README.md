@@ -75,6 +75,14 @@ The additional notebook groups are:
   and `log(min(K, 10))` for every method. Saved main metric displays were cleared
   because they predate this comparator and explicit self-exclusion at tied coordinates.
 - `notebooks/sensitivity test/`: overlap factor and ramp duration, each using 30 paired seeds.
+- `notebooks/sensitivity test/04_combined_cmio_north_batten_sensitivity.ipynb`:
+  calls the existing CMiO and North Batten sensitivity workflows and displays a
+  compact 2 x 2 Results figure (f and R sweeps by contiguity and delineation),
+  with both datasets in each panel. Points and error bars show mean and sample SD.
+  The supplementary table reports mean +/- sample SD for all five f values
+  (R=25) and all five R values (f=0.5), for each dataset. Run All performs 540
+  distinct fits, reusing the shared baseline within each dataset. Scores stay in
+  memory; the figure and table are displayed in the notebook without file exports.
 - `notebooks/Geary Test/`: PCA-Geary permutation diagnostics using positive continuity.
 - `notebooks/lambda test/lambda_sweep_study.ipynb`: ten fixed lambda values from 0 to 1 across 30 paired algorithm seeds (0-29) per dataset (900 fits total), with fixed data and K-means seed 42. Curves show seed means with pointwise 95% Student-t confidence bands; dashed lines mark mean inferred automatic lambda. A notebook-local override supplies each fixed lambda to the normal target-share calculation and is restored after each fit; no additional cap is applied.
 
