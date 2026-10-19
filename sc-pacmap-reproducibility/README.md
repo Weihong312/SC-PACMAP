@@ -47,6 +47,10 @@ Open JupyterLab or VS Code at the repository root and run these notebooks from t
 The additional notebook groups are:
 
 - `notebooks/New_Notebooks/`: results, neighbourhood robustness, and cross-group checks.
+- `notebooks/XYZ_scaling_test/`: one-seed raw versus standardized coordinate
+  comparisons for UMAP, PaCMAP, and LocalMAP, with one notebook per dataset.
+  Includes spatial contiguity, multivariate delineation, and paired differences;
+  change `SEEDS` to `tuple(range(30))` to expand later. Synthetic uses XY.
 - Robustness diagnostics reuse the principal k=10 reference-K partitions saved
   by the benchmark loop. Cross-deposit (CMiO) and cross-hole (North Batten)
   diagnostics use all 30 seeds. All three notebooks add a supplementary spatial
