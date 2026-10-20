@@ -1,163 +1,168 @@
 # SC-PaCMAP reproducibility
 
-Minimal code, data preparation, and notebooks for three SC-PaCMAP benchmark experiments:
+Code, prepared data, and notebooks for reviewing and reproducing SC-PaCMAP
+experiments on CMiO mineral geochemistry, North Batten drill-core geochemistry,
+and synthetic repeated-facies data.
 
-1. Critical Minerals in Ores (CMiO)
-2. North Batten drill-core geochemistry
-3. Synthetic spatial-conflict data
+## Start here
+
+1. Review [the method implementation](code/sc_pacmap/sc_pacmap.py).
+2. Read the three [experiment notebooks](notebooks/Experiment_Benchmarks/) for preprocessing, embeddings, clustering, metrics, and statistical comparisons.
+3. Inspect [the synthetic-data notebook](notebooks/synthetic_data.ipynb) independently of the experiments.
+4. Read [the results guide](results/README.md) before using saved exports. The local export folders are not yet committed as a final results snapshot.
 
 ## Repository layout
 
-- `code/sc_pacmap/sc_pacmap.py`: neighbour-replacement-graph and full-graph SC-PaCMAP implementations.
-- `code/sc_pacmap/pacmap_original/`: focused PaCMAP 0.9.1 reference source, license, and provenance.
-- `code/spasne/spasne_original/`: unmodified upstream SpaSNE source, license, and provenance.
-- `code/spasne/spasne_adapter.py` and `spasne_wsl_bridge.py`: project-authored SpaSNE integration.
-- `data_preparation/prepare_datasets.ipynb`: creates the two real-data analysis files.
-- `data/processed/`: prepared real datasets used directly by the benchmark notebooks.
-- `notebooks/Experiment_Benchmarks/`: the three main experiments and combined paper figures.
-- `notebooks/synthetic_data.ipynb`: shared synthetic-data definitions and inspection.
-- `code/synthetic_data.py`: imports the data definitions without running inspection or experiments.
+| Location | Purpose |
+| --- | --- |
+| `code/sc_pacmap/sc_pacmap.py` | Neighbour-replacement and full-graph SC-PaCMAP |
+| `code/sc_pacmap/pacmap_original/` | PaCMAP reference source, license, and provenance |
+| `code/spasne/` | Original SpaSNE plus the project adapter and WSL bridge |
+| `code/clustgeo_benchmark.py`, `code/clustgeo/` | Python/R bridge to original ClustGeo and pinned R environment |
+| `code/synthetic_data.py` | Imports shared synthetic-data definitions from the notebook |
+| `code/notebook_result_export.py` | Exports section tables, arrays, indexes, and metadata |
+| `data_preparation/prepare_datasets.ipynb` | Regenerates the prepared real datasets |
+| `data/processed/` | Committed real datasets |
+| `notebooks/synthetic_data.ipynb` | Synthetic generator, explanation, and inspection |
+| `notebooks/Experiment_Benchmarks/` | Three main experiments and combined paper figures |
+| `results/` | Numerical outputs; see the results guide for their status |
 
-## Setup
+## Environment setup
 
-Python 3.11 is recommended. From the repository root:
+The project root below is the directory containing this README, `requirements.txt`,
+`code/`, and `notebooks/`. From the enclosing repository, first run
+`cd sc-pacmap-reproducibility`.
+
+Use Python 3.11 and the pinned dependencies:
 
 ```bash
 python -m venv .venv
-# Windows PowerShell
-.venv\Scripts\Activate.ps1
+```
+
+Activate in Windows PowerShell with `.venv/Scripts/Activate.ps1`, or on Linux/macOS
+with `source .venv/bin/activate`, then install:
+
+```bash
 python -m pip install -r requirements.txt
 ```
 
-SpaSNE must be compiled once on Linux or WSL:
+The notebooks configure Numba before numerical imports. Restart an existing kernel
+after changing the environment or implementation.
+
+### SpaSNE
+
+Compile once on Linux or inside WSL:
 
 ```bash
 cd code/spasne/spasne_original
 make
 ```
 
-On Windows, run that command inside WSL. The notebooks automatically use the project adapter and WSL bridge. Set `NUMBA_NUM_THREADS=1` before importing Numba or PaCMAP; the notebooks already do this.
+Return to the project root afterwards. Windows notebooks use the project adapter
+and WSL bridge. The standalone synthetic-data notebook needs only NumPy, pandas,
+and a notebook environment; it does not need SpaSNE or R.
 
-## Run the experiments
+### ClustGeo
 
-Open JupyterLab or VS Code at the repository root and run these notebooks from top to bottom:
-
-- [CMiO benchmark](notebooks/Experiment_Benchmarks/01_cmio_sc_pacmap_results.ipynb)
-- [North Batten benchmark](notebooks/Experiment_Benchmarks/02_north_batten_sc_pacmap_results.ipynb)
-- [Synthetic benchmark](notebooks/Experiment_Benchmarks/03_synthetic_sc_pacmap_results.ipynb)
-
-Then run [combined paper figures](notebooks/Experiment_Benchmarks/04_combined_paper_figures.ipynb)
-to assemble the section data exported by the three benchmarks.
-
-For synthetic-data review, start with [synthetic_data.ipynb](notebooks/synthetic_data.ipynb).
-It documents and generates the fixed seed-42 population: 2,304 samples, 50 features,
-16 patches, and four facies. All five synthetic workflows call this same generator
-through `code/synthetic_data.py`; no preparation run or saved data file is needed.
-The generator preserves the original data and random-number draw order.
-The earlier standalone benchmark notebooks have been replaced by this structure.
-
-The additional notebook groups are:
-
-- `notebooks/Experiment_Benchmarks/`: results, neighbourhood robustness, and cross-group checks.
-- `notebooks/XYZ_scaling_test/`: one-seed raw versus standardized coordinate
-  comparisons for UMAP, PaCMAP, and LocalMAP, with one notebook per dataset.
-  Includes spatial contiguity, multivariate delineation, and paired differences;
-  change `SEEDS` to `tuple(range(30))` to expand later. Synthetic uses XY.
-- Robustness diagnostics reuse the principal k=10 reference-K partitions saved
-  by the benchmark loop. Cross-deposit (CMiO) and cross-hole (North Batten)
-  diagnostics use all 30 seeds. All three notebooks add a supplementary spatial
-  contiguity curve at evaluation neighbourhoods 5, 10, 20, 40, keeping the
-  embedding and partition fixed and excluding the focal sample. These cells
-  do not refit embeddings. Missing historical partitions cannot be reconstructed
-  from score tables. Outputs go to `results/robustness/`.
-- The three results notebooks include the R13 **feature-only PaCMAP → ClustGeo**
-  partition comparator at embedding k=10, 15, 20, seeds 0–29, and fixed alpha values
-  0, 0.25, 0.50, 0.75. Reference K is 4 (Synthetic), 7 (CMiO), or 15 (North Batten).
-  This gives 360 partitions per dataset (3 neighbourhoods x 30 seeds x 4 alphas).
-  All alpha values at every k enter the main tables, paired tests, and trade-off plot;
-  none is selected using labels. `code/clustgeo_benchmark.py` is an I/O bridge to
-  the **original CRAN ClustGeo 2.1 R package**, not a Python reimplementation.
-  `code/clustgeo/run_clustgeo.R` calls `ClustGeo::hclustgeo` and `stats::cutree`,
-  with separate maximum-distance scaling of embedding and raw spatial distances.
-  See [Chavent et al. (2018)](https://doi.org/10.1007/s00180-018-0791-1).
-  The existing benchmark loop saves its k=10, 15, 20 feature-only embeddings under
-  `results/embedding_cache/<dataset>/`. The ClustGeo cell only loads them and
-  checks that features and coordinate row order match. It never fits PaCMAP.
-  Run the benchmark cell first if embeddings are missing, and rerun it whenever
-  embedding settings change. Once the existing evaluation helpers are loaded, rerun only the R13 cell.
-  Existing score CSVs cannot reconstruct embeddings. The R13 cell saves per-seed
-  scores and partitions in `results/clustgeo/`; run it after the benchmark to add
-  the comparator to the main outputs. Spatial evaluation uses 10 non-self neighbours
-  and `log(min(K, 10))` for every method. Saved main metric displays were cleared
-  because they predate this comparator and explicit self-exclusion at tied coordinates.
-- `notebooks/sensitivity test/`: overlap factor and ramp duration, each using 30 paired seeds.
-- `notebooks/sensitivity test/04_combined_cmio_north_batten_sensitivity.ipynb`:
-  calls the existing CMiO and North Batten sensitivity workflows and displays a
-  compact 2 x 2 Results figure (f and R sweeps by contiguity and delineation),
-  with both datasets in each panel. Points and error bars show mean and sample SD.
-  The supplementary table reports mean +/- sample SD for all five f values
-  (R=25) and all five R values (f=0.5), for each dataset. Run All performs 540
-  distinct fits, reusing the shared baseline within each dataset. Scores stay in
-  memory; the figure and table are displayed in the notebook without file exports.
-- `notebooks/Geary Test/`: PCA-Geary permutation diagnostics using positive continuity.
-- `notebooks/lambda test/lambda_sweep_study.ipynb`: ten fixed lambda values from 0 to 1 across 30 paired algorithm seeds (0-29) per dataset (900 fits total), with fixed data and K-means seed 42. Curves show seed means with pointwise 95% Student-t confidence bands; dashed lines mark mean inferred automatic lambda. A notebook-local override supplies each fixed lambda to the normal target-share calculation and is restored after each fit; no additional cap is applied.
-
-SC-PaCMAP uses positive continuity `s_q = max(0, 1 - C_q)` and
-`lambda = sum(pi_q * s_q)` in both graph variants. The Phase-3 target share is
-the analytical ratio `lambda * A_S / (lambda * A_S + (1 - lambda) * A_F)`,
-with the existing degenerate-attraction guards. These quantities are naturally
-bounded; use `SCPaCMAPConfig()` without `max_target_share`. The linear ramp
-ends explicitly at one. Restart the notebook kernel after updating the module.
-Saved notebook outputs were cleared because they described the previous method.
-
-The real-data notebooks use the committed files in `data/processed`. To regenerate them, place the source files described in `data/raw/README.md`, then run `data_preparation/prepare_datasets.ipynb`.
-
-## Source boundaries
-
-SC-PaCMAP project code is kept separate from copied reference implementations. Each third-party source directory contains its upstream license and a `SOURCE.txt` describing the exact release or commit and any file-level provenance. Runtime PaCMAP and LocalMAP are supplied by the pinned `pacmap==0.9.1` package.
-
-For R14, the 30 seeds quantify optimizer/restart variability on fixed datasets,
-not sampling or population variability. Cross-group neighbour exclusion and
-evaluation-scale curves are full-data diagnostics, not held-out validation.
-Spatially blocked resampling of the complete preprocessing/fitting pipeline is
-required for population-level inference and is reserved for future work; this
-study does not claim to have performed it. See Roberts et al. (2017),
-*Cross-validation strategies for data with temporal, spatial, hierarchical, or
-phylogenetic structure*, Ecography, 40, 913-929,
-[doi:10.1111/ecog.02881](https://doi.org/10.1111/ecog.02881).
-
-The `*_available_pacmap_diagnostics.csv` files contain the completed 30-seed
-diagnostics for feature-only PaCMAP only, using the embeddings currently saved
-on disk. They are partial results, not a completed comparison of all methods.
-
-## ClustGeo R environment
-
-For code review, start with `code/clustgeo/run_clustgeo.R`, which calls the
-original package. One Python helper, `code/clustgeo_benchmark.py`, handles the
-R call. The notebook benchmark loop saves embeddings for its ClustGeo cell. `setup.R` and `renv.lock` restore
-the isolated R environment.
-
-Install R, then run from the repository root using the notebook's Python environment:
+The comparator calls the original **CRAN ClustGeo 2.1 R package**. The recorded
+R runtime is **4.3.1**. Install R, then run from the project root using the notebook's
+Python environment:
 
 ```bash
 python code/clustgeo_benchmark.py --setup
 python code/clustgeo_benchmark.py
 ```
 
-Setup installs/restores the original ClustGeo package and its dependencies into
-`.r-env/clustgeo/`, separate from personal R libraries. The checked-in
-`code/clustgeo/renv.lock` pins package versions; renv state also stays under
-`.r-env/`. Setup needs network access; benchmark runs do not. No RStudio or
-Python `rpy2` installation is needed. On this Windows machine the bridge uses
-native R; it does not need WSL. On Linux/macOS it uses `Rscript` on PATH.
-The recorded and tested R runtime is **4.3.1**; use that version to reproduce
-this environment. Restoring compiled dependencies from source on another
-platform may require that platform's R build tools and spatial libraries.
+Setup restores `code/clustgeo/renv.lock` into `.r-env/clustgeo/` and needs network
+access. Benchmark calls do not. Windows uses R 4.3.1 under `Program Files/R` by
+default; other platforms use `Rscript` on PATH. Set `CLUSTGEO_RSCRIPT` to choose
+an executable and `CLUSTGEO_R_LIBRARY` to choose another isolated library.
+Missing R or ClustGeo causes an explicit error, with no Python fallback.
+Review `code/clustgeo/run_clustgeo.R` for the original package call.
 
-The bridge uses `Rscript` on PATH, with R 4.3.1 under `Program Files/R` as the Windows default.
-Set `CLUSTGEO_RSCRIPT` to choose a specific executable, and optionally
-`CLUSTGEO_R_LIBRARY` to choose another isolated library (then run setup).
-It fails explicitly if R/ClustGeo is missing; there is no Python fallback.
-The R13 cells preserve PaCMAP caches and record R version, ClustGeo version,
-and backend provenance alongside the per-seed outputs. Restart an existing
-notebook kernel after replacing the earlier Python implementation.
+## Run the main experiments
+
+Start JupyterLab or VS Code at the project root. Use a fresh kernel for each
+dataset notebook and run its cells from top to bottom.
+
+| Notebook | Reference cluster count | Cluster-count sweep |
+| --- | --- | --- |
+| [01 CMiO](notebooks/Experiment_Benchmarks/01_cmio_sc_pacmap_results.ipynb) | 7 | 2-10 |
+| [02 North Batten](notebooks/Experiment_Benchmarks/02_north_batten_sc_pacmap_results.ipynb) | 15 | 2-15 |
+| [03 Synthetic](notebooks/Experiment_Benchmarks/03_synthetic_sc_pacmap_results.ipynb) | 4 | 2-10 |
+
+Example embedding panels use algorithm seed **25**. The main comparison uses
+**30 algorithm seeds (0-29)** and embedding neighbourhoods **10, 15, and 20**.
+The replacement variant is disabled by default with `INCLUDE_REPLACEMENT = False`.
+Labels enter evaluation and reference cluster-count selection, not embedding
+features or K-means fitting.
+
+ClustGeo clusters each saved feature-only PaCMAP embedding with fixed alpha values
+**0, 0.5, and 1**, across the cluster-count sweep. All three alpha values enter
+the comparison; labels do not select an alpha. Run the embedding benchmark first.
+Changing embedding settings requires regenerating embeddings; score CSVs cannot
+reconstruct them.
+
+Spatial evaluation uses 10 non-self neighbours and `log(min(K, 10))` normalization.
+Multivariate delineation is `100 * (1 - WCSS/TSS)`. SC-PaCMAP uses positive Geary
+continuity `s_q = max(0, 1 - C_q)`, `lambda = sum(pi_q * s_q)`, and the analytical
+Phase-3 target share `lambda * A_S / (lambda * A_S + (1 - lambda) * A_F)`, with
+degenerate-attraction guards. Both variants use `SCPaCMAPConfig()` without a
+configurable target-share cap.
+
+Each result section exports unrounded tables and relevant arrays beneath
+`results/notebook_exports/<dataset>/<section>/`. Figures remain inline. Rerunning
+an export replaces its named files; retain a separate copy for a frozen snapshot.
+
+After all three datasets have been exported, run
+[04 combined paper figures](notebooks/Experiment_Benchmarks/04_combined_paper_figures.ipynb).
+It reads exports to build the performance plane, cross-group continuity plots,
+evaluation-scale diagnostics, and principal-neighbourhood benchmark table.
+It does not refit embeddings or cluster assignments. Evaluation-scale diagnostics
+recompute neighbours using saved coordinates and partitions, so they need arrays
+as well as CSVs. `SAVE_OUTPUTS = False` displays outputs inline; set it to `True`
+to export figures and tables to `results/combined_paper_figures/`.
+
+## Data preparation
+
+Real-data experiments read committed files in `data/processed/`. To regenerate
+them, obtain sources described in [data/raw/README.md](data/raw/README.md) and run
+[prepare_datasets.ipynb](data_preparation/prepare_datasets.ipynb).
+
+The [synthetic-data notebook](notebooks/synthetic_data.ipynb) defines one fixed
+seed-42 population: **2,304 samples**, a jittered **48 x 48** grid, **16 patches**,
+**four facies**, and **50 features**. Feature blocks contain 10 noisy facies
+signals, 20 nonlinear confounders, and 20 independent noise variables.
+
+All five synthetic experiment workflows import this generator through
+`code/synthetic_data.py`. The loader executes only notebook cells tagged
+`synthetic-data-definitions`, excluding inspection cells. No prior notebook
+execution or saved synthetic CSV is required. Preprocessing stays in each
+experiment notebook.
+
+## Additional experiments
+
+| Notebook group | Purpose |
+| --- | --- |
+| [XYZ_scaling_test](notebooks/XYZ_scaling_test/README.md) | Raw versus standardized coordinates for UMAP, PaCMAP, and LocalMAP; seed 42 by default; Synthetic uses XY |
+| [sensitivity test](notebooks/sensitivity%20test/) | Overlap-factor and ramp-duration sweeps with 30 paired seeds |
+| [Combined sensitivity figure](notebooks/sensitivity%20test/04_combined_cmio_north_batten_sensitivity.ipynb) | CMiO and North Batten figure/table; 540 distinct fits, reusing shared baselines |
+| [Geary Test](notebooks/Geary%20Test/) | PCA-Geary permutation diagnostics |
+| [lambda test](notebooks/lambda%20test/lambda_sweep_study.ipynb) | Ten fixed lambda values over 30 paired seeds per dataset; 900 fits total |
+| [Run_Time_test](notebooks/Run_Time_test/01_one_run_runtime.ipynb) | One-run runtime experiment |
+
+The main real-data notebooks also include cross-deposit/cross-hole continuity
+checks and evaluation-scale diagnostics using fixed embeddings and partitions.
+The lambda experiment reports pointwise 95% Student-t confidence intervals over
+algorithm seeds and restores its temporary lambda override after each fit.
+
+## Interpretation and source provenance
+
+The 30 seeds describe optimizer/restart variability on fixed datasets. They do
+not measure population-sampling uncertainty. Cross-group exclusions and
+evaluation-scale curves are full-data diagnostics, not held-out validation.
+The synthetic experiment is a designed mechanism stress test.
+
+Project code is separate from copied reference implementations. Each third-party
+source directory includes its upstream license and `SOURCE.txt` provenance.
+Runtime PaCMAP and LocalMAP come from pinned `pacmap==0.9.1`.
