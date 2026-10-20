@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "dataset_id": "synthetic",
+  "section": "metric_tables",
+  "dataset_title": "Synthetic",
+  "source_notebook": "03_synthetic_sc_pacmap_results.ipynb",
+  "K_reference": 4,
+  "embedding_neighbors": [
+    10,
+    15,
+    20
+  ],
+  "evaluation_neighbors": 10,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "reference_seed": 25,
+  "data_seed": 42,
+  "include_replacement": false,
+  "methods": [
+    "UMAP + XY",
+    "PaCMAP + XY",
+    "LocalMAP + XY",
+    "PaCMAP feature-only",
+    "SC-PaCMAP full graph",
+    "SpaSNE",
+    "PaCMAP feature-only + ClustGeo (alpha=0)",
+    "PaCMAP feature-only + ClustGeo (alpha=0.5)",
+    "PaCMAP feature-only + ClustGeo (alpha=1)"
+  ],
+  "feature_columns": [
+    "spatial_01",
+    "spatial_02",
+    "spatial_03",
+    "spatial_04",
+    "spatial_05",
+    "spatial_06",
+    "spatial_07",
+    "spatial_08",
+    "spatial_09",
+    "spatial_10",
+    "confounder_01",
+    "confounder_02",
+    "confounder_03",
+    "confounder_04",
+    "confounder_05",
+    "confounder_06",
+    "confounder_07",
+    "confounder_08",
+    "confounder_09",
+    "confounder_10",
+    "confounder_11",
+    "confounder_12",
+    "confounder_13",
+    "confounder_14",
+    "confounder_15",
+    "confounder_16",
+    "confounder_17",
+    "confounder_18",
+    "confounder_19",
+    "confounder_20",
+    "noise_01",
+    "noise_02",
+    "noise_03",
+    "noise_04",
+    "noise_05",
+    "noise_06",
+    "noise_07",
+    "noise_08",
+    "noise_09",
+    "noise_10",
+    "noise_11",
+    "noise_12",
+    "noise_13",
+    "noise_14",
+    "noise_15",
+    "noise_16",
+    "noise_17",
+    "noise_18",
+    "noise_19",
+    "noise_20"
+  ],
+  "sample_count": 2304,
+  "sample_order": "Zero-based row order of data_walkthrough/data.csv",
+  "method_colors": {
+    "UMAP + XY": "#4477AA",
+    "PaCMAP + XY": "#66AABB",
+    "LocalMAP + XY": "#228833",
+    "PaCMAP feature-only": "#AA8855",
+    "SC-PaCMAP replacement": "#AA3377",
+    "SC-PaCMAP full graph": "#BB4455",
+    "SpaSNE": "#666666",
+    "PaCMAP feature-only + ClustGeo (alpha=0)": "#332288",
+    "PaCMAP feature-only + ClustGeo (alpha=0.5)": "#44AA99",
+    "PaCMAP feature-only + ClustGeo (alpha=1)": "#CCBB44"
+  },
+  "method_labels": {
+    "UMAP + XY": "UMAP + XY",
+    "PaCMAP + XY": "PaCMAP + XY",
+    "LocalMAP + XY": "LocalMAP + XY",
+    "PaCMAP feature-only": "PaCMAP feature-only",
+    "SC-PaCMAP replacement": "SC-PaCMAP replacement",
+    "SC-PaCMAP full graph": "SC-PaCMAP",
+    "SpaSNE": "SpaSNE",
+    "PaCMAP feature-only + ClustGeo (alpha=0)": "PaCMAP feature-only + ClustGeo (alpha = 0)",
+    "PaCMAP feature-only + ClustGeo (alpha=0.5)": "PaCMAP feature-only + ClustGeo (alpha = 0.5)",
+    "PaCMAP feature-only + ClustGeo (alpha=1)": "PaCMAP feature-only + ClustGeo (alpha = 1)"
+  },
+  "method_markers": {
+    "UMAP + XY": "o",
+    "PaCMAP + XY": "^",
+    "LocalMAP + XY": "v",
+    "PaCMAP feature-only": "P",
+    "SC-PaCMAP replacement": "h",
+    "SC-PaCMAP full graph": "*",
+    "SpaSNE": "X",
+    "PaCMAP feature-only + ClustGeo (alpha=0)": "X",
+    "PaCMAP feature-only + ClustGeo (alpha=0.5)": "D",
+    "PaCMAP feature-only + ClustGeo (alpha=1)": "s"
+  },
+  "class_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "class_labels": [
+    "Facies A",
+    "Facies B",
+    "Facies C",
+    "Facies D"
+  ],
+  "class_colors": [
+    "#DDCC77",
+    "#88CCEE",
+    "#117733",
+    "#999933"
+  ],
+  "class_markers": [
+    "o",
+    "o",
+    "o",
+    "o"
+  ],
+  "pacmap_settings": {
+    "n_components": 2,
+    "n_neighbors": 10,
+    "mn_ratio": 0.5,
+    "fp_ratio": 2.0,
+    "learning_rate": 1.0,
+    "num_iters": [
+      100,
+      100,
+      250
+    ],
+    "knn_backend": "faiss",
+    "verbose": false
+  },
+  "sc_pacmap_config": {
+    "c_sc": 10.0,
+    "phase3_ramp_iterations": 25,
+    "overlap_sc_factor": 0.5
+  },
+  "package_versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.1",
+    "scipy": "1.15.2",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.1",
+    "pacmap": "0.9.1",
+    "umap-learn": "0.5.12"
+  },
+  "score_definitions": {
+    "spatial_contiguity": "100 * (1 - H_per_sample / log(min(K, evaluation_neighbors)))",
+    "multivariate_delineation": "100 * (1 - WCSS_TSS)",
+    "paired_delta": "SC-PaCMAP full graph minus comparator"
+  },
+  "inference_unit": "Algorithm seed on one fixed dataset",
+  "metric_test": {
+    "alternative": "two-sided",
+    "correction": "Holm across dataset metrics, baselines and neighbourhoods",
+    "alpha": 0.05,
+    "permutation_resamples": null,
+    "bootstrap_resamples": null,
+    "random_seed": null
+  },
+  "continuity_test": {
+    "alternative": "greater",
+    "correction": "Holm across dataset comparators"
+  },
+  "artifacts": [
+    {
+      "file": "seed_metrics.csv",
+      "rows": 6750,
+      "columns": [
+        "seed",
+        "n_neighbors",
+        "method",
+        "K",
+        "lambda_inferred",
+        "k_S",
+        "H_per_sample",
+        "WCSS_TSS",
+        "ARI",
+        "alpha",
+        "spatial_contiguity",
+        "multivariate_delineation"
+      ]
+    },
+    {
+      "file": "numeric_summary.csv",
+      "rows": 225,
+      "columns": [
+        "method",
+        "n_neighbors",
+        "K",
+        "spatial_contiguity_mean",
+        "spatial_contiguity_std",
+        "multivariate_delineation_mean",
+        "multivariate_delineation_std",
+        "ARI_mean",
+        "ARI_std",
+        "n_seeds",
+        "lambda_inferred",
+        "k_S"
+      ]
+    },
+    {
+      "file": "reference_table.csv",
+      "rows": 25,
+      "columns": [
+        "Method",
+        "Neighbour k",
+        "Inferred $\\lambda_k$",
+        "$k_{S,k}$",
+        "Seeds",
+        "Spatial contiguity (%) ↑",
+        "Multivariate delineation (%) ↑",
+        "ARI ↑"
+      ]
+    },
+    {
+      "file": "sweep_table.csv",
+      "rows": 225,
+      "columns": [
+        "Method",
+        "Neighbour k",
+        "K",
+        "Inferred $\\lambda_k$",
+        "$k_{S,k}$",
+        "Seeds",
+        "Spatial contiguity (%) ↑",
+        "Multivariate delineation (%) ↑",
+        "ARI ↑"
+      ]
+    },
+    {
+      "file": "sc_parameters.csv",
+      "rows": 3,
+      "columns": [
+        "n_neighbors",
+        "lambda_inferred",
+        "k_S"
+      ]
+    }
+  ]
+}

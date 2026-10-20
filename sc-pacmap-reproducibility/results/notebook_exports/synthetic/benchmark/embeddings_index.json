@@ -1,0 +1,5942 @@
+[
+  {
+    "array": "array_000000",
+    "seed": 0,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000001",
+    "seed": 0,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000002",
+    "seed": 0,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000003",
+    "seed": 0,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000004",
+    "seed": 0,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000005",
+    "seed": 0,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000006",
+    "seed": 0,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000007",
+    "seed": 0,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000008",
+    "seed": 0,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000009",
+    "seed": 0,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000010",
+    "seed": 0,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000011",
+    "seed": 0,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000012",
+    "seed": 0,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000013",
+    "seed": 0,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000014",
+    "seed": 0,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000015",
+    "seed": 0,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000016",
+    "seed": 0,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000017",
+    "seed": 0,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000018",
+    "seed": 1,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000019",
+    "seed": 1,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000020",
+    "seed": 1,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000021",
+    "seed": 1,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000022",
+    "seed": 1,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000023",
+    "seed": 1,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000024",
+    "seed": 1,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000025",
+    "seed": 1,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000026",
+    "seed": 1,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000027",
+    "seed": 1,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000028",
+    "seed": 1,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000029",
+    "seed": 1,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000030",
+    "seed": 1,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000031",
+    "seed": 1,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000032",
+    "seed": 1,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000033",
+    "seed": 1,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000034",
+    "seed": 1,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000035",
+    "seed": 1,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000036",
+    "seed": 2,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000037",
+    "seed": 2,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000038",
+    "seed": 2,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000039",
+    "seed": 2,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000040",
+    "seed": 2,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000041",
+    "seed": 2,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000042",
+    "seed": 2,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000043",
+    "seed": 2,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000044",
+    "seed": 2,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000045",
+    "seed": 2,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000046",
+    "seed": 2,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000047",
+    "seed": 2,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000048",
+    "seed": 2,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000049",
+    "seed": 2,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000050",
+    "seed": 2,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000051",
+    "seed": 2,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000052",
+    "seed": 2,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000053",
+    "seed": 2,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000054",
+    "seed": 3,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000055",
+    "seed": 3,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000056",
+    "seed": 3,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000057",
+    "seed": 3,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000058",
+    "seed": 3,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000059",
+    "seed": 3,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000060",
+    "seed": 3,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000061",
+    "seed": 3,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000062",
+    "seed": 3,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000063",
+    "seed": 3,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000064",
+    "seed": 3,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000065",
+    "seed": 3,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000066",
+    "seed": 3,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000067",
+    "seed": 3,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000068",
+    "seed": 3,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000069",
+    "seed": 3,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000070",
+    "seed": 3,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000071",
+    "seed": 3,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000072",
+    "seed": 4,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000073",
+    "seed": 4,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000074",
+    "seed": 4,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000075",
+    "seed": 4,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000076",
+    "seed": 4,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000077",
+    "seed": 4,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000078",
+    "seed": 4,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000079",
+    "seed": 4,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000080",
+    "seed": 4,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000081",
+    "seed": 4,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000082",
+    "seed": 4,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000083",
+    "seed": 4,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000084",
+    "seed": 4,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000085",
+    "seed": 4,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000086",
+    "seed": 4,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000087",
+    "seed": 4,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000088",
+    "seed": 4,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000089",
+    "seed": 4,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000090",
+    "seed": 5,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000091",
+    "seed": 5,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000092",
+    "seed": 5,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000093",
+    "seed": 5,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000094",
+    "seed": 5,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000095",
+    "seed": 5,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000096",
+    "seed": 5,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000097",
+    "seed": 5,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000098",
+    "seed": 5,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000099",
+    "seed": 5,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000100",
+    "seed": 5,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000101",
+    "seed": 5,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000102",
+    "seed": 5,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000103",
+    "seed": 5,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000104",
+    "seed": 5,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000105",
+    "seed": 5,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000106",
+    "seed": 5,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000107",
+    "seed": 5,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000108",
+    "seed": 6,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000109",
+    "seed": 6,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000110",
+    "seed": 6,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000111",
+    "seed": 6,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000112",
+    "seed": 6,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000113",
+    "seed": 6,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000114",
+    "seed": 6,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000115",
+    "seed": 6,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000116",
+    "seed": 6,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000117",
+    "seed": 6,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000118",
+    "seed": 6,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000119",
+    "seed": 6,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000120",
+    "seed": 6,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000121",
+    "seed": 6,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000122",
+    "seed": 6,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000123",
+    "seed": 6,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000124",
+    "seed": 6,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000125",
+    "seed": 6,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000126",
+    "seed": 7,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000127",
+    "seed": 7,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000128",
+    "seed": 7,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000129",
+    "seed": 7,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000130",
+    "seed": 7,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000131",
+    "seed": 7,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000132",
+    "seed": 7,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000133",
+    "seed": 7,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000134",
+    "seed": 7,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000135",
+    "seed": 7,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000136",
+    "seed": 7,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000137",
+    "seed": 7,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000138",
+    "seed": 7,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000139",
+    "seed": 7,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000140",
+    "seed": 7,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000141",
+    "seed": 7,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000142",
+    "seed": 7,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000143",
+    "seed": 7,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000144",
+    "seed": 8,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000145",
+    "seed": 8,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000146",
+    "seed": 8,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000147",
+    "seed": 8,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000148",
+    "seed": 8,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000149",
+    "seed": 8,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000150",
+    "seed": 8,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000151",
+    "seed": 8,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000152",
+    "seed": 8,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000153",
+    "seed": 8,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000154",
+    "seed": 8,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000155",
+    "seed": 8,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000156",
+    "seed": 8,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000157",
+    "seed": 8,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000158",
+    "seed": 8,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000159",
+    "seed": 8,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000160",
+    "seed": 8,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000161",
+    "seed": 8,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000162",
+    "seed": 9,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000163",
+    "seed": 9,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000164",
+    "seed": 9,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000165",
+    "seed": 9,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000166",
+    "seed": 9,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000167",
+    "seed": 9,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000168",
+    "seed": 9,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000169",
+    "seed": 9,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000170",
+    "seed": 9,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000171",
+    "seed": 9,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000172",
+    "seed": 9,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000173",
+    "seed": 9,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000174",
+    "seed": 9,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000175",
+    "seed": 9,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000176",
+    "seed": 9,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000177",
+    "seed": 9,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000178",
+    "seed": 9,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000179",
+    "seed": 9,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000180",
+    "seed": 10,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000181",
+    "seed": 10,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000182",
+    "seed": 10,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000183",
+    "seed": 10,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000184",
+    "seed": 10,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000185",
+    "seed": 10,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000186",
+    "seed": 10,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000187",
+    "seed": 10,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000188",
+    "seed": 10,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000189",
+    "seed": 10,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000190",
+    "seed": 10,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000191",
+    "seed": 10,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000192",
+    "seed": 10,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000193",
+    "seed": 10,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000194",
+    "seed": 10,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000195",
+    "seed": 10,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000196",
+    "seed": 10,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000197",
+    "seed": 10,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000198",
+    "seed": 11,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000199",
+    "seed": 11,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000200",
+    "seed": 11,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000201",
+    "seed": 11,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000202",
+    "seed": 11,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000203",
+    "seed": 11,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000204",
+    "seed": 11,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000205",
+    "seed": 11,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000206",
+    "seed": 11,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000207",
+    "seed": 11,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000208",
+    "seed": 11,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000209",
+    "seed": 11,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000210",
+    "seed": 11,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000211",
+    "seed": 11,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000212",
+    "seed": 11,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000213",
+    "seed": 11,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000214",
+    "seed": 11,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000215",
+    "seed": 11,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000216",
+    "seed": 12,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000217",
+    "seed": 12,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000218",
+    "seed": 12,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000219",
+    "seed": 12,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000220",
+    "seed": 12,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000221",
+    "seed": 12,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000222",
+    "seed": 12,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000223",
+    "seed": 12,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000224",
+    "seed": 12,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000225",
+    "seed": 12,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000226",
+    "seed": 12,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000227",
+    "seed": 12,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000228",
+    "seed": 12,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000229",
+    "seed": 12,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000230",
+    "seed": 12,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000231",
+    "seed": 12,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000232",
+    "seed": 12,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000233",
+    "seed": 12,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000234",
+    "seed": 13,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000235",
+    "seed": 13,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000236",
+    "seed": 13,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000237",
+    "seed": 13,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000238",
+    "seed": 13,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000239",
+    "seed": 13,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000240",
+    "seed": 13,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000241",
+    "seed": 13,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000242",
+    "seed": 13,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000243",
+    "seed": 13,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000244",
+    "seed": 13,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000245",
+    "seed": 13,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000246",
+    "seed": 13,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000247",
+    "seed": 13,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000248",
+    "seed": 13,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000249",
+    "seed": 13,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000250",
+    "seed": 13,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000251",
+    "seed": 13,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000252",
+    "seed": 14,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000253",
+    "seed": 14,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000254",
+    "seed": 14,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000255",
+    "seed": 14,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000256",
+    "seed": 14,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000257",
+    "seed": 14,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000258",
+    "seed": 14,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000259",
+    "seed": 14,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000260",
+    "seed": 14,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000261",
+    "seed": 14,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000262",
+    "seed": 14,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000263",
+    "seed": 14,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000264",
+    "seed": 14,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000265",
+    "seed": 14,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000266",
+    "seed": 14,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000267",
+    "seed": 14,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000268",
+    "seed": 14,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000269",
+    "seed": 14,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000270",
+    "seed": 15,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000271",
+    "seed": 15,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000272",
+    "seed": 15,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000273",
+    "seed": 15,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000274",
+    "seed": 15,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000275",
+    "seed": 15,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000276",
+    "seed": 15,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000277",
+    "seed": 15,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000278",
+    "seed": 15,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000279",
+    "seed": 15,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000280",
+    "seed": 15,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000281",
+    "seed": 15,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000282",
+    "seed": 15,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000283",
+    "seed": 15,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000284",
+    "seed": 15,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000285",
+    "seed": 15,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000286",
+    "seed": 15,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000287",
+    "seed": 15,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000288",
+    "seed": 16,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000289",
+    "seed": 16,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000290",
+    "seed": 16,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000291",
+    "seed": 16,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000292",
+    "seed": 16,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000293",
+    "seed": 16,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000294",
+    "seed": 16,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000295",
+    "seed": 16,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000296",
+    "seed": 16,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000297",
+    "seed": 16,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000298",
+    "seed": 16,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000299",
+    "seed": 16,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000300",
+    "seed": 16,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000301",
+    "seed": 16,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000302",
+    "seed": 16,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000303",
+    "seed": 16,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000304",
+    "seed": 16,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000305",
+    "seed": 16,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000306",
+    "seed": 17,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000307",
+    "seed": 17,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000308",
+    "seed": 17,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000309",
+    "seed": 17,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000310",
+    "seed": 17,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000311",
+    "seed": 17,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000312",
+    "seed": 17,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000313",
+    "seed": 17,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000314",
+    "seed": 17,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000315",
+    "seed": 17,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000316",
+    "seed": 17,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000317",
+    "seed": 17,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000318",
+    "seed": 17,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000319",
+    "seed": 17,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000320",
+    "seed": 17,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000321",
+    "seed": 17,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000322",
+    "seed": 17,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000323",
+    "seed": 17,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000324",
+    "seed": 18,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000325",
+    "seed": 18,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000326",
+    "seed": 18,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000327",
+    "seed": 18,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000328",
+    "seed": 18,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000329",
+    "seed": 18,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000330",
+    "seed": 18,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000331",
+    "seed": 18,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000332",
+    "seed": 18,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000333",
+    "seed": 18,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000334",
+    "seed": 18,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000335",
+    "seed": 18,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000336",
+    "seed": 18,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000337",
+    "seed": 18,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000338",
+    "seed": 18,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000339",
+    "seed": 18,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000340",
+    "seed": 18,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000341",
+    "seed": 18,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000342",
+    "seed": 19,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000343",
+    "seed": 19,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000344",
+    "seed": 19,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000345",
+    "seed": 19,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000346",
+    "seed": 19,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000347",
+    "seed": 19,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000348",
+    "seed": 19,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000349",
+    "seed": 19,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000350",
+    "seed": 19,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000351",
+    "seed": 19,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000352",
+    "seed": 19,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000353",
+    "seed": 19,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000354",
+    "seed": 19,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000355",
+    "seed": 19,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000356",
+    "seed": 19,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000357",
+    "seed": 19,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000358",
+    "seed": 19,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000359",
+    "seed": 19,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000360",
+    "seed": 20,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000361",
+    "seed": 20,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000362",
+    "seed": 20,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000363",
+    "seed": 20,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000364",
+    "seed": 20,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000365",
+    "seed": 20,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000366",
+    "seed": 20,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000367",
+    "seed": 20,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000368",
+    "seed": 20,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000369",
+    "seed": 20,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000370",
+    "seed": 20,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000371",
+    "seed": 20,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000372",
+    "seed": 20,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000373",
+    "seed": 20,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000374",
+    "seed": 20,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000375",
+    "seed": 20,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000376",
+    "seed": 20,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000377",
+    "seed": 20,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000378",
+    "seed": 21,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000379",
+    "seed": 21,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000380",
+    "seed": 21,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000381",
+    "seed": 21,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000382",
+    "seed": 21,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000383",
+    "seed": 21,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000384",
+    "seed": 21,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000385",
+    "seed": 21,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000386",
+    "seed": 21,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000387",
+    "seed": 21,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000388",
+    "seed": 21,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000389",
+    "seed": 21,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000390",
+    "seed": 21,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000391",
+    "seed": 21,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000392",
+    "seed": 21,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000393",
+    "seed": 21,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000394",
+    "seed": 21,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000395",
+    "seed": 21,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000396",
+    "seed": 22,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000397",
+    "seed": 22,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000398",
+    "seed": 22,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000399",
+    "seed": 22,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000400",
+    "seed": 22,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000401",
+    "seed": 22,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000402",
+    "seed": 22,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000403",
+    "seed": 22,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000404",
+    "seed": 22,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000405",
+    "seed": 22,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000406",
+    "seed": 22,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000407",
+    "seed": 22,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000408",
+    "seed": 22,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000409",
+    "seed": 22,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000410",
+    "seed": 22,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000411",
+    "seed": 22,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000412",
+    "seed": 22,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000413",
+    "seed": 22,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000414",
+    "seed": 23,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000415",
+    "seed": 23,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000416",
+    "seed": 23,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000417",
+    "seed": 23,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000418",
+    "seed": 23,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000419",
+    "seed": 23,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000420",
+    "seed": 23,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000421",
+    "seed": 23,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000422",
+    "seed": 23,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000423",
+    "seed": 23,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000424",
+    "seed": 23,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000425",
+    "seed": 23,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000426",
+    "seed": 23,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000427",
+    "seed": 23,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000428",
+    "seed": 23,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000429",
+    "seed": 23,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000430",
+    "seed": 23,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000431",
+    "seed": 23,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000432",
+    "seed": 24,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000433",
+    "seed": 24,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000434",
+    "seed": 24,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000435",
+    "seed": 24,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000436",
+    "seed": 24,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000437",
+    "seed": 24,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000438",
+    "seed": 24,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000439",
+    "seed": 24,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000440",
+    "seed": 24,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000441",
+    "seed": 24,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000442",
+    "seed": 24,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000443",
+    "seed": 24,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000444",
+    "seed": 24,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000445",
+    "seed": 24,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000446",
+    "seed": 24,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000447",
+    "seed": 24,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000448",
+    "seed": 24,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000449",
+    "seed": 24,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000450",
+    "seed": 25,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000451",
+    "seed": 25,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000452",
+    "seed": 25,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000453",
+    "seed": 25,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000454",
+    "seed": 25,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000455",
+    "seed": 25,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000456",
+    "seed": 25,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000457",
+    "seed": 25,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000458",
+    "seed": 25,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000459",
+    "seed": 25,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000460",
+    "seed": 25,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000461",
+    "seed": 25,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000462",
+    "seed": 25,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000463",
+    "seed": 25,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000464",
+    "seed": 25,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000465",
+    "seed": 25,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000466",
+    "seed": 25,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000467",
+    "seed": 25,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000468",
+    "seed": 26,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000469",
+    "seed": 26,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000470",
+    "seed": 26,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000471",
+    "seed": 26,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000472",
+    "seed": 26,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000473",
+    "seed": 26,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000474",
+    "seed": 26,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000475",
+    "seed": 26,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000476",
+    "seed": 26,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000477",
+    "seed": 26,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000478",
+    "seed": 26,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000479",
+    "seed": 26,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000480",
+    "seed": 26,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000481",
+    "seed": 26,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000482",
+    "seed": 26,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000483",
+    "seed": 26,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000484",
+    "seed": 26,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000485",
+    "seed": 26,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000486",
+    "seed": 27,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000487",
+    "seed": 27,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000488",
+    "seed": 27,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000489",
+    "seed": 27,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000490",
+    "seed": 27,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000491",
+    "seed": 27,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000492",
+    "seed": 27,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000493",
+    "seed": 27,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000494",
+    "seed": 27,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000495",
+    "seed": 27,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000496",
+    "seed": 27,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000497",
+    "seed": 27,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000498",
+    "seed": 27,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000499",
+    "seed": 27,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000500",
+    "seed": 27,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000501",
+    "seed": 27,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000502",
+    "seed": 27,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000503",
+    "seed": 27,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000504",
+    "seed": 28,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000505",
+    "seed": 28,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000506",
+    "seed": 28,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000507",
+    "seed": 28,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000508",
+    "seed": 28,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000509",
+    "seed": 28,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000510",
+    "seed": 28,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000511",
+    "seed": 28,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000512",
+    "seed": 28,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000513",
+    "seed": 28,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000514",
+    "seed": 28,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000515",
+    "seed": 28,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000516",
+    "seed": 28,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000517",
+    "seed": 28,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000518",
+    "seed": 28,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000519",
+    "seed": 28,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000520",
+    "seed": 28,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000521",
+    "seed": 28,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000522",
+    "seed": 29,
+    "n_neighbors": 10,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000523",
+    "seed": 29,
+    "n_neighbors": 10,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000524",
+    "seed": 29,
+    "n_neighbors": 10,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000525",
+    "seed": 29,
+    "n_neighbors": 10,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000526",
+    "seed": 29,
+    "n_neighbors": 10,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000527",
+    "seed": 29,
+    "n_neighbors": 10,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000528",
+    "seed": 29,
+    "n_neighbors": 15,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000529",
+    "seed": 29,
+    "n_neighbors": 15,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000530",
+    "seed": 29,
+    "n_neighbors": 15,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000531",
+    "seed": 29,
+    "n_neighbors": 15,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000532",
+    "seed": 29,
+    "n_neighbors": 15,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000533",
+    "seed": 29,
+    "n_neighbors": 15,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000534",
+    "seed": 29,
+    "n_neighbors": 20,
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000535",
+    "seed": 29,
+    "n_neighbors": 20,
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000536",
+    "seed": 29,
+    "n_neighbors": 20,
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000537",
+    "seed": 29,
+    "n_neighbors": 20,
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000538",
+    "seed": 29,
+    "n_neighbors": 20,
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000539",
+    "seed": 29,
+    "n_neighbors": 20,
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  }
+]

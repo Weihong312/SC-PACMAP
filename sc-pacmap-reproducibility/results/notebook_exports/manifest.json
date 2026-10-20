@@ -1,0 +1,643 @@
+{
+  "schema_version": 1,
+  "status": "validated numerical export snapshot",
+  "source_commit_at_validation": "5807f08dd29836052dec3ad535eae3146df41fa1",
+  "provenance_note": "Source commit and source hashes identify the files present at validation. Export metadata does not independently record the generating commit. Notebook source hashes exclude outputs and execution counts.",
+  "validation_command": "python code/validate_result_exports.py",
+  "validation_checks": [
+    "Metadata: sample counts, seed 25 example panels, 30 algorithm seeds, neighbourhoods and reference K",
+    "Artifact existence, CSV schemas and row counts, NPZ members, dtypes, shapes and finite values",
+    "Complete benchmark and ClustGeo sweeps; no duplicate keys; evaluation tables match source scores",
+    "Synthetic exported population matches shared seed-42 generator",
+    "Entire combined notebook rebuild, including partition-to-score agreement and paired continuity checks"
+  ],
+  "notebook_display_note": "The tracked North Batten notebook retains a historical KeyError output. Saved outputs were not used to validate this snapshot; the combined notebook was executed afresh from exports.",
+  "file_count": 122,
+  "total_bytes": 80895008,
+  "source_sha256": {
+    "requirements.txt": "89865cbe5c93e3c6367ac7b970940535a9706ad783119986c12f6f971caae608",
+    "notebooks/synthetic_data.ipynb": "ab51ccf9c54e803cf3e7bc70a43a46a08de5c0e8b216d42b6695e2194352a866",
+    "notebooks/Experiment_Benchmarks/01_cmio_sc_pacmap_results.ipynb": "75c1bb729aa3ed26d9a3046abec9d598f17630127dd3ec920ce004786f063db3",
+    "notebooks/Experiment_Benchmarks/02_north_batten_sc_pacmap_results.ipynb": "0f0f203ba02cd861432440d52d80ac2b7d748ff28ac858e036d16e87df4a539e",
+    "notebooks/Experiment_Benchmarks/03_synthetic_sc_pacmap_results.ipynb": "9b3dafbad9f82ff98365370860565fff4599cac46d03d834e64626f8c1cfc2ce",
+    "notebooks/Experiment_Benchmarks/04_combined_paper_figures.ipynb": "20b89758dce26e7d9c39dc90d908a944c087a770062cdf8e1bdad0af95c74c77",
+    "code/clustgeo_benchmark.py": "13ba5da7b1ce76ebf3afa8eb25e5ece31eeef7b2208ac9eefb906a8e4c1915a2",
+    "code/notebook_result_export.py": "7c5b87caac4fa636615e6497afd4c0a410a3bb7542f47a9c68589f8ee6c5bc0f",
+    "code/synthetic_data.py": "cf707905d34d7e2f26aa1da2c3f44fd18c31fb9bb88ac22d76261ff9cb6847d0",
+    "code/sc_pacmap/sc_pacmap.py": "64b53e625b9a8b6a4cb106fd310ebacce9f9ea9f17d20b92c702af3c660a2f70",
+    "code/clustgeo/run_clustgeo.R": "66d8302856006e95122f7014ff2773917b96a518b4279c7d92358d331accdf1a",
+    "code/clustgeo/renv.lock": "6cab604b1e24e4fce66fee1ae1dc21ea8ceee49ca31034c44f0ccb6e20b14ad7"
+  },
+  "files": [
+    {
+      "path": "cmio/benchmark/clusters.npz",
+      "bytes": 4123140,
+      "sha256": "3f259a4e747d137755fe2c4f0eb1c35e37b6f2b02077b571f19fa7faa08f9ca4"
+    },
+    {
+      "path": "cmio/benchmark/clusters_index.json",
+      "bytes": 900455,
+      "sha256": "2286460e1ae28dfa6ca2db31756fe28d7b54550d317c331ecaf8642bb25107d0"
+    },
+    {
+      "path": "cmio/benchmark/embeddings.npz",
+      "bytes": 8359678,
+      "sha256": "02d9797fca0cb07acf72ab388a6e901f703636fece8c9f543d715a76693ed97b"
+    },
+    {
+      "path": "cmio/benchmark/embeddings_index.json",
+      "bytes": 99455,
+      "sha256": "a108b0533cf5568932a7069fc6a0529c9480372a47d002217f2a6b4718611f7b"
+    },
+    {
+      "path": "cmio/benchmark/metadata.json",
+      "bytes": 4531,
+      "sha256": "0b90e62ba37dc0b9cd55c623003363dfa44be11381dfcbf627388133cbe27c30"
+    },
+    {
+      "path": "cmio/benchmark/seed_metrics.csv",
+      "bytes": 426385,
+      "sha256": "46d483e8055aa5e2a8052b64b7996669d7fcce38cf272b1c24f8c43f34c168c1"
+    },
+    {
+      "path": "cmio/clustgeo/clusters.npz",
+      "bytes": 2173409,
+      "sha256": "1994708ed5905f7f0eaf6c29dc4ee0364b2c163af96b4b8f1e12b1b682f78d4e"
+    },
+    {
+      "path": "cmio/clustgeo/clusters_index.json",
+      "bytes": 417425,
+      "sha256": "d9d0c7c24537023c505f4aedd3e96298b3af31fec9613bd8391f7f91df99e1b1"
+    },
+    {
+      "path": "cmio/clustgeo/metadata.json",
+      "bytes": 5187,
+      "sha256": "afe0e9418915fef2cdbb95f4ebecc0322ebdd1b45b9b8a9f9a8b7ed16b33f4ca"
+    },
+    {
+      "path": "cmio/clustgeo/seed_metrics.csv",
+      "bytes": 258207,
+      "sha256": "d11e56872782dd7644385c7e090192e2bd45023e7ce633f0fc238267fdc46229"
+    },
+    {
+      "path": "cmio/cross_group_continuity/arrays.npz",
+      "bytes": 8134,
+      "sha256": "4962e9e2fbf7f82e11e58adabda2e7c809930698fa88708d0c533701e397cb18"
+    },
+    {
+      "path": "cmio/cross_group_continuity/metadata.json",
+      "bytes": 5427,
+      "sha256": "37980d1556fe8ee78eb1136e40e3723f17ea4d95e2c671fc7821ad8a38c31c7d"
+    },
+    {
+      "path": "cmio/cross_group_continuity/seed_scores.csv",
+      "bytes": 12044,
+      "sha256": "d04481fe3a86d01ac13786579dc3f27c69f0148a6da61df850cf3509ff4bc5f6"
+    },
+    {
+      "path": "cmio/cross_group_continuity/tests.csv",
+      "bytes": 1044,
+      "sha256": "f714ca17fd607ef19aa7de324d79866ad1e99b97d39b9e4bea2cd33ad32eb8b7"
+    },
+    {
+      "path": "cmio/cross_group_plot/holm_tests.csv",
+      "bytes": 1044,
+      "sha256": "f714ca17fd607ef19aa7de324d79866ad1e99b97d39b9e4bea2cd33ad32eb8b7"
+    },
+    {
+      "path": "cmio/cross_group_plot/metadata.json",
+      "bytes": 5560,
+      "sha256": "14a165519bc2dd77e2a1c294a4e5d120aac5f0c8e3f484ece26f4f023a7a12d2"
+    },
+    {
+      "path": "cmio/cross_group_plot/paired_differences.csv",
+      "bytes": 4871,
+      "sha256": "4ec8cb1cf3cd6992bceb69f419280bd0acd783a8bc7a2b7208f1e7fad2798928"
+    },
+    {
+      "path": "cmio/data_walkthrough/arrays.npz",
+      "bytes": 157563,
+      "sha256": "1eb53b035186143bb4a771e4566fb400c3f3b786cf01089c59edc21ede722c7e"
+    },
+    {
+      "path": "cmio/data_walkthrough/data.csv",
+      "bytes": 855901,
+      "sha256": "e762c796aaf00ae80dca7eead0a1ac33d0929917cb66dc9a392f2342db329f24"
+    },
+    {
+      "path": "cmio/data_walkthrough/metadata.json",
+      "bytes": 5198,
+      "sha256": "6ebba9dc5a191265a3cd218b28a27a47e0a2a199386743419f02cda630f28bfb"
+    },
+    {
+      "path": "cmio/evaluation_curves/metadata.json",
+      "bytes": 5143,
+      "sha256": "7ecc2e60b9a79bff0a3a358c2758a781071f9f2b75db74271766639bcbd4c28a"
+    },
+    {
+      "path": "cmio/evaluation_curves/seed_metrics.csv",
+      "bytes": 694259,
+      "sha256": "3cfc1ddf2605591968b45953633ea10c72869906fd9a7ec43b77a9ba97bce7a2"
+    },
+    {
+      "path": "cmio/graph_composition/edge_fractions.csv",
+      "bytes": 269,
+      "sha256": "d5537a707dd715c6db77818b4fb7d2a450ac8c297ab760a67ed6059d27fb72b7"
+    },
+    {
+      "path": "cmio/graph_composition/metadata.json",
+      "bytes": 5086,
+      "sha256": "0c518e1c3c9067b0829dc669b52d46629fbc1fa4917db6b657ba5fbb9becd355"
+    },
+    {
+      "path": "cmio/metric_tables/metadata.json",
+      "bytes": 6442,
+      "sha256": "7c443d22c37f236b2e37b9886c62dd091cb5db1087c16f97836ff7e5070a6825"
+    },
+    {
+      "path": "cmio/metric_tables/numeric_summary.csv",
+      "bytes": 32213,
+      "sha256": "3f5bf367cbbcc9ae3b58a063c34d23990fb66c31206a904d06010c4ff0286cb9"
+    },
+    {
+      "path": "cmio/metric_tables/reference_table.csv",
+      "bytes": 2473,
+      "sha256": "8dae117c3310483208e73689423a1efb60ecf3bef5bf3b586b67a9da53420e10"
+    },
+    {
+      "path": "cmio/metric_tables/sc_parameters.csv",
+      "bytes": 111,
+      "sha256": "c7a06723b1d72a8f1793bef2cef8c7cd9115b5192c07c9b44dd563c9f03b26ee"
+    },
+    {
+      "path": "cmio/metric_tables/seed_metrics.csv",
+      "bytes": 893061,
+      "sha256": "0e3b111a342f5ecfd296b4619752f8f11c0b32ec7aefcfb8eb9d0d31d1788046"
+    },
+    {
+      "path": "cmio/metric_tables/sweep_table.csv",
+      "bytes": 21726,
+      "sha256": "1f1b3d88ee1e28f9d24f52ae45d7d4438aae426f5fb7c44cd94ecb4208d89041"
+    },
+    {
+      "path": "cmio/one_seed/clusters.npz",
+      "bytes": 5789,
+      "sha256": "d9ffc3d4fe1aa80558da7bbb98470ecb2a83679d95388b8adcacf7165b6967bd"
+    },
+    {
+      "path": "cmio/one_seed/clusters_index.json",
+      "bytes": 794,
+      "sha256": "0ba457c0dd22dfb7c1c2bf1c4a4a9e997e54fdd73ec499c6b60e752b4c2d6749"
+    },
+    {
+      "path": "cmio/one_seed/embeddings.npz",
+      "bytes": 93000,
+      "sha256": "95af7e4b0e94a9f8de031168ce2373c201f721c32e67f1e3dc3508f51c4e2f89"
+    },
+    {
+      "path": "cmio/one_seed/embeddings_index.json",
+      "bytes": 866,
+      "sha256": "c7e663fa74811d1beda8f10b7a2955eba1936d8b13a910ff81cec30895acd434"
+    },
+    {
+      "path": "cmio/one_seed/metadata.json",
+      "bytes": 4437,
+      "sha256": "1f44171baef4f32804afd139d0268e9d3d14966092aa953bed8a18d161abcef1"
+    },
+    {
+      "path": "cmio/one_seed/metrics.csv",
+      "bytes": 499,
+      "sha256": "bb2f0fe3df11987f5f0a2e3230148d62de343222d5d87269d1f8482ea3a45b84"
+    },
+    {
+      "path": "cmio/performance_plane/medians.csv",
+      "bytes": 1687,
+      "sha256": "52720b8981ab7513c5fbf75c8d86399a7176b727fa1c9aa866325cec964b3f8b"
+    },
+    {
+      "path": "cmio/performance_plane/metadata.json",
+      "bytes": 5414,
+      "sha256": "d6a3676c1744b47d4396c139a29a621556edb8035c6d03daa5cc671c2de9e126"
+    },
+    {
+      "path": "cmio/performance_plane/seed_points.csv",
+      "bytes": 99945,
+      "sha256": "302e01d3941ccd36daff29792fc009d7e6501969159099c395917114deccf6b9"
+    },
+    {
+      "path": "cmio/statistical_comparisons/metadata.json",
+      "bytes": 5563,
+      "sha256": "4252d51b41d87471ee3c4a14c9d32ba52dde0d8449a3725646a22d196a150632"
+    },
+    {
+      "path": "cmio/statistical_comparisons/paired_differences.csv",
+      "bytes": 143426,
+      "sha256": "71b3f8fa779139ee44586691557435aa45411b18745736309c430efaa7a84a78"
+    },
+    {
+      "path": "cmio/statistical_comparisons/tests.csv",
+      "bytes": 16236,
+      "sha256": "a585350c8c19e86d4f69f6ee2c2200ab12c2540db806da2f951053f5ff27472c"
+    },
+    {
+      "path": "north_batten/benchmark/clusters.npz",
+      "bytes": 6079713,
+      "sha256": "0b8c526caaf71d0d630a7aa6b36b7dc60108b056a94be90e223ab6e6af162eca"
+    },
+    {
+      "path": "north_batten/benchmark/clusters_index.json",
+      "bytes": 1403105,
+      "sha256": "fce34d17660cc1651a3158f95d865152b537816ad6f2c1bc2016162b5cad1bd5"
+    },
+    {
+      "path": "north_batten/benchmark/embeddings.npz",
+      "bytes": 16724689,
+      "sha256": "0ae7d6b4d02ea4480c21a3ac5c84af57e204170efaffd6f0572575b164d9d193"
+    },
+    {
+      "path": "north_batten/benchmark/embeddings_index.json",
+      "bytes": 99455,
+      "sha256": "4c347bf5a0e21c933ecfd9fbd136042e2ed97b946e2f7b4b256cf683887c5a08"
+    },
+    {
+      "path": "north_batten/benchmark/metadata.json",
+      "bytes": 5362,
+      "sha256": "3117cdf7ea47ca91755e81a3cd16778dcc3bfe8cd38cb28407a18d4e5dc9607a"
+    },
+    {
+      "path": "north_batten/benchmark/seed_metrics.csv",
+      "bytes": 671785,
+      "sha256": "a2b14a22953abe226e866298060dbd0d6ec93c5b7036a854151594493254539c"
+    },
+    {
+      "path": "north_batten/clustgeo/clusters.npz",
+      "bytes": 2767337,
+      "sha256": "cb709db61f6f165b38b13be725c7684d166822e773fcd7785da4bb545b45b6dc"
+    },
+    {
+      "path": "north_batten/clustgeo/clusters_index.json",
+      "bytes": 650525,
+      "sha256": "a0b0c2bd1a69be51e0d24936cc11b9875105bdaef19a1043c5a5bea90e2584e9"
+    },
+    {
+      "path": "north_batten/clustgeo/metadata.json",
+      "bytes": 6018,
+      "sha256": "a9ce743df92a4554ec5edfae2225d74983280c35ed7e0b9fd164ee623e4a19bc"
+    },
+    {
+      "path": "north_batten/clustgeo/seed_metrics.csv",
+      "bytes": 405152,
+      "sha256": "54e6d529483d9b1839e4e867cf3694d81ce3aeecea81e439a6a541f396a90648"
+    },
+    {
+      "path": "north_batten/cross_group_continuity/arrays.npz",
+      "bytes": 8156,
+      "sha256": "dd615216b3abebf09afa187f3fc12e0762b235cf295ee5e46659b7d57406b306"
+    },
+    {
+      "path": "north_batten/cross_group_continuity/metadata.json",
+      "bytes": 6258,
+      "sha256": "feddfebd7c8c4dab58f718a59884e562b5b31892a5a66513ad9a5dfdc19ce0d5"
+    },
+    {
+      "path": "north_batten/cross_group_continuity/seed_scores.csv",
+      "bytes": 12483,
+      "sha256": "9071c7bb0784f4bf6559ffab92a5b37899b422387f069b90a11b67d223bcfe48"
+    },
+    {
+      "path": "north_batten/cross_group_continuity/tests.csv",
+      "bytes": 1043,
+      "sha256": "50d6b4de3cebde52c32c90ebf3b2ff9dd7601655ff3315ebdcb2fe4cedd86ae3"
+    },
+    {
+      "path": "north_batten/cross_group_plot/holm_tests.csv",
+      "bytes": 1043,
+      "sha256": "50d6b4de3cebde52c32c90ebf3b2ff9dd7601655ff3315ebdcb2fe4cedd86ae3"
+    },
+    {
+      "path": "north_batten/cross_group_plot/metadata.json",
+      "bytes": 6391,
+      "sha256": "250198d4d6ff03dc7640ad23840f85891e72438e30e517c5aa5bbfe73efb9f95"
+    },
+    {
+      "path": "north_batten/cross_group_plot/paired_differences.csv",
+      "bytes": 4884,
+      "sha256": "bab4357d739a0ce947478bd2a2ebbe37bf1d81930a16826d32d41896cad80b19"
+    },
+    {
+      "path": "north_batten/data_walkthrough/arrays.npz",
+      "bytes": 353303,
+      "sha256": "15b9e8068a077f99d4fbc5348ffc01a846eadc847cbd42fcb84898e440eac8c8"
+    },
+    {
+      "path": "north_batten/data_walkthrough/data.csv",
+      "bytes": 2475747,
+      "sha256": "8ee89e7ea2caff60b81c6a36e8541360c6ba026ec93df8eb1b71a79d447859da"
+    },
+    {
+      "path": "north_batten/data_walkthrough/metadata.json",
+      "bytes": 6688,
+      "sha256": "2831075cf5d8ef1ea3fb4022cc802cf48dfee4e30ae1feee797e4518413e44a4"
+    },
+    {
+      "path": "north_batten/evaluation_curves/metadata.json",
+      "bytes": 5975,
+      "sha256": "397323b977690cbc676d73639a4c4c429c9071d76c6cfcbb500cb9afba422327"
+    },
+    {
+      "path": "north_batten/evaluation_curves/seed_metrics.csv",
+      "bytes": 1092004,
+      "sha256": "709b6c88d84f41020d6f101d1e0644a9674f69bb7b6ff39bc27247319dbd5b25"
+    },
+    {
+      "path": "north_batten/graph_composition/edge_fractions.csv",
+      "bytes": 271,
+      "sha256": "8f6f7fe33f68c4051aa934ae88d872962a4c4b0760288b9671fc2f66b713b670"
+    },
+    {
+      "path": "north_batten/graph_composition/metadata.json",
+      "bytes": 5917,
+      "sha256": "a8b01dc7e873170d4f63ad3fb8baa011f080047cbaf84433aa79ce9569dcb4de"
+    },
+    {
+      "path": "north_batten/metric_tables/metadata.json",
+      "bytes": 7274,
+      "sha256": "62758e7149cc7811e16ada61e98bdc06c152e085fece72939101b37d1a8cc5f8"
+    },
+    {
+      "path": "north_batten/metric_tables/numeric_summary.csv",
+      "bytes": 52230,
+      "sha256": "57806ac5210a979aa3c065e2ba346a740165d7ff5d9ab03cd0eb77dd87809009"
+    },
+    {
+      "path": "north_batten/metric_tables/reference_table.csv",
+      "bytes": 2473,
+      "sha256": "8c95ae90dee89b803c4a180f6b2cad8474b0b47f4af6a79bb6deae4a7b092b52"
+    },
+    {
+      "path": "north_batten/metric_tables/sc_parameters.csv",
+      "bytes": 110,
+      "sha256": "570700818b13e7316c7b33031a67b7994973962cf4fca3abea80686df9e89f64"
+    },
+    {
+      "path": "north_batten/metric_tables/seed_metrics.csv",
+      "bytes": 1402686,
+      "sha256": "17d85a322b86c16230c112c879fe46f7738bdd10ebeb08a1596c467ecf5d10a8"
+    },
+    {
+      "path": "north_batten/metric_tables/sweep_table.csv",
+      "bytes": 33776,
+      "sha256": "1605ec12b5b3f4ed47b42e74495fc3b94143b39f73d09b40e06073d9a5a70871"
+    },
+    {
+      "path": "north_batten/one_seed/clusters.npz",
+      "bytes": 5905,
+      "sha256": "de34c8031ce76fff949bfdcea77662e9ec3c7dd13a63494f7ff4b7ee5f6c7ce3"
+    },
+    {
+      "path": "north_batten/one_seed/clusters_index.json",
+      "bytes": 794,
+      "sha256": "cc9fb7e06a4e10c234035e52723b1bb57babe005ff188b32e25e94c460e6bb64"
+    },
+    {
+      "path": "north_batten/one_seed/embeddings.npz",
+      "bytes": 185888,
+      "sha256": "0bcf9b11780da09ececbfa26cfae90c198f1b0f22121438b7b4df1f92e82eb30"
+    },
+    {
+      "path": "north_batten/one_seed/embeddings_index.json",
+      "bytes": 866,
+      "sha256": "6186eb58452089f8938421376c4139e8b69341d4412c780e03637be6f6bc46c8"
+    },
+    {
+      "path": "north_batten/one_seed/metadata.json",
+      "bytes": 5268,
+      "sha256": "ae8c45832336a4f90a5959ad4eec2147ba7d749c2dbded5ed449c0dbacbb761c"
+    },
+    {
+      "path": "north_batten/one_seed/metrics.csv",
+      "bytes": 506,
+      "sha256": "49096c62b52464377f4179a1c7dce531b256ba1756cb9679da4eac4a10801f3e"
+    },
+    {
+      "path": "north_batten/performance_plane/medians.csv",
+      "bytes": 1687,
+      "sha256": "a1cd9fbe9fd2961cd519fbac0472cb8dc62a1101f263e60897eb7c724b13f7b8"
+    },
+    {
+      "path": "north_batten/performance_plane/metadata.json",
+      "bytes": 6245,
+      "sha256": "0cac0c125170df06bed28d4d08ba73ee819376f4e2ae477609594ba0b9facf0a"
+    },
+    {
+      "path": "north_batten/performance_plane/seed_points.csv",
+      "bytes": 100706,
+      "sha256": "390c4d403c6fef2f8352a272f9c86ebe37a4f1f42536e054bc61d287fecc70d5"
+    },
+    {
+      "path": "north_batten/statistical_comparisons/metadata.json",
+      "bytes": 6394,
+      "sha256": "4fc0ede2b7afd6274c100c6bb50dfcbfb330efaacd79800e5c91562d6e11ecfa"
+    },
+    {
+      "path": "north_batten/statistical_comparisons/paired_differences.csv",
+      "bytes": 143698,
+      "sha256": "07e89620b58094cb1e58eb6c07fec36df8effb9c8a854fbc3755350454f29ae1"
+    },
+    {
+      "path": "north_batten/statistical_comparisons/tests.csv",
+      "bytes": 16900,
+      "sha256": "10a3c322b0e62214b3e84053f1a6c15967a76ac58470c576c90e367b39cab6bd"
+    },
+    {
+      "path": "synthetic/benchmark/clusters.npz",
+      "bytes": 4773094,
+      "sha256": "92a1075a94dd59addcbfb2be57b0d253edfa5a25d7b40d8b2235bee29bb93028"
+    },
+    {
+      "path": "synthetic/benchmark/clusters_index.json",
+      "bytes": 898025,
+      "sha256": "1d4b5a674ae3b59728f2fbe38404509b63a57ce0fde6f18cb03d041000cc09f6"
+    },
+    {
+      "path": "synthetic/benchmark/embeddings.npz",
+      "bytes": 12373133,
+      "sha256": "0a4e019960a5482cf2d4aa7dc2d9aa6c950d8d22f68974f9f875168b8693a0d7"
+    },
+    {
+      "path": "synthetic/benchmark/embeddings_index.json",
+      "bytes": 99185,
+      "sha256": "225dc5242d29e22710ee4f88cbeb735d11148837d8a0cb844b04e1a1cfe2fe42"
+    },
+    {
+      "path": "synthetic/benchmark/metadata.json",
+      "bytes": 4761,
+      "sha256": "c6b669f353f86553d77acad4df7b042ec9436d1fcb4b0bd4a452a54dd136ce17"
+    },
+    {
+      "path": "synthetic/benchmark/seed_metrics.csv",
+      "bytes": 426299,
+      "sha256": "10abf8c5fb9efb7367a01592cbd963534f33cfe2e0f10f06a77a6daa0d1f8457"
+    },
+    {
+      "path": "synthetic/clustgeo/clusters.npz",
+      "bytes": 1840618,
+      "sha256": "6a4ef89052113ec50673f777301d02acfa25f0fce354877bb099fe80d8c4bc61"
+    },
+    {
+      "path": "synthetic/clustgeo/clusters_index.json",
+      "bytes": 417425,
+      "sha256": "f535dd3807e556e259cdc3194a73ae8179386e9a7ba4b5ad9e61cf08da302cab"
+    },
+    {
+      "path": "synthetic/clustgeo/metadata.json",
+      "bytes": 5417,
+      "sha256": "4ff83829e4cfc7fc9a226deb625d349ac981190e132bd7b0bf4fc5614e8ee7c5"
+    },
+    {
+      "path": "synthetic/clustgeo/seed_metrics.csv",
+      "bytes": 274260,
+      "sha256": "2b37e80b6d766338e1440172528d0ac4fd6f74fe224fa1fa2937b03344b244f9"
+    },
+    {
+      "path": "synthetic/data_walkthrough/arrays.npz",
+      "bytes": 507092,
+      "sha256": "292ce5ed459472c519eb809ec34e3590cddd4be4ce4698aced9fb676d1aaaf54"
+    },
+    {
+      "path": "synthetic/data_walkthrough/data.csv",
+      "bytes": 2470034,
+      "sha256": "5c576b364fb28d5f6ba7a12e0da5cda9b90a687f49ea9b0c83c38764b0ffda00"
+    },
+    {
+      "path": "synthetic/data_walkthrough/metadata.json",
+      "bytes": 5903,
+      "sha256": "612d734c297eafb09b733907f74c9dc94e094c6a20c3b9cc8a264601d5a2c752"
+    },
+    {
+      "path": "synthetic/evaluation_curves/metadata.json",
+      "bytes": 5373,
+      "sha256": "78783e57ad540e99482b61af9a2458eb685a12a3b584e1bebf3f9076e9c34f30"
+    },
+    {
+      "path": "synthetic/evaluation_curves/seed_metrics.csv",
+      "bytes": 710226,
+      "sha256": "fb171572469aae1c611add99f9e760e6d7b9e91e19945b20846e91ab31abb610"
+    },
+    {
+      "path": "synthetic/metric_tables/metadata.json",
+      "bytes": 6672,
+      "sha256": "15dc177e55f80b2ab6af6f9e9e0a45ba156ba87f97ad8dabf7c9e0299e63e54c"
+    },
+    {
+      "path": "synthetic/metric_tables/numeric_summary.csv",
+      "bytes": 33659,
+      "sha256": "74137f9cbda8f8c23d903a469caec4c56e1d4e85a6e5df18ad615e3834fa6fbb"
+    },
+    {
+      "path": "synthetic/metric_tables/reference_table.csv",
+      "bytes": 2453,
+      "sha256": "1418787f52ffbd603c31d2a88799434542c5d38fd5541c1c70fc1ff536b06243"
+    },
+    {
+      "path": "synthetic/metric_tables/sc_parameters.csv",
+      "bytes": 111,
+      "sha256": "90dfecbe794594ec57a93dbd60a7465e3bd92a896a89555fa15bd30a4777db0f"
+    },
+    {
+      "path": "synthetic/metric_tables/seed_metrics.csv",
+      "bytes": 922521,
+      "sha256": "2b557b134619142bbcdea4893819f2d4578e02f96b9fb99503477c0fa0468ed1"
+    },
+    {
+      "path": "synthetic/metric_tables/sweep_table.csv",
+      "bytes": 21545,
+      "sha256": "a05e26d9a9998f5d2277e31bfee5e22126d1aac0cd5bec35365e59809ff21dbc"
+    },
+    {
+      "path": "synthetic/one_seed/clusters.npz",
+      "bytes": 4653,
+      "sha256": "990852191e1e9e900449b0fff07b859b8e6a97209b9005cdf4222503916c68c0"
+    },
+    {
+      "path": "synthetic/one_seed/clusters_index.json",
+      "bytes": 791,
+      "sha256": "c0daa4555deed46e36d2d1c14fd0417c85012a7dc7338e53cde90007c81ea544"
+    },
+    {
+      "path": "synthetic/one_seed/embeddings.npz",
+      "bytes": 136766,
+      "sha256": "81011496659b66dd179deb69a9344cb280afd41f1fd0cc62486d22ac4e1dfe1b"
+    },
+    {
+      "path": "synthetic/one_seed/embeddings_index.json",
+      "bytes": 863,
+      "sha256": "776da40f416aa6a97fa0766de444cc9297e4b44c735b7767d2c70ea21d0999f0"
+    },
+    {
+      "path": "synthetic/one_seed/metadata.json",
+      "bytes": 4667,
+      "sha256": "48a0cb2c80a86c0228e87b21522975b2854b7a331d91aa2eb5cbd7233b43bf5a"
+    },
+    {
+      "path": "synthetic/one_seed/metrics.csv",
+      "bytes": 495,
+      "sha256": "33d0f94609a4d999e222bbc12c8af856ce3f397a9bf30902474c0d5bb9df9609"
+    },
+    {
+      "path": "synthetic/performance_plane/medians.csv",
+      "bytes": 1714,
+      "sha256": "5b0205e467253dc00417f3d354078e0f050c05de756297d8406a549df98fb970"
+    },
+    {
+      "path": "synthetic/performance_plane/metadata.json",
+      "bytes": 5644,
+      "sha256": "4ddc8c65f7cc3afcaa9a539be4be06e31e73c5a46403f92d66482497562357a7"
+    },
+    {
+      "path": "synthetic/performance_plane/seed_points.csv",
+      "bytes": 102695,
+      "sha256": "efd159aef683fb40997dd9c6dbe8aac2ad6e32f9e8eaa0cd17799ff649c4f316"
+    },
+    {
+      "path": "synthetic/spatial_partitions/arrays.npz",
+      "bytes": 34732,
+      "sha256": "b7d34f22f9432d03f6ce6d76a0a4c141a7905a71d3205e5b2e1e3c48a105dd7c"
+    },
+    {
+      "path": "synthetic/spatial_partitions/cluster_facies_mapping.csv",
+      "bytes": 826,
+      "sha256": "578567e273e7af401990d46f0f7b86421aa3fe93d601acd3c8e170b1c69c7a9c"
+    },
+    {
+      "path": "synthetic/spatial_partitions/clusters.npz",
+      "bytes": 4653,
+      "sha256": "990852191e1e9e900449b0fff07b859b8e6a97209b9005cdf4222503916c68c0"
+    },
+    {
+      "path": "synthetic/spatial_partitions/clusters_index.json",
+      "bytes": 791,
+      "sha256": "c0daa4555deed46e36d2d1c14fd0417c85012a7dc7338e53cde90007c81ea544"
+    },
+    {
+      "path": "synthetic/spatial_partitions/metadata.json",
+      "bytes": 4727,
+      "sha256": "854973e5662def9758398477ba58d9039b76d1f58cf4b82f323e8396c4e9b1df"
+    },
+    {
+      "path": "synthetic/statistical_comparisons/metadata.json",
+      "bytes": 5793,
+      "sha256": "cb04c2b30782b0df750d7c23c8e2bc1f87dfb6c1173ccca0d56a8c67a192e82a"
+    },
+    {
+      "path": "synthetic/statistical_comparisons/paired_differences.csv",
+      "bytes": 141569,
+      "sha256": "99281321d63b3cf00ab2f747699d2bbc1ec583bc66e192fa52c4bc3bd0760f65"
+    },
+    {
+      "path": "synthetic/statistical_comparisons/tests.csv",
+      "bytes": 16016,
+      "sha256": "12a8d1f11ee23211dcb5fcfd93bcac89e3e0422a8d72d3d6544abf8d6b40b078"
+    }
+  ]
+}

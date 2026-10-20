@@ -9,7 +9,7 @@ and synthetic repeated-facies data.
 1. Review [the method implementation](code/sc_pacmap/sc_pacmap.py).
 2. Read the three [experiment notebooks](notebooks/Experiment_Benchmarks/) for preprocessing, embeddings, clustering, metrics, and statistical comparisons.
 3. Inspect [the synthetic-data notebook](notebooks/synthetic_data.ipynb) independently of the experiments.
-4. Read [the results guide](results/README.md) before using saved exports. The local export folders are not yet committed as a final results snapshot.
+4. Read [the results guide](results/README.md) before using saved exports. A validated main-benchmark export snapshot is included with checksums and a verification command.
 
 ## Repository layout
 

@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "dataset_id": "north_batten",
+  "section": "one_seed",
+  "dataset_title": "North Batten",
+  "source_notebook": "02_north_batten_sc_pacmap_results.ipynb",
+  "K_reference": 15,
+  "embedding_neighbors": [
+    10,
+    15,
+    20
+  ],
+  "evaluation_neighbors": 10,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "reference_seed": 25,
+  "data_seed": null,
+  "include_replacement": false,
+  "methods": [
+    "UMAP + XYZ",
+    "PaCMAP + XYZ",
+    "LocalMAP + XYZ",
+    "PaCMAP feature-only",
+    "SC-PaCMAP full graph",
+    "SpaSNE"
+  ],
+  "feature_columns": [
+    "AG_ME_MS61_PPM",
+    "AL_ME_MS61_PCT",
+    "AS_ME_MS61_PPM",
+    "BA_ME_MS61_PPM",
+    "BE_ME_MS61_PPM",
+    "BI_ME_MS61_PPM",
+    "CA_ME_MS61_PCT",
+    "CD_ME_MS61_PPM",
+    "CE_ME_MS61_PPM",
+    "CO_ME_MS61_PPM",
+    "CR_ME_MS61_PPM",
+    "CS_ME_MS61_PPM",
+    "CU_ME_MS61_PPM",
+    "FE_ME_MS61_PCT",
+    "GA_ME_MS61_PPM",
+    "GE_ME_MS61_PPM",
+    "HF_ME_MS61_PPM",
+    "IN_ME_MS61_PPM",
+    "K_ME_MS61_PCT",
+    "LA_ME_MS61_PPM",
+    "LI_ME_MS61_PPM",
+    "MG_ME_MS61_PCT",
+    "MN_ME_MS61_PPM",
+    "MO_ME_MS61_PPM",
+    "NA_ME_MS61_PCT",
+    "NB_ME_MS61_PPM",
+    "NI_ME_MS61_PPM",
+    "PB_ME_MS61_PPM",
+    "P_ME_MS61_PPM",
+    "RB_ME_MS61_PPM",
+    "SB_ME_MS61_PPM",
+    "SC_ME_MS61_PPM",
+    "SE_ME_MS61_PPM",
+    "SN_ME_MS61_PPM",
+    "SR_ME_MS61_PPM",
+    "S_ME_MS61_PCT",
+    "TA_ME_MS61_PPM",
+    "TE_ME_MS61_PPM",
+    "TH_ME_MS61_PPM",
+    "TI_ME_MS61_PCT",
+    "TL_ME_MS61_PPM",
+    "U_ME_MS61_PPM",
+    "V_ME_MS61_PPM",
+    "W_ME_MS61_PPM",
+    "ZN_ME_MS61_PPM",
+    "ZR_ME_MS61_PPM"
+  ],
+  "sample_count": 3222,
+  "sample_order": "Zero-based row order of data_walkthrough/data.csv",
+  "method_colors": {
+    "UMAP + XYZ": "#4477AA",
+    "PaCMAP + XYZ": "#66AABB",
+    "LocalMAP + XYZ": "#228833",
+    "PaCMAP feature-only": "#AA8855",
+    "SC-PaCMAP replacement": "#AA3377",
+    "SC-PaCMAP full graph": "#BB4455",
+    "SpaSNE": "#666666"
+  },
+  "method_labels": {
+    "UMAP + XYZ": "UMAP + XYZ",
+    "PaCMAP + XYZ": "PaCMAP + XYZ",
+    "LocalMAP + XYZ": "LocalMAP + XYZ",
+    "PaCMAP feature-only": "PaCMAP feature-only",
+    "SC-PaCMAP replacement": "SC-PaCMAP replacement",
+    "SC-PaCMAP full graph": "SC-PaCMAP",
+    "SpaSNE": "SpaSNE"
+  },
+  "method_markers": {
+    "UMAP + XYZ": "o",
+    "PaCMAP + XYZ": "^",
+    "LocalMAP + XYZ": "v",
+    "PaCMAP feature-only": "P",
+    "SC-PaCMAP replacement": "h",
+    "SC-PaCMAP full graph": "*",
+    "SpaSNE": "X"
+  },
+  "class_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "class_labels": [
+    "BXZN",
+    "LSR",
+    "SAN",
+    "SCH",
+    "SDE",
+    "SDH",
+    "SDL",
+    "SDM",
+    "SDO",
+    "SIH",
+    "SPH",
+    "SSH",
+    "SSL",
+    "SST",
+    "STD"
+  ],
+  "class_colors": [
+    "#DDCC77",
+    "#88CCEE",
+    "#117733",
+    "#999933",
+    "#882255",
+    "#AA4499",
+    "#CC6677",
+    "#DDCC77",
+    "#88CCEE",
+    "#117733",
+    "#999933",
+    "#882255",
+    "#AA4499",
+    "#CC6677",
+    "#DDCC77"
+  ],
+  "class_markers": [
+    "o",
+    "o",
+    "o",
+    "o",
+    "o",
+    "o",
+    "o",
+    "^",
+    "^",
+    "^",
+    "^",
+    "^",
+    "^",
+    "^",
+    "s"
+  ],
+  "pacmap_settings": {
+    "n_components": 2,
+    "n_neighbors": 10,
+    "mn_ratio": 0.5,
+    "fp_ratio": 2.0,
+    "learning_rate": 1.0,
+    "num_iters": [
+      100,
+      100,
+      250
+    ],
+    "knn_backend": "faiss",
+    "verbose": false
+  },
+  "sc_pacmap_config": {
+    "c_sc": 10.0,
+    "phase3_ramp_iterations": 25,
+    "overlap_sc_factor": 0.5
+  },
+  "package_versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.1",
+    "scipy": "1.15.2",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.1",
+    "pacmap": "0.9.1",
+    "umap-learn": "0.5.12"
+  },
+  "score_definitions": {
+    "spatial_contiguity": "100 * (1 - H_per_sample / log(min(K, evaluation_neighbors)))",
+    "multivariate_delineation": "100 * (1 - WCSS_TSS)",
+    "paired_delta": "SC-PaCMAP full graph minus comparator"
+  },
+  "inference_unit": "Algorithm seed on one fixed dataset",
+  "metric_test": {
+    "alternative": "two-sided",
+    "correction": "Holm across dataset metrics, baselines and neighbourhoods",
+    "alpha": 0.05,
+    "permutation_resamples": null,
+    "bootstrap_resamples": null,
+    "random_seed": null
+  },
+  "continuity_test": {
+    "alternative": "greater",
+    "correction": "Holm across dataset comparators"
+  },
+  "artifacts": [
+    {
+      "file": "metrics.csv",
+      "rows": 6,
+      "columns": [
+        "method",
+        "K",
+        "H_per_sample",
+        "WCSS_TSS",
+        "ARI"
+      ]
+    },
+    {
+      "file": "embeddings.npz"
+    },
+    {
+      "file": "embeddings_index.json"
+    },
+    {
+      "file": "clusters.npz"
+    },
+    {
+      "file": "clusters_index.json"
+    }
+  ]
+}

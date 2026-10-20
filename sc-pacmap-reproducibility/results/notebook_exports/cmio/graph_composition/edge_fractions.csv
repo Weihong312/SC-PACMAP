@@ -1,0 +1,4 @@
+graph,directed_edges,within_group_edges,cross_group_edges,within_group_fraction
+G_F: feature neighbours,15510,7419,8091,0.47833655705996131
+G_S: selected spatial constraints,7755,7691,64,0.99174725983236622
+Geographic candidates,15510,15350,160,0.98968407479045772

@@ -1,0 +1,56 @@
+[
+  {
+    "array": "array_000000",
+    "method": "UMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000001",
+    "method": "PaCMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000002",
+    "method": "LocalMAP + XY",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000003",
+    "method": "PaCMAP feature-only",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000004",
+    "method": "SC-PaCMAP full graph",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  },
+  {
+    "array": "array_000005",
+    "method": "SpaSNE",
+    "shape": [
+      2304,
+      2
+    ],
+    "dtype": "float64"
+  }
+]

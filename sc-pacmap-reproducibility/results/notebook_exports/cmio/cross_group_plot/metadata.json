@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "dataset_id": "cmio",
+  "section": "cross_group_plot",
+  "dataset_title": "CMiO",
+  "source_notebook": "01_cmio_sc_pacmap_results.ipynb",
+  "K_reference": 7,
+  "embedding_neighbors": [
+    10,
+    15,
+    20
+  ],
+  "evaluation_neighbors": 10,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "reference_seed": 25,
+  "data_seed": null,
+  "include_replacement": false,
+  "methods": [
+    "UMAP + XYZ",
+    "PaCMAP + XYZ",
+    "LocalMAP + XYZ",
+    "PaCMAP feature-only",
+    "SC-PaCMAP full graph",
+    "SpaSNE",
+    "PaCMAP feature-only + ClustGeo (alpha=0)",
+    "PaCMAP feature-only + ClustGeo (alpha=0.5)",
+    "PaCMAP feature-only + ClustGeo (alpha=1)"
+  ],
+  "feature_columns": [
+    "Y_PPM",
+    "V_PPM",
+    "LA_PPM",
+    "U_PPM",
+    "SR_PPM",
+    "SN_PPM",
+    "RB_PPM",
+    "TH_PPM",
+    "CS_PPM",
+    "CE_PPM",
+    "NB_PPM",
+    "GA_PPM",
+    "W_PPM",
+    "HF_PPM",
+    "TA_PPM",
+    "ZR_PPM",
+    "CR_PPM",
+    "PR_PPM",
+    "ND_PPM",
+    "ER_PPM",
+    "EU_PPM",
+    "SM_PPM",
+    "YB_PPM",
+    "TB_PPM",
+    "HO_PPM",
+    "GD_PPM",
+    "DY_PPM",
+    "LU_PPM",
+    "BA_PPM",
+    "SIO2_WT_PERCENT",
+    "TIO2_WT_PERCENT",
+    "NA2O_WT_PERCENT",
+    "K2O_WT_PERCENT",
+    "AL2O3_WT_PERCENT",
+    "TM_PPM"
+  ],
+  "sample_count": 1551,
+  "sample_order": "Zero-based row order of data_walkthrough/data.csv",
+  "method_colors": {
+    "UMAP + XYZ": "#4477AA",
+    "PaCMAP + XYZ": "#66AABB",
+    "LocalMAP + XYZ": "#228833",
+    "PaCMAP feature-only": "#AA8855",
+    "SC-PaCMAP replacement": "#AA3377",
+    "SC-PaCMAP full graph": "#BB4455",
+    "SpaSNE": "#666666",
+    "PaCMAP feature-only + ClustGeo (alpha=0)": "#332288",
+    "PaCMAP feature-only + ClustGeo (alpha=0.5)": "#44AA99",
+    "PaCMAP feature-only + ClustGeo (alpha=1)": "#CCBB44"
+  },
+  "method_labels": {
+    "UMAP + XYZ": "UMAP + XYZ",
+    "PaCMAP + XYZ": "PaCMAP + XYZ",
+    "LocalMAP + XYZ": "LocalMAP + XYZ",
+    "PaCMAP feature-only": "PaCMAP feature-only",
+    "SC-PaCMAP replacement": "SC-PaCMAP replacement",
+    "SC-PaCMAP full graph": "SC-PaCMAP",
+    "SpaSNE": "SpaSNE",
+    "PaCMAP feature-only + ClustGeo (alpha=0)": "PaCMAP feature-only + ClustGeo (alpha = 0)",
+    "PaCMAP feature-only + ClustGeo (alpha=0.5)": "PaCMAP feature-only + ClustGeo (alpha = 0.5)",
+    "PaCMAP feature-only + ClustGeo (alpha=1)": "PaCMAP feature-only + ClustGeo (alpha = 1)"
+  },
+  "method_markers": {
+    "UMAP + XYZ": "o",
+    "PaCMAP + XYZ": "^",
+    "LocalMAP + XYZ": "v",
+    "PaCMAP feature-only": "P",
+    "SC-PaCMAP replacement": "h",
+    "SC-PaCMAP full graph": "*",
+    "SpaSNE": "X",
+    "PaCMAP feature-only + ClustGeo (alpha=0)": "X",
+    "PaCMAP feature-only + ClustGeo (alpha=0.5)": "D",
+    "PaCMAP feature-only + ClustGeo (alpha=1)": "s"
+  },
+  "class_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "class_labels": [
+    "Alkali-calcic",
+    "IOCG",
+    "Laterite",
+    "Metasomatic iron",
+    "Orogenic",
+    "Phosphorite",
+    "Sediment-hosted"
+  ],
+  "class_colors": [
+    "#DDCC77",
+    "#88CCEE",
+    "#117733",
+    "#999933",
+    "#882255",
+    "#AA4499",
+    "#CC6677"
+  ],
+  "class_markers": [
+    "o",
+    "o",
+    "o",
+    "o",
+    "o",
+    "o",
+    "o"
+  ],
+  "pacmap_settings": {
+    "n_components": 2,
+    "n_neighbors": 10,
+    "mn_ratio": 0.5,
+    "fp_ratio": 2.0,
+    "learning_rate": 1.0,
+    "num_iters": [
+      100,
+      100,
+      250
+    ],
+    "knn_backend": "faiss",
+    "verbose": false
+  },
+  "sc_pacmap_config": {
+    "c_sc": 10.0,
+    "phase3_ramp_iterations": 25,
+    "overlap_sc_factor": 0.5
+  },
+  "package_versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.1",
+    "scipy": "1.15.2",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.1",
+    "pacmap": "0.9.1",
+    "umap-learn": "0.5.12"
+  },
+  "score_definitions": {
+    "spatial_contiguity": "100 * (1 - H_per_sample / log(min(K, evaluation_neighbors)))",
+    "multivariate_delineation": "100 * (1 - WCSS_TSS)",
+    "paired_delta": "SC-PaCMAP full graph minus comparator"
+  },
+  "inference_unit": "Algorithm seed on one fixed dataset",
+  "metric_test": {
+    "alternative": "two-sided",
+    "correction": "Holm across dataset metrics, baselines and neighbourhoods",
+    "alpha": 0.05,
+    "permutation_resamples": 99999,
+    "bootstrap_resamples": 10000,
+    "random_seed": 2026
+  },
+  "continuity_test": {
+    "alternative": "greater",
+    "correction": "Holm across dataset comparators"
+  },
+  "artifacts": [
+    {
+      "file": "paired_differences.csv",
+      "rows": 30,
+      "columns": [
+        "seed",
+        "UMAP + XYZ",
+        "PaCMAP + XYZ",
+        "LocalMAP + XYZ",
+        "PaCMAP feature-only",
+        "SpaSNE",
+        "PaCMAP feature-only + ClustGeo (alpha=0)",
+        "PaCMAP feature-only + ClustGeo (alpha=0.5)",
+        "PaCMAP feature-only + ClustGeo (alpha=1)"
+      ]
+    },
+    {
+      "file": "holm_tests.csv",
+      "rows": 8,
+      "columns": [
+        "primary",
+        "comparator",
+        "paired_seeds",
+        "median_difference",
+        "primary_wins",
+        "ties",
+        "wilcoxon_statistic",
+        "p_greater",
+        "holm_p"
+      ]
+    }
+  ]
+}

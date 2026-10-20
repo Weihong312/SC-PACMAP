@@ -1,0 +1,2 @@
+# Preserve snapshot bytes so SHA-256 checks work across operating systems.
+results/notebook_exports/** -text whitespace=cr-at-eol

@@ -1,0 +1,25 @@
+method,cluster_id,facies_id,facies_label,overlap_samples
+UMAP + XY,0,0,Facies A,454
+UMAP + XY,1,3,Facies D,398
+UMAP + XY,2,2,Facies C,354
+UMAP + XY,3,1,Facies B,419
+PaCMAP + XY,0,0,Facies A,335
+PaCMAP + XY,1,2,Facies C,561
+PaCMAP + XY,2,3,Facies D,558
+PaCMAP + XY,3,1,Facies B,392
+LocalMAP + XY,0,1,Facies B,563
+LocalMAP + XY,1,0,Facies A,419
+LocalMAP + XY,2,3,Facies D,559
+LocalMAP + XY,3,2,Facies C,561
+PaCMAP feature-only,0,2,Facies C,561
+PaCMAP feature-only,1,1,Facies B,329
+PaCMAP feature-only,2,3,Facies D,559
+PaCMAP feature-only,3,0,Facies A,341
+SC-PaCMAP full graph,0,3,Facies D,567
+SC-PaCMAP full graph,1,0,Facies A,557
+SC-PaCMAP full graph,2,1,Facies B,566
+SC-PaCMAP full graph,3,2,Facies C,561
+SpaSNE,0,3,Facies D,293
+SpaSNE,1,0,Facies A,176
+SpaSNE,2,1,Facies B,268
+SpaSNE,3,2,Facies C,159

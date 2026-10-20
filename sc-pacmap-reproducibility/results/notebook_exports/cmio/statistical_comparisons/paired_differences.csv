@@ -1,0 +1,2161 @@
+n_neighbors,baseline,metric,seed,delta
+10,UMAP + XYZ,spatial_contiguity,0,17.950902930742515
+10,UMAP + XYZ,spatial_contiguity,1,16.863285635319016
+10,UMAP + XYZ,spatial_contiguity,2,17.242535359766876
+10,UMAP + XYZ,spatial_contiguity,3,18.864133513156858
+10,UMAP + XYZ,spatial_contiguity,4,16.799234230828588
+10,UMAP + XYZ,spatial_contiguity,5,18.553699670190028
+10,UMAP + XYZ,spatial_contiguity,6,19.030051790796335
+10,UMAP + XYZ,spatial_contiguity,7,15.811912480859249
+10,UMAP + XYZ,spatial_contiguity,8,16.219304478886272
+10,UMAP + XYZ,spatial_contiguity,9,18.958524726048196
+10,UMAP + XYZ,spatial_contiguity,10,18.911180246325486
+10,UMAP + XYZ,spatial_contiguity,11,17.915709421814213
+10,UMAP + XYZ,spatial_contiguity,12,18.455758865974516
+10,UMAP + XYZ,spatial_contiguity,13,17.413828274023302
+10,UMAP + XYZ,spatial_contiguity,14,20.076366843274442
+10,UMAP + XYZ,spatial_contiguity,15,17.797879977311084
+10,UMAP + XYZ,spatial_contiguity,16,23.09232604643023
+10,UMAP + XYZ,spatial_contiguity,17,17.703094190469798
+10,UMAP + XYZ,spatial_contiguity,18,18.952785699609478
+10,UMAP + XYZ,spatial_contiguity,19,22.005382821752136
+10,UMAP + XYZ,spatial_contiguity,20,17.216153846709332
+10,UMAP + XYZ,spatial_contiguity,21,16.296851785603394
+10,UMAP + XYZ,spatial_contiguity,22,17.956167963200329
+10,UMAP + XYZ,spatial_contiguity,23,15.547028515872526
+10,UMAP + XYZ,spatial_contiguity,24,16.929951464119185
+10,UMAP + XYZ,spatial_contiguity,25,14.227401414291222
+10,UMAP + XYZ,spatial_contiguity,26,17.791609678672742
+10,UMAP + XYZ,spatial_contiguity,27,16.241302296745246
+10,UMAP + XYZ,spatial_contiguity,28,18.480344658807454
+10,UMAP + XYZ,spatial_contiguity,29,16.168353538104498
+10,UMAP + XYZ,multivariate_delineation,0,-2.1431987900088387
+10,UMAP + XYZ,multivariate_delineation,1,-0.81300508794692661
+10,UMAP + XYZ,multivariate_delineation,2,-0.78325757696232046
+10,UMAP + XYZ,multivariate_delineation,3,-1.0358415771620884
+10,UMAP + XYZ,multivariate_delineation,4,-0.89658091434522191
+10,UMAP + XYZ,multivariate_delineation,5,-1.3437434270701303
+10,UMAP + XYZ,multivariate_delineation,6,-1.7417836892540706
+10,UMAP + XYZ,multivariate_delineation,7,-0.32102702166322672
+10,UMAP + XYZ,multivariate_delineation,8,-1.3088257209615932
+10,UMAP + XYZ,multivariate_delineation,9,1.5499359896023321
+10,UMAP + XYZ,multivariate_delineation,10,-1.7467847826585938
+10,UMAP + XYZ,multivariate_delineation,11,-2.1299404956234653
+10,UMAP + XYZ,multivariate_delineation,12,-0.86993839876214452
+10,UMAP + XYZ,multivariate_delineation,13,-0.71720356702446963
+10,UMAP + XYZ,multivariate_delineation,14,-0.29748230566379874
+10,UMAP + XYZ,multivariate_delineation,15,-0.78059152644956242
+10,UMAP + XYZ,multivariate_delineation,16,1.7362069304216945
+10,UMAP + XYZ,multivariate_delineation,17,-1.335838821163847
+10,UMAP + XYZ,multivariate_delineation,18,-1.6615143411570372
+10,UMAP + XYZ,multivariate_delineation,19,1.5169791438574194
+10,UMAP + XYZ,multivariate_delineation,20,-1.3382242347805402
+10,UMAP + XYZ,multivariate_delineation,21,-0.10337511920771192
+10,UMAP + XYZ,multivariate_delineation,22,1.3295065014574021
+10,UMAP + XYZ,multivariate_delineation,23,-1.4862134246472962
+10,UMAP + XYZ,multivariate_delineation,24,-0.87301101298334061
+10,UMAP + XYZ,multivariate_delineation,25,-0.066000041304000945
+10,UMAP + XYZ,multivariate_delineation,26,1.6085962967011298
+10,UMAP + XYZ,multivariate_delineation,27,-0.87696151698202129
+10,UMAP + XYZ,multivariate_delineation,28,-1.7110971240402861
+10,UMAP + XYZ,multivariate_delineation,29,-0.23658409921420542
+10,UMAP + XYZ,ARI,0,0.19377163297323874
+10,UMAP + XYZ,ARI,1,0.10734543656227857
+10,UMAP + XYZ,ARI,2,0.19190989057909097
+10,UMAP + XYZ,ARI,3,0.17676054324612839
+10,UMAP + XYZ,ARI,4,0.16193395072174765
+10,UMAP + XYZ,ARI,5,0.10426626167876585
+10,UMAP + XYZ,ARI,6,0.29530027518193613
+10,UMAP + XYZ,ARI,7,0.19529581629264553
+10,UMAP + XYZ,ARI,8,0.16187234025576364
+10,UMAP + XYZ,ARI,9,0.20407544327650079
+10,UMAP + XYZ,ARI,10,0.20422528214062646
+10,UMAP + XYZ,ARI,11,0.099614844787314083
+10,UMAP + XYZ,ARI,12,0.27782094691922365
+10,UMAP + XYZ,ARI,13,0.21927464572365718
+10,UMAP + XYZ,ARI,14,0.13778480450402714
+10,UMAP + XYZ,ARI,15,0.19745351356104945
+10,UMAP + XYZ,ARI,16,0.31324129330319511
+10,UMAP + XYZ,ARI,17,0.20465570358195095
+10,UMAP + XYZ,ARI,18,0.23079858357862071
+10,UMAP + XYZ,ARI,19,0.18774317487905118
+10,UMAP + XYZ,ARI,20,0.16707921929584524
+10,UMAP + XYZ,ARI,21,0.1711873673972269
+10,UMAP + XYZ,ARI,22,0.17746555658567775
+10,UMAP + XYZ,ARI,23,0.15318179651581632
+10,UMAP + XYZ,ARI,24,0.1071716478910778
+10,UMAP + XYZ,ARI,25,0.13062505982177158
+10,UMAP + XYZ,ARI,26,0.17743804534000029
+10,UMAP + XYZ,ARI,27,0.19983386499167838
+10,UMAP + XYZ,ARI,28,0.10852810106874861
+10,UMAP + XYZ,ARI,29,0.21569147811251055
+10,PaCMAP + XYZ,spatial_contiguity,0,16.213924037508733
+10,PaCMAP + XYZ,spatial_contiguity,1,19.744698077206237
+10,PaCMAP + XYZ,spatial_contiguity,2,19.502445998727069
+10,PaCMAP + XYZ,spatial_contiguity,3,13.419891425537742
+10,PaCMAP + XYZ,spatial_contiguity,4,20.753978550494892
+10,PaCMAP + XYZ,spatial_contiguity,5,18.324159572719054
+10,PaCMAP + XYZ,spatial_contiguity,6,20.673018350748535
+10,PaCMAP + XYZ,spatial_contiguity,7,18.788537250412162
+10,PaCMAP + XYZ,spatial_contiguity,8,19.40447608989092
+10,PaCMAP + XYZ,spatial_contiguity,9,20.212900781717607
+10,PaCMAP + XYZ,spatial_contiguity,10,20.068582452907251
+10,PaCMAP + XYZ,spatial_contiguity,11,20.769667323653223
+10,PaCMAP + XYZ,spatial_contiguity,12,21.517199605411705
+10,PaCMAP + XYZ,spatial_contiguity,13,18.31675134395671
+10,PaCMAP + XYZ,spatial_contiguity,14,21.169770890167584
+10,PaCMAP + XYZ,spatial_contiguity,15,20.530046433865593
+10,PaCMAP + XYZ,spatial_contiguity,16,15.493693833109248
+10,PaCMAP + XYZ,spatial_contiguity,17,19.733165634183322
+10,PaCMAP + XYZ,spatial_contiguity,18,18.368092910315468
+10,PaCMAP + XYZ,spatial_contiguity,19,15.602696368704585
+10,PaCMAP + XYZ,spatial_contiguity,20,21.190578381018597
+10,PaCMAP + XYZ,spatial_contiguity,21,16.861948505801436
+10,PaCMAP + XYZ,spatial_contiguity,22,17.904770042323847
+10,PaCMAP + XYZ,spatial_contiguity,23,16.242285321854183
+10,PaCMAP + XYZ,spatial_contiguity,24,17.119215556951772
+10,PaCMAP + XYZ,spatial_contiguity,25,17.334024320987353
+10,PaCMAP + XYZ,spatial_contiguity,26,22.027959082272545
+10,PaCMAP + XYZ,spatial_contiguity,27,18.449234608783726
+10,PaCMAP + XYZ,spatial_contiguity,28,21.782451732215179
+10,PaCMAP + XYZ,spatial_contiguity,29,18.699787585786254
+10,PaCMAP + XYZ,multivariate_delineation,0,-2.8458236300727862
+10,PaCMAP + XYZ,multivariate_delineation,1,-2.6342629874258137
+10,PaCMAP + XYZ,multivariate_delineation,2,-1.9740826789396593
+10,PaCMAP + XYZ,multivariate_delineation,3,-4.373384224076041
+10,PaCMAP + XYZ,multivariate_delineation,4,-2.046692078937248
+10,PaCMAP + XYZ,multivariate_delineation,5,-1.1946640707993623
+10,PaCMAP + XYZ,multivariate_delineation,6,-1.8493935472654712
+10,PaCMAP + XYZ,multivariate_delineation,7,-1.5928194660688746
+10,PaCMAP + XYZ,multivariate_delineation,8,-1.7596616986980109
+10,PaCMAP + XYZ,multivariate_delineation,9,-1.799656054298481
+10,PaCMAP + XYZ,multivariate_delineation,10,-1.5710952919850598
+10,PaCMAP + XYZ,multivariate_delineation,11,-2.2450483958327325
+10,PaCMAP + XYZ,multivariate_delineation,12,-2.2880326137491451
+10,PaCMAP + XYZ,multivariate_delineation,13,-1.537915375886854
+10,PaCMAP + XYZ,multivariate_delineation,14,-2.279602713139937
+10,PaCMAP + XYZ,multivariate_delineation,15,-2.0082664116276945
+10,PaCMAP + XYZ,multivariate_delineation,16,-2.4110990884985526
+10,PaCMAP + XYZ,multivariate_delineation,17,-1.5291508697477099
+10,PaCMAP + XYZ,multivariate_delineation,18,-1.6290360172990361
+10,PaCMAP + XYZ,multivariate_delineation,19,-4.3488284956689469
+10,PaCMAP + XYZ,multivariate_delineation,20,-3.0015051492193194
+10,PaCMAP + XYZ,multivariate_delineation,21,-1.3576529429707662
+10,PaCMAP + XYZ,multivariate_delineation,22,-0.90436678925701841
+10,PaCMAP + XYZ,multivariate_delineation,23,-1.5788991564414587
+10,PaCMAP + XYZ,multivariate_delineation,24,-0.2133236180197926
+10,PaCMAP + XYZ,multivariate_delineation,25,-0.33947709862609088
+10,PaCMAP + XYZ,multivariate_delineation,26,-2.77664663518879
+10,PaCMAP + XYZ,multivariate_delineation,27,-1.4601537703099225
+10,PaCMAP + XYZ,multivariate_delineation,28,-2.8926863938094129
+10,PaCMAP + XYZ,multivariate_delineation,29,-1.1262894096054481
+10,PaCMAP + XYZ,ARI,0,0.16616164277572848
+10,PaCMAP + XYZ,ARI,1,0.15130708408668819
+10,PaCMAP + XYZ,ARI,2,0.23111423123548042
+10,PaCMAP + XYZ,ARI,3,0.143000164979252
+10,PaCMAP + XYZ,ARI,4,0.21865252993050693
+10,PaCMAP + XYZ,ARI,5,0.10964390236312316
+10,PaCMAP + XYZ,ARI,6,0.2910465491835586
+10,PaCMAP + XYZ,ARI,7,0.22858977349031157
+10,PaCMAP + XYZ,ARI,8,0.18811227990353346
+10,PaCMAP + XYZ,ARI,9,0.20096114877484667
+10,PaCMAP + XYZ,ARI,10,0.2096512361719115
+10,PaCMAP + XYZ,ARI,11,0.13287901924497747
+10,PaCMAP + XYZ,ARI,12,0.30738308260037539
+10,PaCMAP + XYZ,ARI,13,0.23804704263939741
+10,PaCMAP + XYZ,ARI,14,0.12084753217976191
+10,PaCMAP + XYZ,ARI,15,0.2357244175770884
+10,PaCMAP + XYZ,ARI,16,0.24770561531062385
+10,PaCMAP + XYZ,ARI,17,0.23883072232649705
+10,PaCMAP + XYZ,ARI,18,0.22413848083996768
+10,PaCMAP + XYZ,ARI,19,0.1193764155499995
+10,PaCMAP + XYZ,ARI,20,0.2193455767777503
+10,PaCMAP + XYZ,ARI,21,0.15219244874534998
+10,PaCMAP + XYZ,ARI,22,0.19274499687072355
+10,PaCMAP + XYZ,ARI,23,0.16036682870056324
+10,PaCMAP + XYZ,ARI,24,0.11306608673327651
+10,PaCMAP + XYZ,ARI,25,0.17262899749242416
+10,PaCMAP + XYZ,ARI,26,0.24589535515659877
+10,PaCMAP + XYZ,ARI,27,0.2183058004038132
+10,PaCMAP + XYZ,ARI,28,0.15940753606433411
+10,PaCMAP + XYZ,ARI,29,0.22502882599735857
+10,LocalMAP + XYZ,spatial_contiguity,0,17.205900099705644
+10,LocalMAP + XYZ,spatial_contiguity,1,14.769516898336917
+10,LocalMAP + XYZ,spatial_contiguity,2,13.956128737576208
+10,LocalMAP + XYZ,spatial_contiguity,3,16.37457629508539
+10,LocalMAP + XYZ,spatial_contiguity,4,11.463686932959902
+10,LocalMAP + XYZ,spatial_contiguity,5,19.883282157343501
+10,LocalMAP + XYZ,spatial_contiguity,6,18.401011465561368
+10,LocalMAP + XYZ,spatial_contiguity,7,20.874450530189279
+10,LocalMAP + XYZ,spatial_contiguity,8,22.194633888064814
+10,LocalMAP + XYZ,spatial_contiguity,9,15.017010708329821
+10,LocalMAP + XYZ,spatial_contiguity,10,11.336613430418225
+10,LocalMAP + XYZ,spatial_contiguity,11,15.423661480928601
+10,LocalMAP + XYZ,spatial_contiguity,12,25.346720948039433
+10,LocalMAP + XYZ,spatial_contiguity,13,18.430156835529033
+10,LocalMAP + XYZ,spatial_contiguity,14,17.031761531128424
+10,LocalMAP + XYZ,spatial_contiguity,15,14.898377312901886
+10,LocalMAP + XYZ,spatial_contiguity,16,17.114805290323744
+10,LocalMAP + XYZ,spatial_contiguity,17,17.535276620113407
+10,LocalMAP + XYZ,spatial_contiguity,18,18.315991211270116
+10,LocalMAP + XYZ,spatial_contiguity,19,16.09528538339957
+10,LocalMAP + XYZ,spatial_contiguity,20,19.558394397149414
+10,LocalMAP + XYZ,spatial_contiguity,21,15.457788085806612
+10,LocalMAP + XYZ,spatial_contiguity,22,18.421430669592553
+10,LocalMAP + XYZ,spatial_contiguity,23,13.919721987765229
+10,LocalMAP + XYZ,spatial_contiguity,24,16.675638916018585
+10,LocalMAP + XYZ,spatial_contiguity,25,17.650092443260192
+10,LocalMAP + XYZ,spatial_contiguity,26,21.505986445727785
+10,LocalMAP + XYZ,spatial_contiguity,27,16.080421159889156
+10,LocalMAP + XYZ,spatial_contiguity,28,14.947386176536668
+10,LocalMAP + XYZ,spatial_contiguity,29,13.857082196074302
+10,LocalMAP + XYZ,multivariate_delineation,0,6.1416017501956048
+10,LocalMAP + XYZ,multivariate_delineation,1,2.1550467040959518
+10,LocalMAP + XYZ,multivariate_delineation,2,2.5688422094586016
+10,LocalMAP + XYZ,multivariate_delineation,3,9.6193692995180768
+10,LocalMAP + XYZ,multivariate_delineation,4,-3.9467441838542996
+10,LocalMAP + XYZ,multivariate_delineation,5,11.575077457582275
+10,LocalMAP + XYZ,multivariate_delineation,6,4.4316595549199533
+10,LocalMAP + XYZ,multivariate_delineation,7,3.3090580019617306
+10,LocalMAP + XYZ,multivariate_delineation,8,2.7933301388699192
+10,LocalMAP + XYZ,multivariate_delineation,9,1.9653145748915932
+10,LocalMAP + XYZ,multivariate_delineation,10,2.500604268803805
+10,LocalMAP + XYZ,multivariate_delineation,11,-0.18647961953696779
+10,LocalMAP + XYZ,multivariate_delineation,12,13.090077751531439
+10,LocalMAP + XYZ,multivariate_delineation,13,10.538404763458718
+10,LocalMAP + XYZ,multivariate_delineation,14,0.85502866418061529
+10,LocalMAP + XYZ,multivariate_delineation,15,0.53839109140479735
+10,LocalMAP + XYZ,multivariate_delineation,16,2.0186211935113079
+10,LocalMAP + XYZ,multivariate_delineation,17,1.9671063335357957
+10,LocalMAP + XYZ,multivariate_delineation,18,4.5179158234667298
+10,LocalMAP + XYZ,multivariate_delineation,19,9.6263276553773167
+10,LocalMAP + XYZ,multivariate_delineation,20,7.27882880293037
+10,LocalMAP + XYZ,multivariate_delineation,21,5.4513573147395391
+10,LocalMAP + XYZ,multivariate_delineation,22,7.755976288628851
+10,LocalMAP + XYZ,multivariate_delineation,23,4.2354116126540333
+10,LocalMAP + XYZ,multivariate_delineation,24,2.1887555128060043
+10,LocalMAP + XYZ,multivariate_delineation,25,5.5305796713396518
+10,LocalMAP + XYZ,multivariate_delineation,26,-1.7120577657230172
+10,LocalMAP + XYZ,multivariate_delineation,27,-3.0262695563440047
+10,LocalMAP + XYZ,multivariate_delineation,28,-2.6823238548341664
+10,LocalMAP + XYZ,multivariate_delineation,29,3.1809472589007015
+10,LocalMAP + XYZ,ARI,0,0.25502344628204265
+10,LocalMAP + XYZ,ARI,1,0.11582978929360677
+10,LocalMAP + XYZ,ARI,2,0.20024708175126854
+10,LocalMAP + XYZ,ARI,3,0.21098580171552689
+10,LocalMAP + XYZ,ARI,4,0.14944095403012869
+10,LocalMAP + XYZ,ARI,5,0.21470204265488543
+10,LocalMAP + XYZ,ARI,6,0.32340556915391699
+10,LocalMAP + XYZ,ARI,7,0.32184942596370369
+10,LocalMAP + XYZ,ARI,8,0.26732567357478842
+10,LocalMAP + XYZ,ARI,9,0.22738540239417582
+10,LocalMAP + XYZ,ARI,10,0.19937987715993349
+10,LocalMAP + XYZ,ARI,11,0.12430013426263009
+10,LocalMAP + XYZ,ARI,12,0.45488818879346327
+10,LocalMAP + XYZ,ARI,13,0.29237982158073361
+10,LocalMAP + XYZ,ARI,14,0.17315101966223906
+10,LocalMAP + XYZ,ARI,15,0.25391052717261225
+10,LocalMAP + XYZ,ARI,16,0.26729656087102854
+10,LocalMAP + XYZ,ARI,17,0.25341186366445412
+10,LocalMAP + XYZ,ARI,18,0.25356960590850686
+10,LocalMAP + XYZ,ARI,19,0.19375266726402657
+10,LocalMAP + XYZ,ARI,20,0.22721601005250786
+10,LocalMAP + XYZ,ARI,21,0.1854744585671243
+10,LocalMAP + XYZ,ARI,22,0.29280953545934191
+10,LocalMAP + XYZ,ARI,23,0.16170263323708473
+10,LocalMAP + XYZ,ARI,24,0.15629252187559178
+10,LocalMAP + XYZ,ARI,25,0.26288468899672662
+10,LocalMAP + XYZ,ARI,26,0.2595383747027859
+10,LocalMAP + XYZ,ARI,27,0.21556588579432612
+10,LocalMAP + XYZ,ARI,28,0.1578901603844694
+10,LocalMAP + XYZ,ARI,29,0.28776511666885629
+10,PaCMAP feature-only,spatial_contiguity,0,25.399927516981919
+10,PaCMAP feature-only,spatial_contiguity,1,24.751266283022574
+10,PaCMAP feature-only,spatial_contiguity,2,25.724630482328223
+10,PaCMAP feature-only,spatial_contiguity,3,24.990632443512794
+10,PaCMAP feature-only,spatial_contiguity,4,25.922299098014634
+10,PaCMAP feature-only,spatial_contiguity,5,26.152981682564658
+10,PaCMAP feature-only,spatial_contiguity,6,26.315126471991817
+10,PaCMAP feature-only,spatial_contiguity,7,25.276989269559706
+10,PaCMAP feature-only,spatial_contiguity,8,25.002514229989146
+10,PaCMAP feature-only,spatial_contiguity,9,25.532559124182129
+10,PaCMAP feature-only,spatial_contiguity,10,25.299639404215085
+10,PaCMAP feature-only,spatial_contiguity,11,26.282290250143234
+10,PaCMAP feature-only,spatial_contiguity,12,26.846681075000291
+10,PaCMAP feature-only,spatial_contiguity,13,26.251224725130299
+10,PaCMAP feature-only,spatial_contiguity,14,26.711814572888954
+10,PaCMAP feature-only,spatial_contiguity,15,25.751296154732586
+10,PaCMAP feature-only,spatial_contiguity,16,26.513258195885896
+10,PaCMAP feature-only,spatial_contiguity,17,26.986312641446077
+10,PaCMAP feature-only,spatial_contiguity,18,28.189281745234545
+10,PaCMAP feature-only,spatial_contiguity,19,27.431124901974599
+10,PaCMAP feature-only,spatial_contiguity,20,25.59270122818215
+10,PaCMAP feature-only,spatial_contiguity,21,23.843503607966582
+10,PaCMAP feature-only,spatial_contiguity,22,25.586294457422269
+10,PaCMAP feature-only,spatial_contiguity,23,24.013640623565905
+10,PaCMAP feature-only,spatial_contiguity,24,25.436564641965546
+10,PaCMAP feature-only,spatial_contiguity,25,25.181144434512646
+10,PaCMAP feature-only,spatial_contiguity,26,25.708935511339547
+10,PaCMAP feature-only,spatial_contiguity,27,26.319647009173323
+10,PaCMAP feature-only,spatial_contiguity,28,26.43020619110824
+10,PaCMAP feature-only,spatial_contiguity,29,24.559776224745434
+10,PaCMAP feature-only,multivariate_delineation,0,-4.3512678779194971
+10,PaCMAP feature-only,multivariate_delineation,1,-4.4138894827437483
+10,PaCMAP feature-only,multivariate_delineation,2,-4.6889963928084697
+10,PaCMAP feature-only,multivariate_delineation,3,-4.6809226851827503
+10,PaCMAP feature-only,multivariate_delineation,4,-4.36648343475958
+10,PaCMAP feature-only,multivariate_delineation,5,-4.4576292615342297
+10,PaCMAP feature-only,multivariate_delineation,6,-4.3263595544378433
+10,PaCMAP feature-only,multivariate_delineation,7,-4.5500703355215535
+10,PaCMAP feature-only,multivariate_delineation,8,-4.6822251282132896
+10,PaCMAP feature-only,multivariate_delineation,9,-4.3211497823157146
+10,PaCMAP feature-only,multivariate_delineation,10,-2.7721168678533417
+10,PaCMAP feature-only,multivariate_delineation,11,-4.8534927888190822
+10,PaCMAP feature-only,multivariate_delineation,12,-4.6046146348111634
+10,PaCMAP feature-only,multivariate_delineation,13,-4.4452200736549514
+10,PaCMAP feature-only,multivariate_delineation,14,-4.7900040879441121
+10,PaCMAP feature-only,multivariate_delineation,15,-3.0950112042481805
+10,PaCMAP feature-only,multivariate_delineation,16,-4.8859531231324524
+10,PaCMAP feature-only,multivariate_delineation,17,-4.9159129107435788
+10,PaCMAP feature-only,multivariate_delineation,18,-5.1646219630320545
+10,PaCMAP feature-only,multivariate_delineation,19,-5.3450031269426503
+10,PaCMAP feature-only,multivariate_delineation,20,-4.6474621321884726
+10,PaCMAP feature-only,multivariate_delineation,21,-4.775360598622953
+10,PaCMAP feature-only,multivariate_delineation,22,-4.8879967354013587
+10,PaCMAP feature-only,multivariate_delineation,23,-4.352800587121159
+10,PaCMAP feature-only,multivariate_delineation,24,-4.2029081034335505
+10,PaCMAP feature-only,multivariate_delineation,25,-4.4421726447962229
+10,PaCMAP feature-only,multivariate_delineation,26,-4.6095005951301076
+10,PaCMAP feature-only,multivariate_delineation,27,-4.4993434176004428
+10,PaCMAP feature-only,multivariate_delineation,28,-4.9956065934127594
+10,PaCMAP feature-only,multivariate_delineation,29,-3.0158680016443924
+10,PaCMAP feature-only,ARI,0,0.27297246255700891
+10,PaCMAP feature-only,ARI,1,0.19426511114293599
+10,PaCMAP feature-only,ARI,2,0.27748105402410095
+10,PaCMAP feature-only,ARI,3,0.25298505030800228
+10,PaCMAP feature-only,ARI,4,0.26928964467114319
+10,PaCMAP feature-only,ARI,5,0.18938258958274845
+10,PaCMAP feature-only,ARI,6,0.35684078424423299
+10,PaCMAP feature-only,ARI,7,0.27655276406755525
+10,PaCMAP feature-only,ARI,8,0.22948980967513155
+10,PaCMAP feature-only,ARI,9,0.26394106881822249
+10,PaCMAP feature-only,ARI,10,0.23472427976970417
+10,PaCMAP feature-only,ARI,11,0.18956292474710557
+10,PaCMAP feature-only,ARI,12,0.36033951548337412
+10,PaCMAP feature-only,ARI,13,0.31751052194261586
+10,PaCMAP feature-only,ARI,14,0.18438653480194994
+10,PaCMAP feature-only,ARI,15,0.2625509361399026
+10,PaCMAP feature-only,ARI,16,0.33424411706723056
+10,PaCMAP feature-only,ARI,17,0.29846382530233639
+10,PaCMAP feature-only,ARI,18,0.19215744407408347
+10,PaCMAP feature-only,ARI,19,0.21511188561438493
+10,PaCMAP feature-only,ARI,20,0.23986629895454092
+10,PaCMAP feature-only,ARI,21,0.22651642906109348
+10,PaCMAP feature-only,ARI,22,0.27279835686372489
+10,PaCMAP feature-only,ARI,23,0.23948245577712102
+10,PaCMAP feature-only,ARI,24,0.20485223749971954
+10,PaCMAP feature-only,ARI,25,0.24121402261576463
+10,PaCMAP feature-only,ARI,26,0.27111076426339603
+10,PaCMAP feature-only,ARI,27,0.29112356294679947
+10,PaCMAP feature-only,ARI,28,0.19435877852980982
+10,PaCMAP feature-only,ARI,29,0.25900820530894197
+10,SpaSNE,spatial_contiguity,0,9.2395421454875333
+10,SpaSNE,spatial_contiguity,1,9.0786429571999321
+10,SpaSNE,spatial_contiguity,2,9.0708243039657503
+10,SpaSNE,spatial_contiguity,3,8.8845287903834844
+10,SpaSNE,spatial_contiguity,4,11.928701761731929
+10,SpaSNE,spatial_contiguity,5,11.211820008729546
+10,SpaSNE,spatial_contiguity,6,10.330170853608649
+10,SpaSNE,spatial_contiguity,7,9.9761868027027987
+10,SpaSNE,spatial_contiguity,8,11.846986014715398
+10,SpaSNE,spatial_contiguity,9,11.044477473503477
+10,SpaSNE,spatial_contiguity,10,13.390218253683557
+10,SpaSNE,spatial_contiguity,11,11.1836461174791
+10,SpaSNE,spatial_contiguity,12,12.777403647827398
+10,SpaSNE,spatial_contiguity,13,9.7978063779819848
+10,SpaSNE,spatial_contiguity,14,12.603422554513344
+10,SpaSNE,spatial_contiguity,15,12.320772756240729
+10,SpaSNE,spatial_contiguity,16,12.66062377656435
+10,SpaSNE,spatial_contiguity,17,10.584920180804076
+10,SpaSNE,spatial_contiguity,18,10.647147626269955
+10,SpaSNE,spatial_contiguity,19,12.988564042772111
+10,SpaSNE,spatial_contiguity,20,12.831599988189367
+10,SpaSNE,spatial_contiguity,21,8.8643195373364847
+10,SpaSNE,spatial_contiguity,22,11.22269057527123
+10,SpaSNE,spatial_contiguity,23,8.947409089659061
+10,SpaSNE,spatial_contiguity,24,9.7479852094348018
+10,SpaSNE,spatial_contiguity,25,9.1424962163097234
+10,SpaSNE,spatial_contiguity,26,11.279896427598658
+10,SpaSNE,spatial_contiguity,27,11.00019242199842
+10,SpaSNE,spatial_contiguity,28,12.545432444460843
+10,SpaSNE,spatial_contiguity,29,9.2163036404417227
+10,SpaSNE,multivariate_delineation,0,-2.9930680527922604
+10,SpaSNE,multivariate_delineation,1,0.46322357816216453
+10,SpaSNE,multivariate_delineation,2,-1.8496813799794012
+10,SpaSNE,multivariate_delineation,3,1.2758904626702119
+10,SpaSNE,multivariate_delineation,4,-3.260982742917669
+10,SpaSNE,multivariate_delineation,5,-2.9670407796351981
+10,SpaSNE,multivariate_delineation,6,-3.2437811403514729
+10,SpaSNE,multivariate_delineation,7,-0.70474760632918532
+10,SpaSNE,multivariate_delineation,8,0.12260234449819052
+10,SpaSNE,multivariate_delineation,9,-2.4075947252064651
+10,SpaSNE,multivariate_delineation,10,-3.0555673287130958
+10,SpaSNE,multivariate_delineation,11,-3.2173401076681429
+10,SpaSNE,multivariate_delineation,12,0.17227507510455808
+10,SpaSNE,multivariate_delineation,13,-2.2062557418129032
+10,SpaSNE,multivariate_delineation,14,-1.1473443726293766
+10,SpaSNE,multivariate_delineation,15,-0.73597385788158931
+10,SpaSNE,multivariate_delineation,16,-2.6677307362379352
+10,SpaSNE,multivariate_delineation,17,-3.2255685253775965
+10,SpaSNE,multivariate_delineation,18,1.0793223065100435
+10,SpaSNE,multivariate_delineation,19,-2.193954491201346
+10,SpaSNE,multivariate_delineation,20,-3.0136372981114405
+10,SpaSNE,multivariate_delineation,21,-2.7108480767845506
+10,SpaSNE,multivariate_delineation,22,-0.27647411545589762
+10,SpaSNE,multivariate_delineation,23,-2.4261023687121082
+10,SpaSNE,multivariate_delineation,24,-0.12129990146766545
+10,SpaSNE,multivariate_delineation,25,0.67575565621864797
+10,SpaSNE,multivariate_delineation,26,-3.2022540755493196
+10,SpaSNE,multivariate_delineation,27,-2.9127123548810374
+10,SpaSNE,multivariate_delineation,28,-3.7322980182501837
+10,SpaSNE,multivariate_delineation,29,-2.3072850244021055
+10,SpaSNE,ARI,0,0.12819840994471138
+10,SpaSNE,ARI,1,0.05864195494325436
+10,SpaSNE,ARI,2,0.13957547150922489
+10,SpaSNE,ARI,3,0.11578722116248741
+10,SpaSNE,ARI,4,0.063616411984905918
+10,SpaSNE,ARI,5,-0.012184796368601203
+10,SpaSNE,ARI,6,0.20258457386301176
+10,SpaSNE,ARI,7,0.13843095138610201
+10,SpaSNE,ARI,8,0.063370922864531665
+10,SpaSNE,ARI,9,0.11324819877080927
+10,SpaSNE,ARI,10,0.086114379454725554
+10,SpaSNE,ARI,11,0.039114282514530252
+10,SpaSNE,ARI,12,0.22608040816885899
+10,SpaSNE,ARI,13,0.1768289498911555
+10,SpaSNE,ARI,14,-0.01440343480244366
+10,SpaSNE,ARI,15,0.14703704891263764
+10,SpaSNE,ARI,16,0.1426054551546731
+10,SpaSNE,ARI,17,0.17296512690712729
+10,SpaSNE,ARI,18,0.17331296509443267
+10,SpaSNE,ARI,19,0.031890635692020552
+10,SpaSNE,ARI,20,0.071022537034063582
+10,SpaSNE,ARI,21,0.076620466993563563
+10,SpaSNE,ARI,22,0.078884491752183705
+10,SpaSNE,ARI,23,0.076821038144769149
+10,SpaSNE,ARI,24,0.039643217873778891
+10,SpaSNE,ARI,25,0.12092773550842262
+10,SpaSNE,ARI,26,0.12392580292154065
+10,SpaSNE,ARI,27,0.14063470618275686
+10,SpaSNE,ARI,28,-0.0040351971547198939
+10,SpaSNE,ARI,29,0.13777964593670172
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,0,24.560419189230856
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,1,23.690363861764624
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,2,24.863868587704431
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,3,22.476726001084273
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,4,26.954088548024075
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,5,25.34531802177159
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,6,25.622550552846036
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,7,24.915159188905307
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,8,23.380323561897839
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,9,26.606175391634721
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,10,24.744355229294143
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,11,24.67973027356976
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,12,25.230356208181647
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,13,26.496837027678964
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,14,26.943309000575624
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,15,25.089290705234092
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,16,25.502698408888094
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,17,25.393080669863608
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,18,23.996672081231978
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,19,26.819667135119886
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,20,22.30315505429148
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,21,23.390427103834554
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,22,23.591952110208183
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,23,21.242700856822026
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,24,25.113514900502452
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,25,23.437461258047279
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,26,25.977710957337933
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,27,22.892346604486733
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,28,24.273222959669766
+10,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,29,25.850759272111574
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,0,-4.5420218132583088
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,1,-4.1559086191578061
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,2,-4.4962096389275246
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,3,-3.1809976296256508
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,4,-4.1936794670431823
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,5,-4.0534977395417613
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,6,-3.5988191950743769
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,7,-3.7312618204800287
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,8,-2.9003643314534742
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,9,-4.130611721512345
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,10,-3.0400207642519845
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,11,-2.5989567071534552
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,12,-3.9372996729284822
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,13,-4.520977643961146
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,14,-3.4114149129439113
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,15,-2.9393404788284343
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,16,-4.747163786384661
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,17,-4.4764103461181151
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,18,-3.3248564200475172
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,19,-4.8511577459273312
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,20,-4.2223583990773292
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,21,-4.2722901791262018
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,22,-2.8939528577507048
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,23,-3.5427889593990969
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,24,-4.2096577805751991
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,25,-3.2220065955427231
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,26,-4.1577255631644903
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,27,-3.9335866309188035
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,28,-3.4945517944534856
+10,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,29,-3.3270871235804762
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,0,0.26018959525324925
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,1,0.18896795980561409
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,2,0.27265898010790374
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,3,0.22361711428644138
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,4,0.25971754177423739
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,5,0.187814159570317
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,6,0.35379818395945956
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,7,0.29884078830914473
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,8,0.22653360971525965
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,9,0.27219325539744244
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,10,0.25140399022780768
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,11,0.16658564626738842
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,12,0.32429682429864565
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,13,0.31760637295119926
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,14,0.16791450568220628
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,15,0.26374914798893923
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,16,0.32772451442183215
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,17,0.29474794830335865
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,18,0.28118017161332876
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,19,0.2256902396696126
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,20,0.19422661151525022
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,21,0.22480485848288917
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,22,0.23207967918133926
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,23,0.25016025525131191
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,24,0.19990507848867872
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,25,0.26389617234174079
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,26,0.28546671492586101
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,27,0.23500763147042092
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,28,0.16794076857688406
+10,PaCMAP feature-only + ClustGeo (alpha=0),ARI,29,0.27152491928353517
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,0,18.49421548826686
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,1,15.377246308812389
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,2,18.2514883645037
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,3,17.471750388186152
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,4,21.416836863274128
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,5,18.394169102164909
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,6,18.392092207677777
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,7,21.18221592871906
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,8,18.393248987298335
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,9,16.662726194245082
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,10,20.865451388006122
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,11,21.01148067349861
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,12,20.783589416257215
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,13,15.199311595974237
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,14,15.890514164142488
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,15,21.539992716495519
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,16,19.543300203927188
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,17,17.96278407377406
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,18,16.689370507010267
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,19,19.04458270748286
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,20,20.459124772946026
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,21,16.778591666823345
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,22,18.554649815660596
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,23,18.440374776671661
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,24,18.598058209417275
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,25,16.88503413936894
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,26,16.016900399659107
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,27,21.850651822084359
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,28,19.079867605311975
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,29,18.182840791190856
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,0,-1.9143573907993243
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,1,-1.4185763347828413
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,2,-2.1455734098987591
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,3,-2.1077306038349022
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,4,-3.5867374169071908
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,5,-2.0367114795817614
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,6,-1.6576178057922206
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,7,-3.1564598907631662
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,8,-1.8592590135354072
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,9,-1.2269085305772975
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,10,-1.9825089816399455
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,11,-2.3317723925396336
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,12,-2.4190684567654657
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,13,-1.4704869647399832
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,14,-3.6092423372275348
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,15,-3.0040020980126485
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,16,-2.6504967524914207
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,17,-3.4341357077997117
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,18,-3.3808578724513936
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,19,-3.1574385219905352
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,20,-2.4864896720944927
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,21,-1.9208300289538016
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,22,-2.304000133554382
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,23,-2.117024002585886
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,24,-1.7722903590216603
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,25,-1.4883182013679104
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,26,-1.2441748955041305
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,27,-2.7483095045024655
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,28,-2.4327117274057386
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,29,-1.2562386841266999
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,0,0.1950365230521785
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,1,0.07040088789937754
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,2,0.22773355994861838
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,3,0.20350858715517045
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,4,0.20041736988496617
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,5,0.10621746279759947
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,6,0.26353499378997797
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,7,0.15800755688753343
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,8,0.21305087090595909
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,9,0.14810943148269251
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,10,0.22043708729008493
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,11,0.12973322719285629
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,12,0.33570490120782509
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,13,0.19130049384283404
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,14,0.10557720437223583
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,15,0.24794760699548019
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,16,0.27926852866059843
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,17,0.1592022662177352
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,18,0.15405260353197148
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,19,0.15605576585986319
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,20,0.22023693541350625
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,21,0.17884909733171933
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,22,0.19768853404998238
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,23,0.17400406573688576
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,24,0.14196611591519126
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,25,0.15113735414109536
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,26,0.15423255296003208
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,27,0.25429896911162814
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,28,0.13178071753194776
+10,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,29,0.24104549758991384
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,0,-8.9682087234897239
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,1,-9.4029049113105714
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,2,-9.0346165271722612
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,3,-9.8567119448930214
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,4,-8.4761552376536002
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,5,-8.9257500055222323
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,6,-8.1496240469891745
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,7,-9.7485869809060119
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,8,-9.2968174879947014
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,9,-8.5764152318972009
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,10,-7.6004692330179466
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,11,-8.0641051263014702
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,12,-7.3100401229862939
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,13,-8.6757407519583865
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,14,-7.8551235172352989
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,15,-7.5974853465612426
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,16,-8.2453255583328655
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,17,-7.6009693565900136
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,18,-8.110649837353165
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,19,-7.7246436305519808
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,20,-8.1840423077520086
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,21,-10.568760547902599
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,22,-9.1568598780128383
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,23,-10.438828008083377
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,24,-9.4608734298284389
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,25,-9.3404373439399251
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,26,-8.5257189674871512
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,27,-8.4692269276421115
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,28,-8.1460577437469794
+10,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,29,-10.147462465531774
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,0,11.736206210839907
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,1,11.757930384923721
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,2,11.832500645284963
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,3,11.688397197056243
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,4,11.816713020925942
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,5,11.828053629854754
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,6,11.955937704653554
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,7,11.917206215085439
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,8,11.791390937917999
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,9,11.918497864389199
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,10,11.74916587878457
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,11,11.586749074132104
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,12,11.515452910891813
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,13,11.716619194657017
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,14,11.453381786132955
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,15,11.334650791637099
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,16,11.426577364648285
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,17,11.501895990065737
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,18,11.449258582505916
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,19,11.890693224223622
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,20,11.349402218225979
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,21,11.623426157704554
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,22,11.574278721801111
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,23,11.923286681167202
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,24,11.930719961004417
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,25,11.993323576284045
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,26,11.705177844278328
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,27,11.849939709840154
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,28,11.354885431426329
+10,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,29,12.546584825272223
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,0,0.072324459871786151
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,1,9.9739947576615862e-05
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,2,0.084782284677501485
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,3,0.056139054462966742
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,4,0.068420651533301458
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,5,-0.010422622082292998
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,6,0.16436588502240657
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,7,0.098570307712288141
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,8,0.057341581557129206
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,9,0.071221932556324252
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,10,0.082081608087074098
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,11,0.0027029137343545506
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,12,0.18204414473186203
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,13,0.11957194028720797
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,14,-0.010324997629480692
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,15,0.10709204847502507
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,16,0.13828348345777308
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,17,0.11672358606424893
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,18,0.11301525624526776
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,19,0.028668052189384563
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,20,0.067407708171031144
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,21,0.034180456346722066
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,22,0.079691381869224198
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,23,0.040786200598604938
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,24,-0.0010550150266517844
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,25,0.061863773924716758
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,26,0.082794373546002165
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,27,0.10260303232632362
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,28,-0.0022430031233726111
+10,PaCMAP feature-only + ClustGeo (alpha=1),ARI,29,0.099641055474671503
+15,UMAP + XYZ,spatial_contiguity,0,5.0425369357013352
+15,UMAP + XYZ,spatial_contiguity,1,5.6139115933551125
+15,UMAP + XYZ,spatial_contiguity,2,6.7875651677235993
+15,UMAP + XYZ,spatial_contiguity,3,8.5305432539902313
+15,UMAP + XYZ,spatial_contiguity,4,7.3690273165908309
+15,UMAP + XYZ,spatial_contiguity,5,5.9693325843147136
+15,UMAP + XYZ,spatial_contiguity,6,7.31732123868305
+15,UMAP + XYZ,spatial_contiguity,7,8.5278914997812336
+15,UMAP + XYZ,spatial_contiguity,8,6.8883959319262544
+15,UMAP + XYZ,spatial_contiguity,9,5.8472277890462152
+15,UMAP + XYZ,spatial_contiguity,10,7.6722741815066371
+15,UMAP + XYZ,spatial_contiguity,11,6.2351648016401668
+15,UMAP + XYZ,spatial_contiguity,12,6.5723961121183834
+15,UMAP + XYZ,spatial_contiguity,13,6.6686679588161581
+15,UMAP + XYZ,spatial_contiguity,14,6.3728798149669643
+15,UMAP + XYZ,spatial_contiguity,15,8.3237037598503747
+15,UMAP + XYZ,spatial_contiguity,16,6.4853692480841119
+15,UMAP + XYZ,spatial_contiguity,17,6.8306707554038866
+15,UMAP + XYZ,spatial_contiguity,18,6.4205606637203942
+15,UMAP + XYZ,spatial_contiguity,19,5.5017958865974634
+15,UMAP + XYZ,spatial_contiguity,20,7.8667918399215893
+15,UMAP + XYZ,spatial_contiguity,21,6.3500436038307697
+15,UMAP + XYZ,spatial_contiguity,22,7.3169282299471803
+15,UMAP + XYZ,spatial_contiguity,23,6.7070969447985078
+15,UMAP + XYZ,spatial_contiguity,24,5.4875402251866774
+15,UMAP + XYZ,spatial_contiguity,25,6.0745937840006974
+15,UMAP + XYZ,spatial_contiguity,26,7.2789611532850955
+15,UMAP + XYZ,spatial_contiguity,27,6.4589116065941994
+15,UMAP + XYZ,spatial_contiguity,28,6.7647237824687494
+15,UMAP + XYZ,spatial_contiguity,29,7.1858866651443236
+15,UMAP + XYZ,multivariate_delineation,0,1.9269248866712658
+15,UMAP + XYZ,multivariate_delineation,1,1.8972241485026871
+15,UMAP + XYZ,multivariate_delineation,2,1.5225738922344263
+15,UMAP + XYZ,multivariate_delineation,3,4.0808382494561215
+15,UMAP + XYZ,multivariate_delineation,4,2.5121967313573066
+15,UMAP + XYZ,multivariate_delineation,5,2.5113332332155238
+15,UMAP + XYZ,multivariate_delineation,6,0.7794437935027787
+15,UMAP + XYZ,multivariate_delineation,7,5.2852706429844645
+15,UMAP + XYZ,multivariate_delineation,8,2.1545573884822673
+15,UMAP + XYZ,multivariate_delineation,9,1.4130499466753932
+15,UMAP + XYZ,multivariate_delineation,10,2.1015314067586388
+15,UMAP + XYZ,multivariate_delineation,11,3.117555701566701
+15,UMAP + XYZ,multivariate_delineation,12,2.3382522265119761
+15,UMAP + XYZ,multivariate_delineation,13,1.9248812744023667
+15,UMAP + XYZ,multivariate_delineation,14,2.4884253470956779
+15,UMAP + XYZ,multivariate_delineation,15,0.24755052561491198
+15,UMAP + XYZ,multivariate_delineation,16,0.35181432832688131
+15,UMAP + XYZ,multivariate_delineation,17,1.1348848140251704
+15,UMAP + XYZ,multivariate_delineation,18,1.9989370337874632
+15,UMAP + XYZ,multivariate_delineation,19,1.4306005464072342
+15,UMAP + XYZ,multivariate_delineation,20,3.2878735142165212
+15,UMAP + XYZ,multivariate_delineation,21,2.4334636903708642
+15,UMAP + XYZ,multivariate_delineation,22,1.6914453454967671
+15,UMAP + XYZ,multivariate_delineation,23,0.81559198446337433
+15,UMAP + XYZ,multivariate_delineation,24,2.2070868587743746
+15,UMAP + XYZ,multivariate_delineation,25,1.7976412253009855
+15,UMAP + XYZ,multivariate_delineation,26,3.2937453015806852
+15,UMAP + XYZ,multivariate_delineation,27,1.082247406465342
+15,UMAP + XYZ,multivariate_delineation,28,1.4505941262985473
+15,UMAP + XYZ,multivariate_delineation,29,2.5868569394416525
+15,UMAP + XYZ,ARI,0,0.072851709501284612
+15,UMAP + XYZ,ARI,1,0.065164540595743392
+15,UMAP + XYZ,ARI,2,0.094106081890196647
+15,UMAP + XYZ,ARI,3,0.10219754125888753
+15,UMAP + XYZ,ARI,4,0.081384557963553539
+15,UMAP + XYZ,ARI,5,0.07380557399404758
+15,UMAP + XYZ,ARI,6,0.079918186650304868
+15,UMAP + XYZ,ARI,7,0.20074730595416729
+15,UMAP + XYZ,ARI,8,0.070646310360323206
+15,UMAP + XYZ,ARI,9,0.087841748474894343
+15,UMAP + XYZ,ARI,10,0.075758476032142807
+15,UMAP + XYZ,ARI,11,0.070287912969712651
+15,UMAP + XYZ,ARI,12,0.089176030153603314
+15,UMAP + XYZ,ARI,13,0.075733220471448426
+15,UMAP + XYZ,ARI,14,0.078628097474255698
+15,UMAP + XYZ,ARI,15,0.090816529273925028
+15,UMAP + XYZ,ARI,16,0.092425281859876085
+15,UMAP + XYZ,ARI,17,0.10155586474029688
+15,UMAP + XYZ,ARI,18,0.087369357319832419
+15,UMAP + XYZ,ARI,19,0.080827506479795475
+15,UMAP + XYZ,ARI,20,0.076462911322043692
+15,UMAP + XYZ,ARI,21,0.073973336753263674
+15,UMAP + XYZ,ARI,22,0.073230711306647045
+15,UMAP + XYZ,ARI,23,0.081058196756431444
+15,UMAP + XYZ,ARI,24,0.07602233972320771
+15,UMAP + XYZ,ARI,25,0.084980946005726588
+15,UMAP + XYZ,ARI,26,0.057729221347273874
+15,UMAP + XYZ,ARI,27,0.0820295799671793
+15,UMAP + XYZ,ARI,28,0.068092619949979893
+15,UMAP + XYZ,ARI,29,0.08790466248166573
+15,PaCMAP + XYZ,spatial_contiguity,0,7.1187560513905908
+15,PaCMAP + XYZ,spatial_contiguity,1,8.4988812976008461
+15,PaCMAP + XYZ,spatial_contiguity,2,5.9044722346973941
+15,PaCMAP + XYZ,spatial_contiguity,3,4.5363153631492281
+15,PaCMAP + XYZ,spatial_contiguity,4,5.0775868618064237
+15,PaCMAP + XYZ,spatial_contiguity,5,9.0164435188367946
+15,PaCMAP + XYZ,spatial_contiguity,6,4.8089037295509343
+15,PaCMAP + XYZ,spatial_contiguity,7,4.8264695696117172
+15,PaCMAP + XYZ,spatial_contiguity,8,6.2595443136331284
+15,PaCMAP + XYZ,spatial_contiguity,9,7.8309107038329842
+15,PaCMAP + XYZ,spatial_contiguity,10,2.9721290106381844
+15,PaCMAP + XYZ,spatial_contiguity,11,6.9469192872346639
+15,PaCMAP + XYZ,spatial_contiguity,12,4.03042343669388
+15,PaCMAP + XYZ,spatial_contiguity,13,7.6789497339829893
+15,PaCMAP + XYZ,spatial_contiguity,14,7.0020897037256447
+15,PaCMAP + XYZ,spatial_contiguity,15,7.2297494864557876
+15,PaCMAP + XYZ,spatial_contiguity,16,6.1754518482623268
+15,PaCMAP + XYZ,spatial_contiguity,17,6.3948835978786747
+15,PaCMAP + XYZ,spatial_contiguity,18,4.6786360950052455
+15,PaCMAP + XYZ,spatial_contiguity,19,5.6089134512606478
+15,PaCMAP + XYZ,spatial_contiguity,20,6.388170882189371
+15,PaCMAP + XYZ,spatial_contiguity,21,5.0664455474005621
+15,PaCMAP + XYZ,spatial_contiguity,22,4.132614839892355
+15,PaCMAP + XYZ,spatial_contiguity,23,5.9052103105960754
+15,PaCMAP + XYZ,spatial_contiguity,24,6.2163487447831045
+15,PaCMAP + XYZ,spatial_contiguity,25,4.4219557083135328
+15,PaCMAP + XYZ,spatial_contiguity,26,8.1795244033104808
+15,PaCMAP + XYZ,spatial_contiguity,27,9.1679210052192843
+15,PaCMAP + XYZ,spatial_contiguity,28,5.1815205910677236
+15,PaCMAP + XYZ,spatial_contiguity,29,3.599691272575555
+15,PaCMAP + XYZ,multivariate_delineation,0,-0.21353949255524896
+15,PaCMAP + XYZ,multivariate_delineation,1,-0.0091710698475822028
+15,PaCMAP + XYZ,multivariate_delineation,2,1.5311153280202845
+15,PaCMAP + XYZ,multivariate_delineation,3,-2.0171388550345739
+15,PaCMAP + XYZ,multivariate_delineation,4,-0.99085332397492465
+15,PaCMAP + XYZ,multivariate_delineation,5,0.068626514818596718
+15,PaCMAP + XYZ,multivariate_delineation,6,0.71100796785714948
+15,PaCMAP + XYZ,multivariate_delineation,7,4.1137015495690079
+15,PaCMAP + XYZ,multivariate_delineation,8,-1.6837350266723732
+15,PaCMAP + XYZ,multivariate_delineation,9,0.5977961656508981
+15,PaCMAP + XYZ,multivariate_delineation,10,-0.50311359440384962
+15,PaCMAP + XYZ,multivariate_delineation,11,0.15044296375301514
+15,PaCMAP + XYZ,multivariate_delineation,12,-0.99093247797126338
+15,PaCMAP + XYZ,multivariate_delineation,13,0.026369074504849266
+15,PaCMAP + XYZ,multivariate_delineation,14,1.2365509264939263
+15,PaCMAP + XYZ,multivariate_delineation,15,-2.5139848920925942
+15,PaCMAP + XYZ,multivariate_delineation,16,-2.6757324856851952
+15,PaCMAP + XYZ,multivariate_delineation,17,0.447748971879534
+15,PaCMAP + XYZ,multivariate_delineation,18,-1.0851329294224854
+15,PaCMAP + XYZ,multivariate_delineation,19,1.7691313949862888
+15,PaCMAP + XYZ,multivariate_delineation,20,1.6040557356388874
+15,PaCMAP + XYZ,multivariate_delineation,21,1.9441049017839163
+15,PaCMAP + XYZ,multivariate_delineation,22,-1.1959521221941856
+15,PaCMAP + XYZ,multivariate_delineation,23,0.70866932705646946
+15,PaCMAP + XYZ,multivariate_delineation,24,1.4798595174873128
+15,PaCMAP + XYZ,multivariate_delineation,25,-1.0891050208747046
+15,PaCMAP + XYZ,multivariate_delineation,26,1.4180654317156112
+15,PaCMAP + XYZ,multivariate_delineation,27,-1.0306354029488887
+15,PaCMAP + XYZ,multivariate_delineation,28,-2.0535317038020011
+15,PaCMAP + XYZ,multivariate_delineation,29,-1.2815319838632249
+15,PaCMAP + XYZ,ARI,0,-0.001103579433816948
+15,PaCMAP + XYZ,ARI,1,-0.010022993725289031
+15,PaCMAP + XYZ,ARI,2,0.085363358895966024
+15,PaCMAP + XYZ,ARI,3,-0.045142115171586727
+15,PaCMAP + XYZ,ARI,4,-0.023977674154583961
+15,PaCMAP + XYZ,ARI,5,-0.0064482917766607306
+15,PaCMAP + XYZ,ARI,6,0.078536543481010468
+15,PaCMAP + XYZ,ARI,7,0.071468677890323629
+15,PaCMAP + XYZ,ARI,8,-0.0063290211340160107
+15,PaCMAP + XYZ,ARI,9,-0.0030846037616127919
+15,PaCMAP + XYZ,ARI,10,-0.027806690948364354
+15,PaCMAP + XYZ,ARI,11,-0.02025415370764605
+15,PaCMAP + XYZ,ARI,12,-0.034506457876176233
+15,PaCMAP + XYZ,ARI,13,-0.02233746617944099
+15,PaCMAP + XYZ,ARI,14,0.110919260131082
+15,PaCMAP + XYZ,ARI,15,-0.014260081378367484
+15,PaCMAP + XYZ,ARI,16,0.0010038697768721683
+15,PaCMAP + XYZ,ARI,17,0.08355232717090072
+15,PaCMAP + XYZ,ARI,18,-0.013099628021868259
+15,PaCMAP + XYZ,ARI,19,0.086421338135442283
+15,PaCMAP + XYZ,ARI,20,0.10055114539520271
+15,PaCMAP + XYZ,ARI,21,0.093431146463461345
+15,PaCMAP + XYZ,ARI,22,-0.027658855203155475
+15,PaCMAP + XYZ,ARI,23,0.099285331309150737
+15,PaCMAP + XYZ,ARI,24,-0.025731233255427033
+15,PaCMAP + XYZ,ARI,25,-0.034917418134049527
+15,PaCMAP + XYZ,ARI,26,0.096913618819792324
+15,PaCMAP + XYZ,ARI,27,0.0059447771837066177
+15,PaCMAP + XYZ,ARI,28,-0.044399163193718172
+15,PaCMAP + XYZ,ARI,29,-0.042316501702013343
+15,LocalMAP + XYZ,spatial_contiguity,0,-2.3940356444952613
+15,LocalMAP + XYZ,spatial_contiguity,1,2.2428343772659929
+15,LocalMAP + XYZ,spatial_contiguity,2,-4.0693703432396688
+15,LocalMAP + XYZ,spatial_contiguity,3,0.51696904695850776
+15,LocalMAP + XYZ,spatial_contiguity,4,-4.5333785583201234
+15,LocalMAP + XYZ,spatial_contiguity,5,-0.98370453120826085
+15,LocalMAP + XYZ,spatial_contiguity,6,-2.9677534022867178
+15,LocalMAP + XYZ,spatial_contiguity,7,-0.57824521133660767
+15,LocalMAP + XYZ,spatial_contiguity,8,-2.5247446961685824
+15,LocalMAP + XYZ,spatial_contiguity,9,-2.6707091464361525
+15,LocalMAP + XYZ,spatial_contiguity,10,-2.9414982710350586
+15,LocalMAP + XYZ,spatial_contiguity,11,-5.7306153299822853
+15,LocalMAP + XYZ,spatial_contiguity,12,0.70019492523118743
+15,LocalMAP + XYZ,spatial_contiguity,13,-4.9175436943373825
+15,LocalMAP + XYZ,spatial_contiguity,14,2.5224077582807922
+15,LocalMAP + XYZ,spatial_contiguity,15,-2.9357901161972109
+15,LocalMAP + XYZ,spatial_contiguity,16,0.071943139985947369
+15,LocalMAP + XYZ,spatial_contiguity,17,-4.8438580604071149
+15,LocalMAP + XYZ,spatial_contiguity,18,3.3962434857039057
+15,LocalMAP + XYZ,spatial_contiguity,19,-3.6787359426058259
+15,LocalMAP + XYZ,spatial_contiguity,20,4.2017591152329601
+15,LocalMAP + XYZ,spatial_contiguity,21,-1.8153776969212174
+15,LocalMAP + XYZ,spatial_contiguity,22,-1.4592093462478175
+15,LocalMAP + XYZ,spatial_contiguity,23,-1.6960386265583054
+15,LocalMAP + XYZ,spatial_contiguity,24,5.589429504009189
+15,LocalMAP + XYZ,spatial_contiguity,25,1.3324071754935716
+15,LocalMAP + XYZ,spatial_contiguity,26,2.5627662334990475
+15,LocalMAP + XYZ,spatial_contiguity,27,1.1070465176458129
+15,LocalMAP + XYZ,spatial_contiguity,28,-3.5622160407009602
+15,LocalMAP + XYZ,spatial_contiguity,29,0.62076190447335478
+15,LocalMAP + XYZ,multivariate_delineation,0,6.9288386144280025
+15,LocalMAP + XYZ,multivariate_delineation,1,5.6035956350456786
+15,LocalMAP + XYZ,multivariate_delineation,2,2.8857640170394134
+15,LocalMAP + XYZ,multivariate_delineation,3,5.6230387348715993
+15,LocalMAP + XYZ,multivariate_delineation,4,4.3643714622211291
+15,LocalMAP + XYZ,multivariate_delineation,5,-0.73114906201435304
+15,LocalMAP + XYZ,multivariate_delineation,6,1.3853172646883039
+15,LocalMAP + XYZ,multivariate_delineation,7,13.029690448149054
+15,LocalMAP + XYZ,multivariate_delineation,8,2.211228051946037
+15,LocalMAP + XYZ,multivariate_delineation,9,2.2869532410719202
+15,LocalMAP + XYZ,multivariate_delineation,10,2.1204204286102453
+15,LocalMAP + XYZ,multivariate_delineation,11,4.1360121828074483
+15,LocalMAP + XYZ,multivariate_delineation,12,6.473652764802317
+15,LocalMAP + XYZ,multivariate_delineation,13,3.9794383822477499
+15,LocalMAP + XYZ,multivariate_delineation,14,8.2778781634344369
+15,LocalMAP + XYZ,multivariate_delineation,15,7.5401485259978784
+15,LocalMAP + XYZ,multivariate_delineation,16,1.7796768660428626
+15,LocalMAP + XYZ,multivariate_delineation,17,2.3774838254205335
+15,LocalMAP + XYZ,multivariate_delineation,18,8.5455805769333324
+15,LocalMAP + XYZ,multivariate_delineation,19,9.8580977524510516
+15,LocalMAP + XYZ,multivariate_delineation,20,6.9679874614313135
+15,LocalMAP + XYZ,multivariate_delineation,21,6.110537404544786
+15,LocalMAP + XYZ,multivariate_delineation,22,4.8860934415805062
+15,LocalMAP + XYZ,multivariate_delineation,23,4.7474696086432218
+15,LocalMAP + XYZ,multivariate_delineation,24,4.579458055613749
+15,LocalMAP + XYZ,multivariate_delineation,25,0.94264494230069573
+15,LocalMAP + XYZ,multivariate_delineation,26,5.8294471719392433
+15,LocalMAP + XYZ,multivariate_delineation,27,1.2803590655539665
+15,LocalMAP + XYZ,multivariate_delineation,28,7.344652546697084
+15,LocalMAP + XYZ,multivariate_delineation,29,6.3615599122714741
+15,LocalMAP + XYZ,ARI,0,0.054152910905256479
+15,LocalMAP + XYZ,ARI,1,0.055974653551394915
+15,LocalMAP + XYZ,ARI,2,0.038087528972667595
+15,LocalMAP + XYZ,ARI,3,0.031659560263446573
+15,LocalMAP + XYZ,ARI,4,0.014011888065979639
+15,LocalMAP + XYZ,ARI,5,0.022669662404098789
+15,LocalMAP + XYZ,ARI,6,-0.011384761776941699
+15,LocalMAP + XYZ,ARI,7,0.14113134130395721
+15,LocalMAP + XYZ,ARI,8,-0.0013498369260799281
+15,LocalMAP + XYZ,ARI,9,0.0046260889991540655
+15,LocalMAP + XYZ,ARI,10,0.016707865377341646
+15,LocalMAP + XYZ,ARI,11,0.0050024923425029955
+15,LocalMAP + XYZ,ARI,12,0.043817237934040076
+15,LocalMAP + XYZ,ARI,13,0.0019526682286543084
+15,LocalMAP + XYZ,ARI,14,0.12804575406982255
+15,LocalMAP + XYZ,ARI,15,0.1231425943560871
+15,LocalMAP + XYZ,ARI,16,0.02137341748937821
+15,LocalMAP + XYZ,ARI,17,0.019171856573302559
+15,LocalMAP + XYZ,ARI,18,0.083396680092079789
+15,LocalMAP + XYZ,ARI,19,0.12833456009404648
+15,LocalMAP + XYZ,ARI,20,0.14960890593620718
+15,LocalMAP + XYZ,ARI,21,0.057924128789659746
+15,LocalMAP + XYZ,ARI,22,0.056000355954308689
+15,LocalMAP + XYZ,ARI,23,0.13578990847388794
+15,LocalMAP + XYZ,ARI,24,0.065751120879328828
+15,LocalMAP + XYZ,ARI,25,0.047899553307132747
+15,LocalMAP + XYZ,ARI,26,0.11599731510729255
+15,LocalMAP + XYZ,ARI,27,0.11505534077458163
+15,LocalMAP + XYZ,ARI,28,0.082452268225694181
+15,LocalMAP + XYZ,ARI,29,0.03982601347438991
+15,PaCMAP feature-only,spatial_contiguity,0,12.273071185937866
+15,PaCMAP feature-only,spatial_contiguity,1,15.614465004555804
+15,PaCMAP feature-only,spatial_contiguity,2,15.068776344703089
+15,PaCMAP feature-only,spatial_contiguity,3,14.867035638888851
+15,PaCMAP feature-only,spatial_contiguity,4,16.368111251899045
+15,PaCMAP feature-only,spatial_contiguity,5,15.398159417083143
+15,PaCMAP feature-only,spatial_contiguity,6,14.876036245847743
+15,PaCMAP feature-only,spatial_contiguity,7,17.147750702801922
+15,PaCMAP feature-only,spatial_contiguity,8,15.18393648509435
+15,PaCMAP feature-only,spatial_contiguity,9,16.104741063488099
+15,PaCMAP feature-only,spatial_contiguity,10,15.556635626040524
+15,PaCMAP feature-only,spatial_contiguity,11,13.722250758319056
+15,PaCMAP feature-only,spatial_contiguity,12,14.670152872785927
+15,PaCMAP feature-only,spatial_contiguity,13,14.900805388846315
+15,PaCMAP feature-only,spatial_contiguity,14,15.664511688851803
+15,PaCMAP feature-only,spatial_contiguity,15,15.319498358148664
+15,PaCMAP feature-only,spatial_contiguity,16,15.88206472214361
+15,PaCMAP feature-only,spatial_contiguity,17,15.232359366181193
+15,PaCMAP feature-only,spatial_contiguity,18,15.415235369495463
+15,PaCMAP feature-only,spatial_contiguity,19,14.94993031536621
+15,PaCMAP feature-only,spatial_contiguity,20,14.934116863314571
+15,PaCMAP feature-only,spatial_contiguity,21,15.410465859840514
+15,PaCMAP feature-only,spatial_contiguity,22,15.538900202369568
+15,PaCMAP feature-only,spatial_contiguity,23,15.738089529634742
+15,PaCMAP feature-only,spatial_contiguity,24,15.648925990310389
+15,PaCMAP feature-only,spatial_contiguity,25,15.109697834222224
+15,PaCMAP feature-only,spatial_contiguity,26,15.610767284232452
+15,PaCMAP feature-only,spatial_contiguity,27,15.338613647719626
+15,PaCMAP feature-only,spatial_contiguity,28,15.768807910955303
+15,PaCMAP feature-only,spatial_contiguity,29,15.035649014927131
+15,PaCMAP feature-only,multivariate_delineation,0,-1.7643605677529095
+15,PaCMAP feature-only,multivariate_delineation,1,-1.6119171666380865
+15,PaCMAP feature-only,multivariate_delineation,2,-1.8403016314142349
+15,PaCMAP feature-only,multivariate_delineation,3,-1.5491228621854845
+15,PaCMAP feature-only,multivariate_delineation,4,-1.5967160014336983
+15,PaCMAP feature-only,multivariate_delineation,5,-1.6157561354601171
+15,PaCMAP feature-only,multivariate_delineation,6,-1.8105037497046936
+15,PaCMAP feature-only,multivariate_delineation,7,2.9840229097570372
+15,PaCMAP feature-only,multivariate_delineation,8,-1.788268672553663
+15,PaCMAP feature-only,multivariate_delineation,9,-1.8023940629897481
+15,PaCMAP feature-only,multivariate_delineation,10,-1.8349875199333212
+15,PaCMAP feature-only,multivariate_delineation,11,-1.514726852870929
+15,PaCMAP feature-only,multivariate_delineation,12,-1.7370416452920807
+15,PaCMAP feature-only,multivariate_delineation,13,-1.7454607521745231
+15,PaCMAP feature-only,multivariate_delineation,14,-1.3853208625972186
+15,PaCMAP feature-only,multivariate_delineation,15,-1.7542684332207514
+15,PaCMAP feature-only,multivariate_delineation,16,-2.069617954601739
+15,PaCMAP feature-only,multivariate_delineation,17,-2.0720717284879839
+15,PaCMAP feature-only,multivariate_delineation,18,-1.8818646753056214
+15,PaCMAP feature-only,multivariate_delineation,19,-1.6229123763101967
+15,PaCMAP feature-only,multivariate_delineation,20,-1.9022720147232306
+15,PaCMAP feature-only,multivariate_delineation,21,-1.843086412921501
+15,PaCMAP feature-only,multivariate_delineation,22,-1.8307779664920929
+15,PaCMAP feature-only,multivariate_delineation,23,-1.8834585489590125
+15,PaCMAP feature-only,multivariate_delineation,24,-1.5657344076881259
+15,PaCMAP feature-only,multivariate_delineation,25,-1.6754094654219713
+15,PaCMAP feature-only,multivariate_delineation,26,-1.9105939780646963
+15,PaCMAP feature-only,multivariate_delineation,27,-1.8867542335335088
+15,PaCMAP feature-only,multivariate_delineation,28,-1.8651631820798755
+15,PaCMAP feature-only,multivariate_delineation,29,-1.5876528688538372
+15,PaCMAP feature-only,ARI,0,0.13580812075864335
+15,PaCMAP feature-only,ARI,1,0.044645093051770723
+15,PaCMAP feature-only,ARI,2,0.035528657988589396
+15,PaCMAP feature-only,ARI,3,0.029808875471991736
+15,PaCMAP feature-only,ARI,4,0.053485135092763481
+15,PaCMAP feature-only,ARI,5,0.035494549314415647
+15,PaCMAP feature-only,ARI,6,0.020850808293858103
+15,PaCMAP feature-only,ARI,7,0.13069363287551278
+15,PaCMAP feature-only,ARI,8,0.029730992308847903
+15,PaCMAP feature-only,ARI,9,0.038673907067781232
+15,PaCMAP feature-only,ARI,10,0.033807015343172153
+15,PaCMAP feature-only,ARI,11,0.023801402510561787
+15,PaCMAP feature-only,ARI,12,0.033665759335713419
+15,PaCMAP feature-only,ARI,13,0.025061386620267856
+15,PaCMAP feature-only,ARI,14,0.034473753737690238
+15,PaCMAP feature-only,ARI,15,0.027996297253635338
+15,PaCMAP feature-only,ARI,16,0.040269220068884393
+15,PaCMAP feature-only,ARI,17,0.027577039005397486
+15,PaCMAP feature-only,ARI,18,0.048195583233381911
+15,PaCMAP feature-only,ARI,19,0.034659415669032467
+15,PaCMAP feature-only,ARI,20,0.041357348711741515
+15,PaCMAP feature-only,ARI,21,0.02992084982633636
+15,PaCMAP feature-only,ARI,22,0.035050818447624144
+15,PaCMAP feature-only,ARI,23,0.037366311970452981
+15,PaCMAP feature-only,ARI,24,0.050310201534027599
+15,PaCMAP feature-only,ARI,25,0.050382740215305977
+15,PaCMAP feature-only,ARI,26,0.027196144645072029
+15,PaCMAP feature-only,ARI,27,0.03717536380015124
+15,PaCMAP feature-only,ARI,28,0.029232836673106277
+15,PaCMAP feature-only,ARI,29,0.037159042319230173
+15,SpaSNE,spatial_contiguity,0,-3.9407230423197319
+15,SpaSNE,spatial_contiguity,1,-2.833392282333179
+15,SpaSNE,spatial_contiguity,2,-3.3003556973534529
+15,SpaSNE,spatial_contiguity,3,-2.7441261313629326
+15,SpaSNE,spatial_contiguity,4,-0.73742369888181258
+15,SpaSNE,spatial_contiguity,5,-1.1183112972275069
+15,SpaSNE,spatial_contiguity,6,-3.0784230497353917
+15,SpaSNE,spatial_contiguity,7,-0.12907658701185198
+15,SpaSNE,spatial_contiguity,8,-0.038024792600339197
+15,SpaSNE,spatial_contiguity,9,-1.576908148743783
+15,SpaSNE,spatial_contiguity,10,-0.64514536702273517
+15,SpaSNE,spatial_contiguity,11,-3.3812837161755027
+15,SpaSNE,spatial_contiguity,12,-1.6072832799985832
+15,SpaSNE,spatial_contiguity,13,-3.2591158412110559
+15,SpaSNE,spatial_contiguity,14,-1.1219981911081902
+15,SpaSNE,spatial_contiguity,15,-0.84574048395461432
+15,SpaSNE,spatial_contiguity,16,0.34940769403284833
+15,SpaSNE,spatial_contiguity,17,-2.7655273029098169
+15,SpaSNE,spatial_contiguity,18,-2.6747407481348091
+15,SpaSNE,spatial_contiguity,19,-1.4510371625846972
+15,SpaSNE,spatial_contiguity,20,-0.4439012676305083
+15,SpaSNE,spatial_contiguity,21,-1.9692660190734301
+15,SpaSNE,spatial_contiguity,22,-0.69868876541642067
+15,SpaSNE,spatial_contiguity,23,-1.1901316638847419
+15,SpaSNE,spatial_contiguity,24,-2.2696081198859872
+15,SpaSNE,spatial_contiguity,25,-2.8608660326313924
+15,SpaSNE,spatial_contiguity,26,-1.1257725305665929
+15,SpaSNE,spatial_contiguity,27,-1.8778353553587834
+15,SpaSNE,spatial_contiguity,28,0.11305735595783517
+15,SpaSNE,spatial_contiguity,29,-2.5859854178591348
+15,SpaSNE,multivariate_delineation,0,0.94893768500897124
+15,SpaSNE,multivariate_delineation,1,4.3220348679110501
+15,SpaSNE,multivariate_delineation,2,1.9552764089933135
+15,SpaSNE,multivariate_delineation,3,4.5168328528805546
+15,SpaSNE,multivariate_delineation,4,0.594781117972488
+15,SpaSNE,multivariate_delineation,5,1.0770880050681626
+15,SpaSNE,multivariate_delineation,6,-0.56574239504593038
+15,SpaSNE,multivariate_delineation,7,7.8341588495499082
+15,SpaSNE,multivariate_delineation,8,3.92101553713794
+15,SpaSNE,multivariate_delineation,9,1.3261712398847507
+15,SpaSNE,multivariate_delineation,10,0.89159781048532238
+15,SpaSNE,multivariate_delineation,11,1.1775560138651926
+15,SpaSNE,multivariate_delineation,12,4.4085897628985293
+15,SpaSNE,multivariate_delineation,13,1.8140476899949576
+15,SpaSNE,multivariate_delineation,14,3.3431517869266543
+15,SpaSNE,multivariate_delineation,15,2.617950068363875
+15,SpaSNE,multivariate_delineation,16,0.31411184071107101
+15,SpaSNE,multivariate_delineation,17,-0.085536686761948033
+15,SpaSNE,multivariate_delineation,18,5.1693244299958891
+15,SpaSNE,multivariate_delineation,19,1.6726534671861018
+15,SpaSNE,multivariate_delineation,20,1.2400229086056953
+15,SpaSNE,multivariate_delineation,21,1.2521910365870639
+15,SpaSNE,multivariate_delineation,22,2.9588051661079007
+15,SpaSNE,multivariate_delineation,23,0.19541682530447702
+15,SpaSNE,multivariate_delineation,24,3.6922389002890696
+15,SpaSNE,multivariate_delineation,25,4.2989470863449952
+15,SpaSNE,multivariate_delineation,26,0.70341278211833469
+15,SpaSNE,multivariate_delineation,27,-0.22952859981401019
+15,SpaSNE,multivariate_delineation,28,-0.45936302188658118
+15,SpaSNE,multivariate_delineation,29,0.91999970353230509
+15,SpaSNE,ARI,0,0.0074958174541577827
+15,SpaSNE,ARI,1,0.011843539392135283
+15,SpaSNE,ARI,2,0.018322502503925475
+15,SpaSNE,ARI,3,0.0049249314518982068
+15,SpaSNE,ARI,4,-0.045610730098218366
+15,SpaSNE,ARI,5,-0.04583881185680394
+15,SpaSNE,ARI,6,-0.020296489265183459
+15,SpaSNE,ARI,7,0.091811433818349386
+15,SpaSNE,ARI,8,-0.042844843863470594
+15,SpaSNE,ARI,9,-0.0027935027056597006
+15,SpaSNE,ARI,10,-0.042830703525908953
+15,SpaSNE,ARI,11,-0.019620212430576267
+15,SpaSNE,ARI,12,0.0005585259097188322
+15,SpaSNE,ARI,13,0.0044050779061243217
+15,SpaSNE,ARI,14,-0.058253976823994413
+15,SpaSNE,ARI,15,-0.015087100341685755
+15,SpaSNE,ARI,16,-0.033800809909640961
+15,SpaSNE,ARI,17,0.01762391696476362
+15,SpaSNE,ARI,18,0.028960636318352773
+15,SpaSNE,ARI,19,-0.047544899969302334
+15,SpaSNE,ARI,20,-0.03186922419994892
+15,SpaSNE,ARI,21,-0.00060635579711038057
+15,SpaSNE,ARI,22,-0.047233110265224199
+15,SpaSNE,ARI,23,-0.007628775675612931
+15,SpaSNE,ARI,24,-0.00034701299904976723
+15,SpaSNE,ARI,25,0.020469737834429014
+15,SpaSNE,ARI,26,-0.0061502215445519703
+15,SpaSNE,ARI,27,-0.0042182329065871826
+15,SpaSNE,ARI,28,-0.052499669894633005
+15,SpaSNE,ARI,29,-0.0091858284674530832
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,0,12.538747525679639
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,1,13.377083070439824
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,2,14.24611150855759
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,3,12.915021187450989
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,4,13.396816297935302
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,5,15.286560317771702
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,6,10.651437614767545
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,7,14.83841207707988
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,8,14.267910032211233
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,9,13.818038958187771
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,10,13.414239435983404
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,11,12.422855571341756
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,12,13.717991564498178
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,13,11.828663665649046
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,14,14.929747015073794
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,15,15.553717868622883
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,16,13.389898660429111
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,17,11.618777365026503
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,18,15.823072717819493
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,19,12.109421748671437
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,20,14.764949466869155
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,21,12.979530035541728
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,22,12.585849832474366
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,23,16.427202473644925
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,24,13.313273894876005
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,25,13.64349435986999
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,26,14.953157875431373
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,27,12.39856576214045
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,28,13.225015709600711
+15,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,29,12.3142595098181
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,0,-2.0781090196626479
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,1,-1.2353564207311294
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,2,-0.16598952821411928
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,3,-1.2638842405904498
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,4,-0.94613851186601039
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,5,-1.1391375423734758
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,6,-1.5273950901927407
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,7,3.4504953996776706
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,8,-1.5822811908301375
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,9,-1.3739838515773357
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,10,-1.9061649521791111
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,11,-1.0544535600265377
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,12,-1.2188708020408185
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,13,-1.0142289382549095
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,14,-1.069705095955868
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,15,-2.0395610234496502
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,16,-1.7490658569164879
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,17,-1.8429892693805456
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,18,-1.7807922178093492
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,19,-1.1968947743323142
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,20,-1.6352855851002346
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,21,-1.3405017111295052
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,22,-1.5873110675060431
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,23,-1.5861993136485069
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,24,-0.78971942139003204
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,25,-1.4651764511679914
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,26,-1.7713800880638573
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,27,-1.5586321354719175
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,28,-1.5210663683952177
+15,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,29,-1.1895802254895784
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,0,-0.001397644197716319
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,1,0.057708524215683621
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,2,0.059835024102448842
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,3,0.04194088212202135
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,4,0.052072596875497812
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,5,0.046110167420480352
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,6,0.095417209418353799
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,7,0.15601073162971552
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,8,0.010770269661095844
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,9,0.081136258102021686
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,10,0.015022503498544559
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,11,0.054189988612164619
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,12,0.040165243530612849
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,13,0.041540934751516823
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,14,0.020914285101789332
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,15,0.019598162398274388
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,16,0.057550727313010419
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,17,0.17674425839807242
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,18,0.044849320042939955
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,19,0.047235942155180788
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,20,0.068753330860494399
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,21,0.020385210010648247
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,22,0.039662803473490882
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,23,0.054823821362354863
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,24,0.055455335996882793
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,25,0.061529247113064178
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,26,0.014481398551907887
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,27,0.05188998510307502
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,28,0.04125399502455096
+15,PaCMAP feature-only + ClustGeo (alpha=0),ARI,29,0.051781452974568321
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,0,6.9736639376215663
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,1,4.3640890238298198
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,2,4.9836015746212468
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,3,4.2499374820200302
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,4,9.0513372731200121
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,5,7.4820095975525902
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,6,6.9050147252466871
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,7,2.9410379122099926
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,8,6.3740940384500533
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,9,7.8848003547985144
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,10,9.5468485428031897
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,11,5.8550792919460406
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,12,7.1348986899503757
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,13,6.0730508564902834
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,14,8.1141195137601727
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,15,1.9136253167421415
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,16,6.5924767608938168
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,17,3.5300333486907078
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,18,4.0933102389785461
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,19,6.2027867369358489
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,20,2.3777444967768986
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,21,5.5996314978793578
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,22,7.0180205151254853
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,23,5.9036384258481007
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,24,7.960141620387958
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,25,7.6902495304614433
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,26,8.5532351847340067
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,27,2.2181670195363097
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,28,6.4457717302080511
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,29,8.3708119241214121
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,0,0.81020951271288766
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,1,-0.057807602683780601
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,2,0.87804448756818232
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,3,-0.094790508514790872
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,4,-0.019756117902325343
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,5,0.94835482376326752
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,6,0.88490210197754493
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,7,5.0042271831949421
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,8,1.1587173627385141
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,9,-0.26517668143415563
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,10,-0.49609047618396573
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,11,1.0538958841433086
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,12,1.0407671144792019
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,13,1.3163849276111605
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,14,0.33771052534435597
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,15,0.48002941074670957
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,16,-0.10603757181156936
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,17,-0.67930679232675573
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,18,-0.23126279191543375
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,19,0.94177784624997685
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,20,0.23907025428076878
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,21,1.0517515304245322
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,22,0.5672607126119189
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,23,-0.47081876390097221
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,24,-0.35084289291738457
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,25,0.98477285789317648
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,26,0.00019788499082551425
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,27,-0.048787645011017844
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,28,0.67956584176929624
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,29,-0.15628236993683942
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,0,-0.017093247573044812
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,1,0.00090840131601171992
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,2,-0.019823383559246899
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,3,-0.0076952568911264896
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,4,0.012244625271575216
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,5,-0.02488712450066749
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,6,-0.022695228631668896
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,7,0.062924512232027774
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,8,-0.027378423194308332
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,9,-0.027424955577305732
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,10,0.02632546864397306
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,11,-0.029101160542212123
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,12,-0.011938526498809443
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,13,-0.0090883660118246667
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,14,-0.035619158904009407
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,15,-0.064645240945877258
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,16,-0.031297894224947387
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,17,-0.021129158010614157
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,18,-5.6223716340064733e-05
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,19,-0.024667765376281126
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,20,-0.027303557736183648
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,21,-0.012715881549368202
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,22,-0.003897351505071478
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,23,0.001738720034035246
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,24,0.033167612093526089
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,25,0.0020999841800761754
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,26,-0.026109838374703154
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,27,-0.033144683297484823
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,28,-0.028126111986260638
+15,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,29,0.011100461197361855
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,0,-22.148473911296989
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,1,-21.314940150843682
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,2,-21.405796528491464
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,3,-21.485366866639438
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,4,-21.142280698267342
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,5,-21.255881311479286
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,6,-21.558217950333216
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,7,-19.853850370620663
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,8,-21.181828295310439
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,9,-21.197800854144461
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,10,-21.635832853724239
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,11,-22.629034959956073
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,12,-21.694727050812276
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,13,-21.732662971151427
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,14,-21.580544262856833
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,15,-20.763998586756585
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,16,-20.556541640864367
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,17,-20.951416840303906
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,18,-21.43253821175793
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,19,-22.164244835908789
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,20,-21.459543563571884
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,21,-21.402346104312514
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,22,-21.078239218700489
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,23,-20.57636876162718
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,24,-21.478466759149228
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,25,-21.343799592881041
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,26,-20.931387925652402
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,27,-21.347254704999315
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,28,-20.578432832249987
+15,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,29,-21.949751523832632
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,0,15.678211948641138
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,1,15.616741674672607
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,2,15.637458434257677
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,3,14.929339587266586
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,4,15.672476881816099
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,5,15.872182414558115
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,6,14.633976449959096
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,7,20.456112670964533
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,8,15.589804130557749
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,9,15.652263829480415
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,10,15.696331017982988
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,11,15.98164519566544
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,12,15.751767598685785
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,13,15.736922626464878
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,14,15.943877945688985
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,15,14.688574717882563
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,16,14.408419941597291
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,17,14.641927828681386
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,18,15.539260705991762
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,19,15.757301182611069
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,20,15.603062424943115
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,21,15.586465271076168
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,22,14.809558003364909
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,23,14.544805875183787
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,24,15.744258762761152
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,25,15.616515006410392
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,26,15.610844701945982
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,27,14.533123464907181
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,28,14.627820427789931
+15,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,29,15.773869553206634
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,0,-0.048378132618767444
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,1,-0.046698675603542461
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,2,-0.036470684327797931
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,3,-0.054723235247622459
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,4,-0.040806490549822827
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,5,-0.044076637570495736
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,6,-0.058515178105788657
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,7,0.051950790144535519
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,8,-0.048874185170873052
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,9,-0.04481976892014472
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,10,-0.046863474893560408
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,11,-0.056031581210751968
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,12,-0.043477737527278126
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,13,-0.052851931697823207
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,14,-0.054175539651031446
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,15,-0.055032100779298321
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,16,-0.038122781606540979
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,17,-0.038617623878114737
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,18,-0.031337072530812138
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,19,-0.050767483471938324
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,20,-0.035484053062981358
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,21,-0.043046366443951878
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,22,-0.046426220148183706
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,23,-0.043663613221777142
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,24,-0.041045245899480443
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,25,-0.038594223749276846
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,26,-0.047281650920090457
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,27,-0.042249906763020428
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,28,-0.050707475863285723
+15,PaCMAP feature-only + ClustGeo (alpha=1),ARI,29,-0.047324418929483303
+20,UMAP + XYZ,spatial_contiguity,0,5.0351285722562125
+20,UMAP + XYZ,spatial_contiguity,1,6.3182376256996093
+20,UMAP + XYZ,spatial_contiguity,2,6.4587456445350995
+20,UMAP + XYZ,spatial_contiguity,3,4.1523460438445028
+20,UMAP + XYZ,spatial_contiguity,4,9.1920164839790459
+20,UMAP + XYZ,spatial_contiguity,5,5.4890914602557501
+20,UMAP + XYZ,spatial_contiguity,6,6.4573390001827562
+20,UMAP + XYZ,spatial_contiguity,7,5.1156191949727656
+20,UMAP + XYZ,spatial_contiguity,8,5.0437145580222591
+20,UMAP + XYZ,spatial_contiguity,9,7.5813563541169771
+20,UMAP + XYZ,spatial_contiguity,10,7.8369576422417282
+20,UMAP + XYZ,spatial_contiguity,11,5.5843683436305298
+20,UMAP + XYZ,spatial_contiguity,12,6.2431318662018924
+20,UMAP + XYZ,spatial_contiguity,13,6.6443691262711866
+20,UMAP + XYZ,spatial_contiguity,14,6.3277639663863567
+20,UMAP + XYZ,spatial_contiguity,15,5.3262071307346446
+20,UMAP + XYZ,spatial_contiguity,16,5.0067987804690546
+20,UMAP + XYZ,spatial_contiguity,17,4.5952350503875579
+20,UMAP + XYZ,spatial_contiguity,18,6.7327673901755531
+20,UMAP + XYZ,spatial_contiguity,19,7.6340011996713883
+20,UMAP + XYZ,spatial_contiguity,20,5.302698438470145
+20,UMAP + XYZ,spatial_contiguity,21,7.4896683638459223
+20,UMAP + XYZ,spatial_contiguity,22,5.3157832888627325
+20,UMAP + XYZ,spatial_contiguity,23,6.7354337123907584
+20,UMAP + XYZ,spatial_contiguity,24,9.253652824039591
+20,UMAP + XYZ,spatial_contiguity,25,6.4099873174843367
+20,UMAP + XYZ,spatial_contiguity,26,5.258638750914912
+20,UMAP + XYZ,spatial_contiguity,27,7.7798925180802314
+20,UMAP + XYZ,spatial_contiguity,28,5.707369721331105
+20,UMAP + XYZ,spatial_contiguity,29,5.4262124096213
+20,UMAP + XYZ,multivariate_delineation,0,3.5225003509760242
+20,UMAP + XYZ,multivariate_delineation,1,3.9425454241398583
+20,UMAP + XYZ,multivariate_delineation,2,2.0411405054673395
+20,UMAP + XYZ,multivariate_delineation,3,4.7318151069143823
+20,UMAP + XYZ,multivariate_delineation,4,2.1639767140456101
+20,UMAP + XYZ,multivariate_delineation,5,3.9307298912330566
+20,UMAP + XYZ,multivariate_delineation,6,2.0835706454094591
+20,UMAP + XYZ,multivariate_delineation,7,1.7910606498787729
+20,UMAP + XYZ,multivariate_delineation,8,5.9230539684179817
+20,UMAP + XYZ,multivariate_delineation,9,1.1737422304056224
+20,UMAP + XYZ,multivariate_delineation,10,3.9242968300767345
+20,UMAP + XYZ,multivariate_delineation,11,3.1654258798020649
+20,UMAP + XYZ,multivariate_delineation,12,3.9575666938980376
+20,UMAP + XYZ,multivariate_delineation,13,2.8704153375691206
+20,UMAP + XYZ,multivariate_delineation,14,6.3064435454629262
+20,UMAP + XYZ,multivariate_delineation,15,3.6698635046899852
+20,UMAP + XYZ,multivariate_delineation,16,4.0991444100620242
+20,UMAP + XYZ,multivariate_delineation,17,3.1925253298185226
+20,UMAP + XYZ,multivariate_delineation,18,2.9692750810770789
+20,UMAP + XYZ,multivariate_delineation,19,3.1919244790281809
+20,UMAP + XYZ,multivariate_delineation,20,2.2672870708926993
+20,UMAP + XYZ,multivariate_delineation,21,4.549357949554576
+20,UMAP + XYZ,multivariate_delineation,22,1.5817738856718435
+20,UMAP + XYZ,multivariate_delineation,23,1.897393250222116
+20,UMAP + XYZ,multivariate_delineation,24,3.1990627303336368
+20,UMAP + XYZ,multivariate_delineation,25,2.5366337287699068
+20,UMAP + XYZ,multivariate_delineation,26,3.1621553805900504
+20,UMAP + XYZ,multivariate_delineation,27,7.0746258840332175
+20,UMAP + XYZ,multivariate_delineation,28,3.014964926504426
+20,UMAP + XYZ,multivariate_delineation,29,3.0576037451641369
+20,UMAP + XYZ,ARI,0,0.038475032890402661
+20,UMAP + XYZ,ARI,1,0.14558215938700875
+20,UMAP + XYZ,ARI,2,0.15236349318862014
+20,UMAP + XYZ,ARI,3,-0.003269083873188694
+20,UMAP + XYZ,ARI,4,0.13248151650898438
+20,UMAP + XYZ,ARI,5,0.035635739372827768
+20,UMAP + XYZ,ARI,6,0.12976566480343077
+20,UMAP + XYZ,ARI,7,0.049422356528329103
+20,UMAP + XYZ,ARI,8,0.13679039608604221
+20,UMAP + XYZ,ARI,9,0.044686342333936702
+20,UMAP + XYZ,ARI,10,0.15972598570083862
+20,UMAP + XYZ,ARI,11,0.12612881498969097
+20,UMAP + XYZ,ARI,12,0.11851105343210694
+20,UMAP + XYZ,ARI,13,0.1413400692676226
+20,UMAP + XYZ,ARI,14,0.14030469860786898
+20,UMAP + XYZ,ARI,15,0.14822069478317618
+20,UMAP + XYZ,ARI,16,0.036506582988531766
+20,UMAP + XYZ,ARI,17,0.061418457377715285
+20,UMAP + XYZ,ARI,18,0.13884268957590468
+20,UMAP + XYZ,ARI,19,0.13251945951018623
+20,UMAP + XYZ,ARI,20,0.035505724040010622
+20,UMAP + XYZ,ARI,21,0.11021131386302246
+20,UMAP + XYZ,ARI,22,0.11353828661236853
+20,UMAP + XYZ,ARI,23,0.14597052083548617
+20,UMAP + XYZ,ARI,24,0.11696581555070984
+20,UMAP + XYZ,ARI,25,0.056342590947506377
+20,UMAP + XYZ,ARI,26,0.13442331004005076
+20,UMAP + XYZ,ARI,27,0.16351941092592942
+20,UMAP + XYZ,ARI,28,0.11570431764663336
+20,UMAP + XYZ,ARI,29,0.13929928292778776
+20,PaCMAP + XYZ,spatial_contiguity,0,3.6982316396377826
+20,PaCMAP + XYZ,spatial_contiguity,1,5.1037316926273633
+20,PaCMAP + XYZ,spatial_contiguity,2,5.0508844452397454
+20,PaCMAP + XYZ,spatial_contiguity,3,2.6627013948509841
+20,PaCMAP + XYZ,spatial_contiguity,4,4.7711499641813049
+20,PaCMAP + XYZ,spatial_contiguity,5,4.8765607255273977
+20,PaCMAP + XYZ,spatial_contiguity,6,5.4110385544215518
+20,PaCMAP + XYZ,spatial_contiguity,7,6.8434886960221206
+20,PaCMAP + XYZ,spatial_contiguity,8,4.4594335195406813
+20,PaCMAP + XYZ,spatial_contiguity,9,4.0205456433411371
+20,PaCMAP + XYZ,spatial_contiguity,10,6.4460135997324244
+20,PaCMAP + XYZ,spatial_contiguity,11,4.7957826279812252
+20,PaCMAP + XYZ,spatial_contiguity,12,4.8858026382920912
+20,PaCMAP + XYZ,spatial_contiguity,13,5.4759240646069145
+20,PaCMAP + XYZ,spatial_contiguity,14,3.7801137760848178
+20,PaCMAP + XYZ,spatial_contiguity,15,4.5110657184805376
+20,PaCMAP + XYZ,spatial_contiguity,16,3.7737096880359218
+20,PaCMAP + XYZ,spatial_contiguity,17,4.5611343691616213
+20,PaCMAP + XYZ,spatial_contiguity,18,4.7957083603107833
+20,PaCMAP + XYZ,spatial_contiguity,19,6.374237102727804
+20,PaCMAP + XYZ,spatial_contiguity,20,4.9689989116480575
+20,PaCMAP + XYZ,spatial_contiguity,21,4.2836529059503192
+20,PaCMAP + XYZ,spatial_contiguity,22,3.8575886715228336
+20,PaCMAP + XYZ,spatial_contiguity,23,5.5255325927290926
+20,PaCMAP + XYZ,spatial_contiguity,24,6.4347534492321472
+20,PaCMAP + XYZ,spatial_contiguity,25,4.4901954004421896
+20,PaCMAP + XYZ,spatial_contiguity,26,4.5374759050958318
+20,PaCMAP + XYZ,spatial_contiguity,27,6.0954197067601541
+20,PaCMAP + XYZ,spatial_contiguity,28,4.7628726445178557
+20,PaCMAP + XYZ,spatial_contiguity,29,5.7307905338210645
+20,PaCMAP + XYZ,multivariate_delineation,0,3.3204777648868742
+20,PaCMAP + XYZ,multivariate_delineation,1,2.6834751856898791
+20,PaCMAP + XYZ,multivariate_delineation,2,1.2507806562888035
+20,PaCMAP + XYZ,multivariate_delineation,3,3.0349153314886621
+20,PaCMAP + XYZ,multivariate_delineation,4,1.025256529107331
+20,PaCMAP + XYZ,multivariate_delineation,5,2.5916277666750318
+20,PaCMAP + XYZ,multivariate_delineation,6,1.3631829289871433
+20,PaCMAP + XYZ,multivariate_delineation,7,1.0247708114025755
+20,PaCMAP + XYZ,multivariate_delineation,8,1.3932506538659766
+20,PaCMAP + XYZ,multivariate_delineation,9,0.98989987811004454
+20,PaCMAP + XYZ,multivariate_delineation,10,2.9854872586891474
+20,PaCMAP + XYZ,multivariate_delineation,11,2.0579895129589829
+20,PaCMAP + XYZ,multivariate_delineation,12,2.8048614369717271
+20,PaCMAP + XYZ,multivariate_delineation,13,1.3501153237747374
+20,PaCMAP + XYZ,multivariate_delineation,14,1.5509254145564597
+20,PaCMAP + XYZ,multivariate_delineation,15,2.8544550135817488
+20,PaCMAP + XYZ,multivariate_delineation,16,2.1613034677149869
+20,PaCMAP + XYZ,multivariate_delineation,17,1.8619646410463488
+20,PaCMAP + XYZ,multivariate_delineation,18,2.4954700527691003
+20,PaCMAP + XYZ,multivariate_delineation,19,1.6351344729254151
+20,PaCMAP + XYZ,multivariate_delineation,20,0.99799157528038052
+20,PaCMAP + XYZ,multivariate_delineation,21,0.92386025980787423
+20,PaCMAP + XYZ,multivariate_delineation,22,1.5941830735511147
+20,PaCMAP + XYZ,multivariate_delineation,23,1.6266074287752517
+20,PaCMAP + XYZ,multivariate_delineation,24,1.2806145170875851
+20,PaCMAP + XYZ,multivariate_delineation,25,0.8315954833578374
+20,PaCMAP + XYZ,multivariate_delineation,26,1.4085993333362623
+20,PaCMAP + XYZ,multivariate_delineation,27,2.5522666430452006
+20,PaCMAP + XYZ,multivariate_delineation,28,1.381654593403546
+20,PaCMAP + XYZ,multivariate_delineation,29,1.4187850135004325
+20,PaCMAP + XYZ,ARI,0,-0.089305086652765153
+20,PaCMAP + XYZ,ARI,1,0.010262002516533031
+20,PaCMAP + XYZ,ARI,2,0.027976573132257931
+20,PaCMAP + XYZ,ARI,3,-0.095716792037679022
+20,PaCMAP + XYZ,ARI,4,0.00085498121766092172
+20,PaCMAP + XYZ,ARI,5,-0.070778669592665988
+20,PaCMAP + XYZ,ARI,6,0.0015504181669000472
+20,PaCMAP + XYZ,ARI,7,-0.04269187760472587
+20,PaCMAP + XYZ,ARI,8,0.0085066149535749647
+20,PaCMAP + XYZ,ARI,9,-0.074600866946032574
+20,PaCMAP + XYZ,ARI,10,0.027087833358257596
+20,PaCMAP + XYZ,ARI,11,0.013712090208621186
+20,PaCMAP + XYZ,ARI,12,0.01533579896384063
+20,PaCMAP + XYZ,ARI,13,0.010925038428182821
+20,PaCMAP + XYZ,ARI,14,-0.016506787470254414
+20,PaCMAP + XYZ,ARI,15,0.016018381687514405
+20,PaCMAP + XYZ,ARI,16,-0.091676547526835739
+20,PaCMAP + XYZ,ARI,17,-0.053973610446234943
+20,PaCMAP + XYZ,ARI,18,0.018302844677221153
+20,PaCMAP + XYZ,ARI,19,0.018185401857309824
+20,PaCMAP + XYZ,ARI,20,-0.065407968323921095
+20,PaCMAP + XYZ,ARI,21,-0.05142027371815816
+20,PaCMAP + XYZ,ARI,22,0.00019886461608581429
+20,PaCMAP + XYZ,ARI,23,0.022154049914479168
+20,PaCMAP + XYZ,ARI,24,0.0070119764372704174
+20,PaCMAP + XYZ,ARI,25,-0.064185909578773459
+20,PaCMAP + XYZ,ARI,26,-0.0052458842010160156
+20,PaCMAP + XYZ,ARI,27,0.13813720383983541
+20,PaCMAP + XYZ,ARI,28,0.00045045717802172369
+20,PaCMAP + XYZ,ARI,29,0.021758669756373306
+20,LocalMAP + XYZ,spatial_contiguity,0,-3.4709275403598383
+20,LocalMAP + XYZ,spatial_contiguity,1,-2.0709129028407602
+20,LocalMAP + XYZ,spatial_contiguity,2,-1.6127035741097586
+20,LocalMAP + XYZ,spatial_contiguity,3,-3.9439942779165165
+20,LocalMAP + XYZ,spatial_contiguity,4,-1.8333690208352635
+20,LocalMAP + XYZ,spatial_contiguity,5,-1.9645902551394983
+20,LocalMAP + XYZ,spatial_contiguity,6,-1.5386786839652302
+20,LocalMAP + XYZ,spatial_contiguity,7,-0.15966341490430125
+20,LocalMAP + XYZ,spatial_contiguity,8,-2.9258150435209984
+20,LocalMAP + XYZ,spatial_contiguity,9,-2.8188937819059987
+20,LocalMAP + XYZ,spatial_contiguity,10,-0.19742389280231976
+20,LocalMAP + XYZ,spatial_contiguity,11,-1.5566023356932845
+20,LocalMAP + XYZ,spatial_contiguity,12,-1.9414268158291321
+20,LocalMAP + XYZ,spatial_contiguity,13,-1.7318945605437364
+20,LocalMAP + XYZ,spatial_contiguity,14,-2.425322236978289
+20,LocalMAP + XYZ,spatial_contiguity,15,-1.9124104960676505
+20,LocalMAP + XYZ,spatial_contiguity,16,-2.6362387743974409
+20,LocalMAP + XYZ,spatial_contiguity,17,-1.1286518676909481
+20,LocalMAP + XYZ,spatial_contiguity,18,-0.38593785129593527
+20,LocalMAP + XYZ,spatial_contiguity,19,-0.6431652507389316
+20,LocalMAP + XYZ,spatial_contiguity,20,-2.085990708367774
+20,LocalMAP + XYZ,spatial_contiguity,21,-2.1219373966076205
+20,LocalMAP + XYZ,spatial_contiguity,22,-2.6817346574437693
+20,LocalMAP + XYZ,spatial_contiguity,23,-0.99960822213733991
+20,LocalMAP + XYZ,spatial_contiguity,24,1.6027466646102795
+20,LocalMAP + XYZ,spatial_contiguity,25,-1.9345356400463203
+20,LocalMAP + XYZ,spatial_contiguity,26,-2.2771107696648727
+20,LocalMAP + XYZ,spatial_contiguity,27,7.0563021837058102
+20,LocalMAP + XYZ,spatial_contiguity,28,-0.082484234408099155
+20,LocalMAP + XYZ,spatial_contiguity,29,-1.5632411872447278
+20,LocalMAP + XYZ,multivariate_delineation,0,7.9243116534615012
+20,LocalMAP + XYZ,multivariate_delineation,1,7.6366264537980584
+20,LocalMAP + XYZ,multivariate_delineation,2,6.7422798408947031
+20,LocalMAP + XYZ,multivariate_delineation,3,8.1627990464965734
+20,LocalMAP + XYZ,multivariate_delineation,4,5.654685941768129
+20,LocalMAP + XYZ,multivariate_delineation,5,7.6883068175840776
+20,LocalMAP + XYZ,multivariate_delineation,6,5.8440762696247077
+20,LocalMAP + XYZ,multivariate_delineation,7,6.4936787258739557
+20,LocalMAP + XYZ,multivariate_delineation,8,6.6149606377969974
+20,LocalMAP + XYZ,multivariate_delineation,9,5.1614881843591647
+20,LocalMAP + XYZ,multivariate_delineation,10,7.2638327185346441
+20,LocalMAP + XYZ,multivariate_delineation,11,6.4625748032249604
+20,LocalMAP + XYZ,multivariate_delineation,12,7.9452442875820068
+20,LocalMAP + XYZ,multivariate_delineation,13,6.2704104875878954
+20,LocalMAP + XYZ,multivariate_delineation,14,5.5845806863817273
+20,LocalMAP + XYZ,multivariate_delineation,15,7.7644853432343979
+20,LocalMAP + XYZ,multivariate_delineation,16,6.3091707604274063
+20,LocalMAP + XYZ,multivariate_delineation,17,6.4076599193161812
+20,LocalMAP + XYZ,multivariate_delineation,18,6.9387868326031921
+20,LocalMAP + XYZ,multivariate_delineation,19,6.1699892516068786
+20,LocalMAP + XYZ,multivariate_delineation,20,5.5852606911683793
+20,LocalMAP + XYZ,multivariate_delineation,21,5.8050857306140458
+20,LocalMAP + XYZ,multivariate_delineation,22,5.642489030515371
+20,LocalMAP + XYZ,multivariate_delineation,23,6.1088607789861342
+20,LocalMAP + XYZ,multivariate_delineation,24,6.2710437195585413
+20,LocalMAP + XYZ,multivariate_delineation,25,5.8249174046037879
+20,LocalMAP + XYZ,multivariate_delineation,26,6.2970637968977528
+20,LocalMAP + XYZ,multivariate_delineation,27,14.285907544822209
+20,LocalMAP + XYZ,multivariate_delineation,28,5.2091388901501574
+20,LocalMAP + XYZ,multivariate_delineation,29,6.5454022645670591
+20,LocalMAP + XYZ,ARI,0,-0.01936068773185301
+20,LocalMAP + XYZ,ARI,1,0.081040357714461553
+20,LocalMAP + XYZ,ARI,2,0.086958274793249579
+20,LocalMAP + XYZ,ARI,3,-0.030319903053166841
+20,LocalMAP + XYZ,ARI,4,0.086142723935693666
+20,LocalMAP + XYZ,ARI,5,-0.006435008938192488
+20,LocalMAP + XYZ,ARI,6,0.097839418018591584
+20,LocalMAP + XYZ,ARI,7,0.026169174351145186
+20,LocalMAP + XYZ,ARI,8,0.068316058302369476
+20,LocalMAP + XYZ,ARI,9,0.0087177651980733795
+20,LocalMAP + XYZ,ARI,10,0.10549797612140299
+20,LocalMAP + XYZ,ARI,11,0.09910403786100147
+20,LocalMAP + XYZ,ARI,12,0.082026853177974701
+20,LocalMAP + XYZ,ARI,13,0.083351952100624793
+20,LocalMAP + XYZ,ARI,14,0.089654070531409891
+20,LocalMAP + XYZ,ARI,15,0.080591285265649015
+20,LocalMAP + XYZ,ARI,16,-0.0080521520895598386
+20,LocalMAP + XYZ,ARI,17,0.02861993915680866
+20,LocalMAP + XYZ,ARI,18,0.10203132351903083
+20,LocalMAP + XYZ,ARI,19,0.094903014799729235
+20,LocalMAP + XYZ,ARI,20,0.0053457919553940858
+20,LocalMAP + XYZ,ARI,21,0.015703235204442112
+20,LocalMAP + XYZ,ARI,22,0.076730604584149376
+20,LocalMAP + XYZ,ARI,23,0.08400263549768433
+20,LocalMAP + XYZ,ARI,24,0.10692468399690802
+20,LocalMAP + XYZ,ARI,25,0.0026159785909414812
+20,LocalMAP + XYZ,ARI,26,0.089798111899446087
+20,LocalMAP + XYZ,ARI,27,0.16056774477332297
+20,LocalMAP + XYZ,ARI,28,0.12548344788721999
+20,LocalMAP + XYZ,ARI,29,0.079515091451479669
+20,PaCMAP feature-only,spatial_contiguity,0,11.584320237299245
+20,PaCMAP feature-only,spatial_contiguity,1,12.897203633615263
+20,PaCMAP feature-only,spatial_contiguity,2,12.820436868668466
+20,PaCMAP feature-only,spatial_contiguity,3,11.924362810850802
+20,PaCMAP feature-only,spatial_contiguity,4,12.396830339970123
+20,PaCMAP feature-only,spatial_contiguity,5,11.968489568315661
+20,PaCMAP feature-only,spatial_contiguity,6,12.332487561878025
+20,PaCMAP feature-only,spatial_contiguity,7,11.316482671365435
+20,PaCMAP feature-only,spatial_contiguity,8,11.434660642056343
+20,PaCMAP feature-only,spatial_contiguity,9,11.67912647875994
+20,PaCMAP feature-only,spatial_contiguity,10,13.213192205697496
+20,PaCMAP feature-only,spatial_contiguity,11,12.529363295654179
+20,PaCMAP feature-only,spatial_contiguity,12,12.530347269173177
+20,PaCMAP feature-only,spatial_contiguity,13,12.746598558411179
+20,PaCMAP feature-only,spatial_contiguity,14,12.163301964641107
+20,PaCMAP feature-only,spatial_contiguity,15,12.136871845120439
+20,PaCMAP feature-only,spatial_contiguity,16,11.202518339100038
+20,PaCMAP feature-only,spatial_contiguity,17,11.136996609117389
+20,PaCMAP feature-only,spatial_contiguity,18,11.789360673301516
+20,PaCMAP feature-only,spatial_contiguity,19,14.173104498629385
+20,PaCMAP feature-only,spatial_contiguity,20,12.090482471505254
+20,PaCMAP feature-only,spatial_contiguity,21,11.899137103031677
+20,PaCMAP feature-only,spatial_contiguity,22,12.54382379082238
+20,PaCMAP feature-only,spatial_contiguity,23,13.258811388428512
+20,PaCMAP feature-only,spatial_contiguity,24,14.773039597967383
+20,PaCMAP feature-only,spatial_contiguity,25,11.99158194500616
+20,PaCMAP feature-only,spatial_contiguity,26,12.007878001802922
+20,PaCMAP feature-only,spatial_contiguity,27,13.05058427267349
+20,PaCMAP feature-only,spatial_contiguity,28,12.456353619353081
+20,PaCMAP feature-only,spatial_contiguity,29,12.826907682829713
+20,PaCMAP feature-only,multivariate_delineation,0,-0.38958157830332851
+20,PaCMAP feature-only,multivariate_delineation,1,-0.62733499791789171
+20,PaCMAP feature-only,multivariate_delineation,2,2.3031078521411956
+20,PaCMAP feature-only,multivariate_delineation,3,-0.69754459266309965
+20,PaCMAP feature-only,multivariate_delineation,4,1.7632128348061045
+20,PaCMAP feature-only,multivariate_delineation,5,3.5853989947874254
+20,PaCMAP feature-only,multivariate_delineation,6,1.9482784761359042
+20,PaCMAP feature-only,multivariate_delineation,7,-0.22188304335026743
+20,PaCMAP feature-only,multivariate_delineation,8,2.2410259336555569
+20,PaCMAP feature-only,multivariate_delineation,9,1.1900695411032629
+20,PaCMAP feature-only,multivariate_delineation,10,3.0634251618033588
+20,PaCMAP feature-only,multivariate_delineation,11,2.3846256746349113
+20,PaCMAP feature-only,multivariate_delineation,12,-1.1517446152435795
+20,PaCMAP feature-only,multivariate_delineation,13,2.0221291547123172
+20,PaCMAP feature-only,multivariate_delineation,14,2.1195029618346126
+20,PaCMAP feature-only,multivariate_delineation,15,-0.67561173986167944
+20,PaCMAP feature-only,multivariate_delineation,16,-0.34553957516322242
+20,PaCMAP feature-only,multivariate_delineation,17,0.67323352206285847
+20,PaCMAP feature-only,multivariate_delineation,18,-0.88016005801555508
+20,PaCMAP feature-only,multivariate_delineation,19,2.141576133084051
+20,PaCMAP feature-only,multivariate_delineation,20,1.55415273886139
+20,PaCMAP feature-only,multivariate_delineation,21,1.1248646376715001
+20,PaCMAP feature-only,multivariate_delineation,22,-0.67761937304133824
+20,PaCMAP feature-only,multivariate_delineation,23,1.6972127935021248
+20,PaCMAP feature-only,multivariate_delineation,24,2.1593821843495107
+20,PaCMAP feature-only,multivariate_delineation,25,1.1294267861872882
+20,PaCMAP feature-only,multivariate_delineation,26,2.0132027426715879
+20,PaCMAP feature-only,multivariate_delineation,27,1.3511047487288792
+20,PaCMAP feature-only,multivariate_delineation,28,2.0223342355209866
+20,PaCMAP feature-only,multivariate_delineation,29,1.8181672957130672
+20,PaCMAP feature-only,ARI,0,-0.019128498976924202
+20,PaCMAP feature-only,ARI,1,0.089334286587243406
+20,PaCMAP feature-only,ARI,2,0.18918393996137628
+20,PaCMAP feature-only,ARI,3,-0.030131783041354943
+20,PaCMAP feature-only,ARI,4,0.18600143267004388
+20,PaCMAP feature-only,ARI,5,0.07113951150028397
+20,PaCMAP feature-only,ARI,6,0.17882052269316884
+20,PaCMAP feature-only,ARI,7,0.10026226608122429
+20,PaCMAP feature-only,ARI,8,0.165745412230006
+20,PaCMAP feature-only,ARI,9,0.10027542095037234
+20,PaCMAP feature-only,ARI,10,0.19690871735661547
+20,PaCMAP feature-only,ARI,11,0.19209799004458655
+20,PaCMAP feature-only,ARI,12,0.085684061907709053
+20,PaCMAP feature-only,ARI,13,0.18406860569138261
+20,PaCMAP feature-only,ARI,14,0.18042663571009759
+20,PaCMAP feature-only,ARI,15,0.080271074428847511
+20,PaCMAP feature-only,ARI,16,0.088278302711645495
+20,PaCMAP feature-only,ARI,17,0.11935095965717751
+20,PaCMAP feature-only,ARI,18,0.20156061797262775
+20,PaCMAP feature-only,ARI,19,0.19993201633822322
+20,PaCMAP feature-only,ARI,20,0.10640049154603198
+20,PaCMAP feature-only,ARI,21,0.11827609343916462
+20,PaCMAP feature-only,ARI,22,0.074193320747294178
+20,PaCMAP feature-only,ARI,23,0.19337990810726163
+20,PaCMAP feature-only,ARI,24,0.20006119851951742
+20,PaCMAP feature-only,ARI,25,0.10614842769549948
+20,PaCMAP feature-only,ARI,26,0.18287910884881486
+20,PaCMAP feature-only,ARI,27,0.19315103907882375
+20,PaCMAP feature-only,ARI,28,0.18688161620718885
+20,PaCMAP feature-only,ARI,29,0.18974391620322484
+20,SpaSNE,spatial_contiguity,0,-6.2163587743594491
+20,SpaSNE,spatial_contiguity,1,-4.517089966325571
+20,SpaSNE,spatial_contiguity,2,-4.4285010699738763
+20,SpaSNE,spatial_contiguity,3,-5.8811287597766864
+20,SpaSNE,spatial_contiguity,4,-2.101434192484362
+20,SpaSNE,spatial_contiguity,5,-2.4930493077747542
+20,SpaSNE,spatial_contiguity,6,-3.7768464376951982
+20,SpaSNE,spatial_contiguity,7,-3.2159106116613572
+20,SpaSNE,spatial_contiguity,8,-2.7039150143523187
+20,SpaSNE,spatial_contiguity,9,-3.7989981513854332
+20,SpaSNE,spatial_contiguity,10,-0.70874525268280308
+20,SpaSNE,spatial_contiguity,11,-3.1790436330699947
+20,SpaSNE,spatial_contiguity,12,-2.576465474425703
+20,SpaSNE,spatial_contiguity,13,-3.5583925625987973
+20,SpaSNE,spatial_contiguity,14,-2.8923439001744811
+20,SpaSNE,spatial_contiguity,15,-2.6975775212716826
+20,SpaSNE,spatial_contiguity,16,-2.49747452485623
+20,SpaSNE,spatial_contiguity,17,-5.3076420527207944
+20,SpaSNE,spatial_contiguity,18,-3.9987037891364139
+20,SpaSNE,spatial_contiguity,19,-0.29292390195740836
+20,SpaSNE,spatial_contiguity,20,-1.9971116183151025
+20,SpaSNE,spatial_contiguity,21,-3.5029567305208502
+20,SpaSNE,spatial_contiguity,22,-3.2204650484025592
+20,SpaSNE,spatial_contiguity,23,-2.5151343663722088
+20,SpaSNE,spatial_contiguity,24,-1.4307056551284063
+20,SpaSNE,spatial_contiguity,25,-4.4219921390373145
+20,SpaSNE,spatial_contiguity,26,-2.8935805318810424
+20,SpaSNE,spatial_contiguity,27,-1.6049945077658236
+20,SpaSNE,spatial_contiguity,28,-1.8651747266422802
+20,SpaSNE,spatial_contiguity,29,-2.8813336356374606
+20,SpaSNE,multivariate_delineation,0,3.7268220008676778
+20,SpaSNE,multivariate_delineation,1,6.8517642094555811
+20,SpaSNE,multivariate_delineation,2,3.4621130475936397
+20,SpaSNE,multivariate_delineation,3,8.0518323394589615
+20,SpaSNE,multivariate_delineation,4,1.5287586976749807
+20,SpaSNE,multivariate_delineation,5,3.1907011899939945
+20,SpaSNE,multivariate_delineation,6,1.4720700446666086
+20,SpaSNE,multivariate_delineation,7,3.878668149101081
+20,SpaSNE,multivariate_delineation,8,5.2522094578807526
+20,SpaSNE,multivariate_delineation,9,1.7796732681339478
+20,SpaSNE,multivariate_delineation,10,3.2148395609658778
+20,SpaSNE,multivariate_delineation,11,2.4305241987798638
+20,SpaSNE,multivariate_delineation,12,6.8888406609186035
+20,SpaSNE,multivariate_delineation,13,2.9175443465661246
+20,SpaSNE,multivariate_delineation,14,4.374409628119416
+20,SpaSNE,multivariate_delineation,15,6.0837077976976488
+20,SpaSNE,multivariate_delineation,16,3.4997759582113019
+20,SpaSNE,multivariate_delineation,17,2.2674885537924538
+20,SpaSNE,multivariate_delineation,18,7.7258509972072389
+20,SpaSNE,multivariate_delineation,19,2.9947266888062813
+20,SpaSNE,multivariate_delineation,20,1.9988075090661894
+20,SpaSNE,multivariate_delineation,21,1.7873763911404765
+20,SpaSNE,multivariate_delineation,22,4.5965301334586712
+20,SpaSNE,multivariate_delineation,23,2.2225290838766938
+20,SpaSNE,multivariate_delineation,24,4.959328877730897
+20,SpaSNE,multivariate_delineation,25,4.7421842804336904
+20,SpaSNE,multivariate_delineation,26,1.8795943947745144
+20,SpaSNE,multivariate_delineation,27,2.8494791055397002
+20,SpaSNE,multivariate_delineation,28,1.7779930446663812
+20,SpaSNE,multivariate_delineation,29,1.9672178687124457
+20,SpaSNE,ARI,0,-0.046067446355399388
+20,SpaSNE,ARI,1,0.062295794541899874
+20,SpaSNE,ARI,2,0.064343889165457691
+20,SpaSNE,ARI,3,-0.042785239772434203
+20,SpaSNE,ARI,4,-0.0023660382901339871
+20,SpaSNE,ARI,5,-0.081275213051222484
+20,SpaSNE,ARI,6,0.042000570747820654
+20,SpaSNE,ARI,7,-0.037944984965203654
+20,SpaSNE,ARI,8,-0.00090514058622986893
+20,SpaSNE,ARI,9,-0.035816181040916217
+20,SpaSNE,ARI,10,0.020892040613499419
+20,SpaSNE,ARI,11,0.045224686368753653
+20,SpaSNE,ARI,12,0.0533683005173608
+20,SpaSNE,ARI,13,0.064541954195875439
+20,SpaSNE,ARI,14,-0.00796667745047408
+20,SpaSNE,ARI,15,0.048539207189980171
+20,SpaSNE,ARI,16,-0.088787629540005353
+20,SpaSNE,ARI,17,-0.0077471881627481642
+20,SpaSNE,ARI,18,0.074201193048634984
+20,SpaSNE,ARI,19,0.017173165859045381
+20,SpaSNE,ARI,20,-0.073015383142954249
+20,SpaSNE,ARI,21,-0.017619398419908117
+20,SpaSNE,ARI,22,-0.0068147840058378484
+20,SpaSNE,ARI,23,0.044297140507173371
+20,SpaSNE,ARI,24,0.056128598880155756
+20,SpaSNE,ARI,25,-0.0153013527434534
+20,SpaSNE,ARI,26,0.045467085974007559
+20,SpaSNE,ARI,27,0.05209850824053619
+20,SpaSNE,ARI,28,0.0029201068650431261
+20,SpaSNE,ARI,29,0.043074002213451756
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,0,11.902056691490628
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,1,12.756290810785018
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,2,13.680600154791591
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,3,10.785407534443408
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,4,13.704370527854351
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,5,10.576073776397863
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,6,12.027204455518316
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,7,12.88809525483596
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,8,12.296701085580523
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,9,13.356450155221019
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,10,13.566650597650948
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,11,11.34324978139729
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,12,10.656182624106137
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,13,11.392214734012782
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,14,12.134448126220079
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,15,9.5051377270400224
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,16,11.884591337063327
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,17,10.673914732393328
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,18,11.454880603666695
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,19,12.21406222275634
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,20,11.781014218860136
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,21,12.821647700152596
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,22,11.825755744320588
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,23,13.198640517665851
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,24,14.408385304586716
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,25,11.376331723873292
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,26,11.070441299069373
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,27,14.180926076463777
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,28,11.101443379415173
+20,PaCMAP feature-only + ClustGeo (alpha=0),spatial_contiguity,29,12.958255843977057
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,0,-0.63618585387120419
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,1,-0.15089270236853025
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,2,0.73889895783689497
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,3,-0.70841027761392183
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,4,0.49428792381297626
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,5,4.8078749015702087
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,6,-0.81621082479831131
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,7,1.2246490437729491
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,8,0.042005586689050745
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,9,-0.28307627833164162
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,10,-0.36461568827890289
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,11,1.3317084217189716
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,12,0.01165002909628754
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,13,0.95434894003084736
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,14,2.2293687087414327
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,15,-0.1213934470996918
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,16,-0.66642627837840962
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,17,0.51531410356552243
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,18,-0.51547960737602239
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,19,3.7481576007876782
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,20,-1.4016337816591715
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,21,-1.7098342580079233
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,22,-0.77306110307138454
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,23,0.39496764796274419
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,24,0.68706388396715568
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,25,-1.5687062804594447
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,26,2.5080123632785671
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,27,4.9299195701851701
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,28,0.26388503213041048
+20,PaCMAP feature-only + ClustGeo (alpha=0),multivariate_delineation,29,0.0056846961001042473
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,0,-0.036463388510872219
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,1,0.091279176997092037
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,2,0.22400316484356539
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,3,-0.049892726953195021
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,4,0.10256920113373202
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,5,0.071670017317269852
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,6,0.19258190580675932
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,7,-0.0083314767751156427
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,8,0.073400391192392056
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,9,0.1316311207027937
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,10,0.20542650191845019
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,11,0.064413474919385982
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,12,0.088962538500654109
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,13,0.1846168511150153
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,14,0.16598534392062142
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,15,0.070352572389688062
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,16,0.09390132639278076
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,17,0.11032718738927655
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,18,0.067010467108964578
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,19,0.20520065651910335
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,20,0.098132804811941865
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,21,0.018991929396587115
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,22,0.086957984338631333
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,23,0.21445772123948964
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,24,0.21772779087302963
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,25,-0.013785596360213537
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,26,0.17960613889574717
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,27,0.18828545716444084
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,28,0.063731059027491821
+20,PaCMAP feature-only + ClustGeo (alpha=0),ARI,29,0.20229778270971538
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,0,3.5967327040135899
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,1,1.4782622132181729
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,2,3.5209344198553794
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,3,1.9876476025506236
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,4,4.2767653656625697
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,5,3.6084554431874523
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,6,4.1880254351223272
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,7,4.6910585034765262
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,8,3.7975505944009029
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,9,3.3326321946791211
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,10,3.1233358388226549
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,11,2.3722732974533471
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,12,2.9352785666091847
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,13,2.1330398797089742
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,14,3.5886928608039312
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,15,4.095283211144789
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,16,2.2197268649488535
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,17,3.4015038489000347
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,18,3.3858931152126814
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,19,3.2710843292289127
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,20,-0.66116060733646975
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,21,3.1907323288933327
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,22,1.2499618524862939
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,23,4.4086517572746686
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,24,6.3182519900044127
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,25,0.75566042513220566
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,26,3.6550561460299775
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,27,6.1278503043289447
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,28,3.0767322298096076
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),spatial_contiguity,29,2.8924016314619081
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,0,0.89038531517790886
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,1,2.4422138048743207
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,2,3.2102989999036353
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,3,1.4436141829857618
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,4,2.4291821787511623
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,5,3.8685868082957171
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,6,4.101274372145113
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,7,3.7242207127155353
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,8,4.566973311647061
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,9,3.5816103966903228
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,10,3.514520188982317
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,11,3.3048700359740479
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,12,1.4971294803230748
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,13,5.9083385209183419
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,14,5.3776793357914769
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,15,1.3163381547951403
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,16,5.920416701176606
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,17,5.324286367357594
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,18,2.0614794846153828
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,19,2.8160185525454082
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,20,4.7682835117692335
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,21,1.3474492732619723
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,22,2.9927082618998568
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,23,4.2734199225283902
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,24,5.1901095498505043
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,25,5.3220736533692516
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,26,5.0911238795302154
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,27,5.11844280199103
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,28,5.3016267369534944
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),multivariate_delineation,29,3.2210819329492324
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,0,-0.06417489510915303
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,1,0.0094527467710739943
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,2,0.046614595671867431
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,3,-0.055226655410769321
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,4,0.020744619960295863
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,5,-0.044755131817392269
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,6,0.0052569364302208488
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,7,-0.065034947747478644
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,8,0.0011557348794584144
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,9,-0.06919169468907288
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,10,0.029149727762563971
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,11,0.034177611840555289
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,12,0.0064129898903574345
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,13,-0.0045914367220857288
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,14,-0.0082578287915509585
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,15,0.041090573415641762
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,16,-0.094731357851637665
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,17,-0.06747922400077877
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,18,0.029929078911822671
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,19,0.016047670359389143
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,20,-0.093774182564369812
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,21,-0.028060464084317671
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,22,0.0060762051279154017
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,23,0.012485365493564382
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,24,0.013504219932013395
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,25,0.0086485618021119315
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,26,-0.013397931532672935
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,27,0.024735334711921575
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,28,0.015857908442626245
+20,PaCMAP feature-only + ClustGeo (alpha=0.5),ARI,29,0.0074223486191543064
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,0,-24.424109643336706
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,1,-22.998637834836074
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,2,-22.533941901111888
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,3,-24.622369495053192
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,4,-22.506291191869892
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,5,-22.630619322026533
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,6,-22.256641338293022
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,7,-22.940684395270168
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,8,-23.847718517062418
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,9,-23.419890856786111
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,10,-21.699432739384307
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,11,-22.426794876850565
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,12,-22.663909245239395
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,13,-22.031939692539169
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,14,-23.350889971923124
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,15,-22.615835624073654
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,16,-23.403423859753445
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,17,-23.493531590114884
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,18,-22.756501252759534
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,19,-21.006131575281501
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,20,-23.012753914256479
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,21,-22.936036815759934
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,22,-23.600015501686627
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,23,-21.901371464114646
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,24,-20.639564294391647
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,25,-22.904925699286963
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,26,-22.699195926966851
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,27,-21.074413857406356
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,28,-22.556664914850103
+20,PaCMAP feature-only + ClustGeo (alpha=1),spatial_contiguity,29,-22.245099741610957
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,0,18.456096264499845
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,1,18.146471016217138
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,2,17.144295072858004
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,3,18.464339073844993
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,4,16.606454461518592
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,5,17.985795599483946
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,6,16.671788889671635
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,7,16.500621970515706
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,8,16.920998051300561
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,9,16.105765857729612
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,10,18.019572768463544
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,11,17.234613380580111
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,12,18.232018496705859
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,13,16.840419283036045
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,14,16.975135786881747
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,15,18.154332447216337
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,16,17.594084059097522
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,17,16.994953069235788
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,18,18.095787273203111
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,19,17.079374404231249
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,20,16.361847025403609
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,21,16.121650625629581
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,22,16.44728297071568
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,23,16.571918133756004
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,24,17.01134874020298
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,25,16.059752200499087
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,26,16.787026314602162
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,27,17.612131170260891
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,28,16.865176494342894
+20,PaCMAP feature-only + ClustGeo (alpha=1),multivariate_delineation,29,16.821087718386774
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,0,-0.10194139642832462
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,1,0.00375357954622213
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,2,0.0095507023337342845
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,3,-0.10243340647195487
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,4,0.002438201258261552
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,5,-0.079513038764914279
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,6,0.0037818819072154564
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,7,-0.077805628639017521
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,8,-0.0069344818936323271
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,9,-0.077842447255401237
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,10,0.016859269245847963
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,11,0.0088133175885779513
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,12,0.0093320370803638419
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,13,0.007284944591927911
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,14,-0.0038882402775111125
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,15,0.0085942067523676058
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,16,-0.09310960123690537
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,17,-0.063988729005626521
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,18,0.013903484199470073
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,19,0.013950582356409391
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,20,-0.076630212005986686
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,21,-0.060059409066749614
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,22,-0.0060078938887973554
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,23,0.0082623029610091603
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,24,0.01543036597972508
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,25,-0.07436531432715926
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,26,0.0043356565984690731
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,27,0.014066834384102944
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,28,0.0047123008963904089
+20,PaCMAP feature-only + ClustGeo (alpha=1),ARI,29,0.0049354117514215368
