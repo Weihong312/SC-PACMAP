@@ -14,7 +14,9 @@ Minimal code, data preparation, and notebooks for three SC-PaCMAP benchmark expe
 - `code/spasne/spasne_adapter.py` and `spasne_wsl_bridge.py`: project-authored SpaSNE integration.
 - `data_preparation/prepare_datasets.ipynb`: creates the two real-data analysis files.
 - `data/processed/`: prepared real datasets used directly by the benchmark notebooks.
-- `notebooks/`: the three benchmark experiments.
+- `notebooks/Experiment_Benchmarks/`: the three main experiments and combined paper figures.
+- `notebooks/synthetic_data.ipynb`: shared synthetic-data definitions and inspection.
+- `code/synthetic_data.py`: imports the data definitions without running inspection or experiments.
 
 ## Setup
 
@@ -40,13 +42,23 @@ On Windows, run that command inside WSL. The notebooks automatically use the pro
 
 Open JupyterLab or VS Code at the repository root and run these notebooks from top to bottom:
 
-- `notebooks/01_cmio_sc_pacmap_benchmark.ipynb`
-- `notebooks/02_north_batten_sc_pacmap_benchmark.ipynb`
-- `notebooks/03_synthetic_sc_pacmap_benchmark.ipynb`
+- [CMiO benchmark](notebooks/Experiment_Benchmarks/01_cmio_sc_pacmap_results.ipynb)
+- [North Batten benchmark](notebooks/Experiment_Benchmarks/02_north_batten_sc_pacmap_results.ipynb)
+- [Synthetic benchmark](notebooks/Experiment_Benchmarks/03_synthetic_sc_pacmap_results.ipynb)
+
+Then run [combined paper figures](notebooks/Experiment_Benchmarks/04_combined_paper_figures.ipynb)
+to assemble the section data exported by the three benchmarks.
+
+For synthetic-data review, start with [synthetic_data.ipynb](notebooks/synthetic_data.ipynb).
+It documents and generates the fixed seed-42 population: 2,304 samples, 50 features,
+16 patches, and four facies. All five synthetic workflows call this same generator
+through `code/synthetic_data.py`; no preparation run or saved data file is needed.
+The generator preserves the original data and random-number draw order.
+The earlier standalone benchmark notebooks have been replaced by this structure.
 
 The additional notebook groups are:
 
-- `notebooks/New_Notebooks/`: results, neighbourhood robustness, and cross-group checks.
+- `notebooks/Experiment_Benchmarks/`: results, neighbourhood robustness, and cross-group checks.
 - `notebooks/XYZ_scaling_test/`: one-seed raw versus standardized coordinate
   comparisons for UMAP, PaCMAP, and LocalMAP, with one notebook per dataset.
   Includes spatial contiguity, multivariate delineation, and paired differences;
@@ -97,12 +109,6 @@ with the existing degenerate-attraction guards. These quantities are naturally
 bounded; use `SCPaCMAPConfig()` without `max_target_share`. The linear ramp
 ends explicitly at one. Restart the notebook kernel after updating the module.
 Saved notebook outputs were cleared because they described the previous method.
-
-Run the focused regression checks from this repository root with:
-
-```bash
-python -m unittest discover -s tests -v
-```
 
 The real-data notebooks use the committed files in `data/processed`. To regenerate them, place the source files described in `data/raw/README.md`, then run `data_preparation/prepare_datasets.ipynb`.
 
